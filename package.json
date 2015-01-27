@@ -1,0 +1,30 @@
+{
+  "name": "hds-wq-service",
+  "version": "0.0.1",
+  "description": "",
+  "author": "sholto.maud@gmail.com",
+  "repository": {
+	  	"type": "git",
+	  	"url": ""
+	},
+  "bugs": {
+	  "url": ""
+	},
+  "dependencies": {
+  },
+  "devDependencies": {
+    "gulp": "^3.x.x",
+    "gulp-open":"^0.X.X",
+    "gulp-connect":"^2.x.x",
+    "xlsx":"^0.X.X",
+    "moment":"^2.X.X",
+    "xlsx-writestream":"^0.X.X",
+    "sprintf-js":"^1.X.X",
+    "colors":"^0.X.X",
+    "mongoose":"^3.8.x",
+    "mongoosastic":"^2.X.X",
+    "fast-csv":"^0.X.X",
+    "busboy":"^0.2.9"
+  },
+"license": "MIT"
+}

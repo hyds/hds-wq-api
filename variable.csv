@@ -1,0 +1,1451 @@
+#VARNUM,VARNAM,VARUNIT,SHORTNAME,DOMAIN,PRECISION,DECIMALS,REPORTFORM,UNITCODE,ACTIVE,ALPHAVAR,CATEGORY1,CATEGORY2,SPARE1,SPARE2,DBVER24,DATECREATE,TIMECREATE,USERCREATE,DATEMOD,TIMEMOD,USERMOD
+8,Cumulative rainfall (mm),mm,Cumulative rainfall,MET,0.1,1,LEVEL,MM,T,,,,,,F,,0,,14/11/2011,1030,SPETCHEL
+9,Rainfall (pt),points,Rainfall (pt),MET,0.01,2,RAIN,PT,T,,,,,,F,,0,,14/11/2011,1030,SPETCHEL
+10,Rainfall (mm),mm,Rainfall (mm),MET,0.1,1,RAIN,MM,T,,,,,,F,,0,,14/11/2011,1030,SPETCHEL
+14,Dry Day,days,Dry Day,OTH,0.0001,4,LEVEL,DAY,T,,,,,,F,,0,,14/11/2011,1030,SPETCHEL
+15,Wet/Dry,(ratio),Wet/Dry,MET,0.00001,5,LEVEL,SCAL,F,,,,,,F,,0,,14/11/2011,1030,SPETCHEL
+16,Dry Day Flow (m3),m3,Dry Day Flow (m3),SW,0.00001,5,LEVEL,M3,F,,,,,,F,,0,,14/11/2011,1030,SPETCHEL
+20,Rainfall Intensity (mm/h),mm/hour,Rainfall Intensity (,MET,0.1,1,RATE,MMH,T,,,,,,F,,0,,14/11/2011,1030,SPETCHEL
+27,Envirogen code 827,,Envirogen code 827,OTH,0.001,3,LEVEL,SCAL,F,,,,,,F,,0,,14/11/2011,1030,SPETCHEL
+50,Dummy variable for web transfers,units,Dummy varaible for w,MAN,0.001,3,LEVEL,SCAL,T,,,,,,F,,0,,14/11/2011,1030,SPETCHEL
+51,Dummy variable for web transfers (DT5&6),mm,Dummy varaible for w,OTH,0.1,1,RAIN,MM,T,,,,,,F,,0,,14/11/2011,1030,SPETCHEL
+85,WAWA Junk,mm,WAWA Junk,OTH,0.00001,5,LEVEL,MM,F,,,,,,F,,0,,14/11/2011,1030,SPETCHEL
+91,Status Check Yes=1 No=0,1,Status Check,OTH,1,0,LEVEL,SCAL,T,,,,,,F,,0,,27/08/2012,1648,PDOWLAND
+92,Status Check Yes=1 No=0,1,Status Check,OTH,1,0,LEVEL,SCAL,T,,,,,,F,,0,,27/08/2012,1648,PDOWLAND
+93,Status Check Yes=1 No=0,1,Status Check,OTH,1,0,LEVEL,SCAL,T,,,,,,F,,0,,27/08/2012,1648,PDOWLAND
+94,Status Check Good=1 Poor=0,1,Status Check,OTH,1,0,LEVEL,SCAL,T,,,,,,F,,0,,27/08/2012,1649,PDOWLAND
+95,Status Check Yes=1 No=0,1,Status Check,OTH,1,0,LEVEL,SCAL,T,,,,,,F,,0,,27/08/2012,1649,PDOWLAND
+96,Status Check Yes=1 No=0,1,Status Check,OTH,1,0,LEVEL,SCAL,T,,,,,,F,,0,,27/08/2012,1649,PDOWLAND
+97,Status Check Yes=1 No=0,1,Status Check,OTH,1,0,LEVEL,SCAL,T,,,,,,F,,0,,27/08/2012,1649,PDOWLAND
+98,Status Check Yes=1 No=0,1,Status Check,OTH,1,0,LEVEL,SCAL,T,,,,,,F,,0,,27/08/2012,1649,PDOWLAND
+99,Derived Stream Water Level (m),metres,Derived Stream Water,OTH,0.001,3,LEVEL,M,T,,,,,,F,,0,,14/11/2011,1030,SPETCHEL
+100,Stream Water Level (m),metres,Water Level (m),SW,0.001,3,LEVEL,M,T,,,,,,F,,0,,14/11/2011,1030,SPETCHEL
+101,Stream water level (mm),mm,Stream water level (,OTH,1,0,LEVEL,MM,T,,,,,,F,,0,,14/11/2011,1030,SPETCHEL
+102,Depth over pressure sensor (m),metres,Depth over pressure,SW,0.0001,4,LEVEL,M,T,,,,,,F,,0,,14/11/2011,1030,SPETCHEL
+103,Temperature correction ECt to EC@25\176C,scalar,Temperature correcti,OTH,0.001,3,LEVEL,SCAL,T,,,,,,F,,0,,14/11/2011,1030,SPETCHEL
+105,Water Surface Slope,(ratio),Water Surface Slope,SW,0.001,3,LEVEL,SCAL,F,,,,,,F,,0,,14/11/2011,1030,SPETCHEL
+106,Stream Water Level Error (m),metres,Stream Water Level E,OTH,0.1,1,LEVEL,M,F,,,,,,F,,0,,14/11/2011,1030,SPETCHEL
+109,Stream Water Level (ft),feet,Stream Water Level,SW,0.001,3,LEVEL,FOOT,T,,,,,,F,,0,,27/03/2014,954,SPETCHEL
+110,Bore Water Level from MP Data Trans7(m),metres,Bore WL (m)DT7,GW,0.001,3,LEVEL,M,T,,,,,,F,,0,,14/11/2011,1030,SPETCHEL
+111,Bore WL m below MP DataTrans1 Continuous,metres,Bore WL Below MP DT1,GW,0.001,3,LEVEL,M,T,,,,,,F,,0,,10/05/2012,1558,TMACMANU
+112,Approx. Bore Water Elevation (mAHD),metres,Approx.Bore WL m AHD,OTH,0.001,3,LEVEL,M,T,,,,,,F,,0,,06/12/2011,1504,BDWORAKO
+113,Bore WL Below Natural Surface DT7,metres,Bore WLBNS,GW,0.001,3,LEVEL,M,T,,,,,,F,,0,,14/11/2011,1030,SPETCHEL
+115,Bore Water Level AHD (m),metres,Bore Water Level AHD,GW,0.001,3,LEVEL,M,F,,,,,,F,,0,,14/11/2011,1030,SPETCHEL
+120,Tide Level (m),metres,Tide Level (m),OTH,0.001,3,LEVEL,M,T,,,,,,F,,0,,14/11/2011,1030,SPETCHEL
+130,Reservoir Water Level (m),metres,Reservoir Water Leve,DAM,0.001,3,LEVEL,M,T,,,,,,F,,0,,14/11/2011,1030,SPETCHEL
+131,Storage water level (m),metres,Storage water level,OTH,0.001,3,LEVEL,M,T,,,,,,F,,0,,14/11/2011,1030,SPETCHEL
+132,Gate Opening (mm),mm,Gate Opening (mm),OTH,1,0,LEVEL,MM,T,,,,,,F,,0,,14/11/2011,1030,SPETCHEL
+133,Reservoir Storage (Ml),megalitres,Reservoir Storage (M,DAM,0.001,3,LEVEL,ML,T,,,,,,F,,0,,14/11/2011,1030,SPETCHEL
+134,Spillway Volume (Ml),megalitres,Spillway Volume (Ml),DAM,0.001,3,TOTAL,ML,F,,,,,,F,,0,,14/11/2011,1030,SPETCHEL
+135,Spillway Discharge (m3/s),cubic metres/second,Spillway Discharge (,DAM,0.001,3,RATE,CUMC,F,,,,,,F,,0,,14/11/2011,1030,SPETCHEL
+136,Reservoir Volume (Ml),megalitres,Reservoir Volume (Ml,DAM,0.001,3,LEVEL,ML,F,,,,,,F,,0,,14/11/2011,1030,SPETCHEL
+137,Reservoir Surface Area (ha),hectares,Reservoir Surface Ar,DAM,0.001,3,LEVEL,HA,F,,,,,,F,,0,,14/11/2011,1030,SPETCHEL
+138,Tube Release (Ml),megalitres,Tube Release (Ml),DAM,0.001,3,TOTAL,ML,F,,,,,,F,,0,,14/11/2011,1030,SPETCHEL
+139,Reservoir Volume (Gl),gigalitres,Reservoir Volume (Gl,DAM,0.001,3,LEVEL,GL,F,,,,,,F,,0,,14/11/2011,1030,SPETCHEL
+140,Stream Discharge (m3/s),cubic metres/second,Discharge (m3/sec),SW,0.00001,5,RATE,CUMC,T,,,,,,F,,0,,11/12/2012,1643,BDWORAKO
+141,Stream Discharge (Ml/d),megalitres/day,Discharge (Ml/d),SW,0.01,2,RATE,MLD,T,,,,,,F,,0,,14/11/2011,1030,SPETCHEL
+142,Stream Discharge (Ml/d),megalitres/day,Stream Discharge (Ml,SW,0.01,2,LEVEL,MLD,F,,,,,,F,,0,,14/11/2011,1030,SPETCHEL
+143,Stream Discharge (l/s),litres/second,Flow (l/s),SW,0.01,2,RATE,LS,T,,,,,,F,,0,,20/02/2012,1641,BDWORAKO
+144,Stream Discharge (l/h),litres/hour,Stream Discharge (l/,OTH,0.01,2,RATE,LH,T,,,,,,F,,0,,14/11/2011,1030,SPETCHEL
+145,Flow Weighted Discharge Yield (m3/s),cubic metres/second,Flow Weighted Discha,SW,0.00001,5,LEVEL,CUMC,T,,,,,,F,,0,,14/11/2011,1030,SPETCHEL
+146,Error in discharge (Ml/d),megalitres/day,Error in discharge (,OTH,0.01,2,RATE,MLD,F,,,,,,F,,0,,14/11/2011,1030,SPETCHEL
+147,Inflow Hydrograph (m3/s),cubic metres/second,Inflow Hydrograph (m,OTH,0.00001,5,RATE,CUMC,T,,,,,,F,,0,,14/11/2011,1030,SPETCHEL
+148,Outflow Hydrograph (m3/s),cubic metres/second,Outflow Hydrograph (,OTH,0.00001,5,RATE,CUMC,T,,,,,,F,,0,,14/11/2011,1030,SPETCHEL
+149,Stream Discharge (cubic ft/s),cubic feet/second,Stream Discharge (cu,OTH,0.00001,5,RATE,CFS,T,,,,,,F,,0,,14/11/2011,1030,SPETCHEL
+150,Stream Discharge Volume (m3),m3,Discharge Vol (m3),SW,0.001,3,TOTAL,M3,F,,,,,,F,,0,,11/12/2012,1645,BDWORAKO
+151,Stream Discharge Volume (Ml),megalitres,Discharge Vol (Ml),SW,0.00001,5,TOTAL,ML,T,,,,,,F,,0,,11/12/2012,1645,BDWORAKO
+153,Stream Discharge Volume (l),litres,Stream Discharge Vol,SW,0.001,3,TOTAL,L,F,,,,,,F,,0,,14/11/2011,1030,SPETCHEL
+154,Stream Discharge Volume (Gl),gigalitres,Stream Discharge Vol,SW,0.001,3,TOTAL,GL,F,,,,,,F,,0,,14/11/2011,1030,SPETCHEL
+155,Discharge Volume (l),litres,Discharge Volume (l),OTH,0.001,3,TOTAL,L,T,,,,,,F,,0,,14/11/2011,1030,SPETCHEL
+156,Stream Discharge Volume (kl),kilolitres,Stream Discharge Vol,OTH,0.001,3,TOTAL,KL,T,,,,,,F,,0,,14/11/2011,1030,SPETCHEL
+157,Pump Station Inflow (l/s),litres/second,Pump Station Inflow,OTH,0.00001,5,RATE,LS,T,,,,,,F,,0,,14/11/2011,1030,SPETCHEL
+158,Pump Station Outflow (l/s),litres/second,Pump Station Outflow,OTH,0.00001,5,RATE,LS,T,,,,,,F,,0,,14/11/2011,1030,SPETCHEL
+160,Catchment Runoff Depth (mm),mm,Catchment Runoff Dep,SW,0.1,1,TOTAL,MM,F,,,,,,F,,0,,14/11/2011,1030,SPETCHEL
+161,Catchment Runoff Rate (mm/d),mm/day,Catchment Runoff Rat,SW,0.00001,5,LEVEL,MMD,F,,,,,,F,,0,,14/11/2011,1030,SPETCHEL
+162,Water pressure (kPa),kPa,Water pressure (kPa),OTH,1,0,LEVEL,KP,T,,,,,,F,,0,,14/11/2011,1030,SPETCHEL
+163,Water Pressure (m),metres,Water Pressure (m),OTH,0.01,2,LEVEL,M,T,,,,,,F,,0,,14/11/2011,1030,SPETCHEL
+165,Water Level (m),metres,Water Level (m),OTH,0.001,3,LEVEL,M,T,,,,,,F,,0,,14/11/2011,1030,SPETCHEL
+166,Pipe Velocity (m/s),m/s,Pipe Velocity (m/s),OTH,0.01,2,RATE,MS,T,,,,,,F,,0,,14/11/2011,1030,SPETCHEL
+167,Pipe Discharge (l/s),litres/second,Pipe Discharge (l/s),OTH,0.001,3,RATE,LS,T,,,,,,F,,0,,14/11/2011,1030,SPETCHEL
+170,Sewer Effluent Level (m),metres,Sewer Effluent Level,SEW,0.001,3,LEVEL,M,T,,,,,,F,,0,,14/11/2011,1030,SPETCHEL
+171,Sewer Effluent Level (mm),mm,Sewer Effluent Level,OTH,1,0,LEVEL,MM,T,,,,,,F,,0,,14/11/2011,1030,SPETCHEL
+172,Sewer Velocity (mm/s),mm/sec,Sewer Velocity (mm/s,OTH,1,0,RATE,MMS,T,,,,,,F,,0,,14/11/2011,1030,SPETCHEL
+173,Sewer Discharge calculated (l/s),litres/second,Sewer Discharge calc,OTH,0.001,3,RATE,LS,T,,,,,,F,,0,,14/11/2011,1030,SPETCHEL
+174,Sewer Volume calculated (kl),kilolitres,Sewer Vol. calc.(kl),OTH,0.001,3,TOTAL,KL,T,,,,,,F,,0,,30/03/2012,1044,BDWORAKO
+175,Sewer Velocity (m/s),m/s,Sewer Velocity (m/s),SEW,0.001,3,RATE,MS,T,,,,,,F,,0,,14/11/2011,1030,SPETCHEL
+176,Sewer Overflow Duration (h),hours,Sewer Overflow Durat,OTH,0.001,3,TOTAL,HOUR,F,,,,,,F,,0,,14/11/2011,1030,SPETCHEL
+177,Stormwater Level (m),metres,Stormwater Level (m),OTH,0.001,3,LEVEL,M,F,,,,,,F,,0,,14/11/2011,1030,SPETCHEL
+178,Pump Status,,Pump Status,SEW,0.1,1,LEVEL,SCAL,T,,,,,,F,,0,,14/11/2011,1030,SPETCHEL
+179,Pumping Time (h),hours,Pumping Time (h),SEW,0.001,3,TOTAL,HOUR,T,,,,,,F,,0,,14/11/2011,1030,SPETCHEL
+180,Sewage Effluent Level (Storm Tanks) (m),metres,Sewage Effluent Leve,SEW,0.001,3,LEVEL,M,F,,,,,,F,,0,,14/11/2011,1030,SPETCHEL
+181,Volume Pumped (m3),m3,Volume Pumped (m3),SEW,0.001,3,TOTAL,M3,F,,,,,,F,,0,,14/11/2011,1030,SPETCHEL
+182,Volume Pumped (Ml),megalitres,Volume Pumped (Ml),SEW,0.001,3,TOTAL,ML,F,,,,,,F,,0,,14/11/2011,1030,SPETCHEL
+183,Pumping Rate (m3/s),cubic metres/second,Pumping Rate (m3/s),SEW,0.001,3,RATE,CUMC,F,,,,,,F,,0,,14/11/2011,1030,SPETCHEL
+184,Pumping Rate (l/sec),litres/second,Pumping Rate (l/sec),SEW,0.001,3,RATE,LS,T,,,,,,F,,0,,14/11/2011,1030,SPETCHEL
+185,Wet Well Level BCC (mAHD),metres,Wet Well Level BCC (,SEW,0.0001,4,LEVEL,M,T,,,,,,F,,0,,14/11/2011,1030,SPETCHEL
+186,Wet Well Volume (m3),m3,Wet Well Volume (m3),SEW,0.00001,5,LEVEL,M3,T,,,,,,F,,0,,14/11/2011,1030,SPETCHEL
+187,Wet Well Inflow (der. from level) (l/s),litres/second,Wet Well Inflow (der,OTH,0.001,3,RATE,LS,F,,,,,,F,,0,,14/11/2011,1030,SPETCHEL
+188,Wet Well Inflow (l/sec),litres/second,Wet Well Inflow (l/s,SEW,0.001,3,RATE,LS,F,,,,,,F,,0,,14/11/2011,1030,SPETCHEL
+189,Change in Wet Well Volume (m3),m3,Change in Wet Well V,SEW,0.00001,5,LEVEL,M3,F,,,,,,F,,0,,14/11/2011,1030,SPETCHEL
+190,Water Consumption (Ml),megalitres,Water Consumption (M,DAM,0.001,3,TOTAL,ML,F,,,,,,F,,0,,14/11/2011,1030,SPETCHEL
+191,Water Consumption (m3),m3,Water Consumption (m,DAM,1,0,TOTAL,M3,F,,,,,,F,,0,,14/11/2011,1030,SPETCHEL
+192,Bulk Supply Flow (Ml),megalitres,Bulk Supply Flow (Ml,DAM,0.001,3,TOTAL,ML,F,,,,,,F,,0,,14/11/2011,1030,SPETCHEL
+193,Bulk Supply Flow (m3),m3,Bulk Supply Flow (m3,DAM,1,0,TOTAL,M3,F,,,,,,F,,0,,14/11/2011,1030,SPETCHEL
+195,Water Consumption (kl),kilolitres,Water Consumption (k,DAM,0.001,3,TOTAL,KL,F,,,,,,F,,0,,14/11/2011,1030,SPETCHEL
+199,Inflow/Infiltration Excess Flow (l/s),litres/second,Inflow/Infiltration,SEW,0.00001,5,LEVEL,LS,F,,,,,,F,,0,,14/11/2011,1030,SPETCHEL
+200,Sample time (flag),flag,Sample time (flag),WQ,0.001,3,LEVEL,SCAL,T,,,,,,F,,0,,14/11/2011,1030,SPETCHEL
+201,Stream Water Level at sample time (m),metres,Stream Water Level a,WQ,0.001,3,LEVEL,SCAL,T,,,,,,F,,0,,24/02/2012,1019,TMACMANU
+202,Sample Time,,,WQ,0.000001,6,LEVEL,SCAL,T,,,,,,F,,0,,24/02/2012,1017,TMACMANU
+204,Status Check Flow=1 No Flow=0,1,Status Check,OTH,1,0,LEVEL,SCAL,T,,,,,,F,,0,,27/08/2012,1650,PDOWLAND
+210,Acidity/Alkalinity (pH),pH,Field pH,WQ,0.01,2,LEVEL,PH,T,,,,,,F,,0,,02/03/2012,1349,SPETCHEL
+215,Dissolved Oxygen (ppm),ppm,DO (ppm),OTH,0.001,3,LEVEL,PPM,T,,,,,,F,,0,,14/11/2011,1030,SPETCHEL
+216,Dissolved Oxygen (%),%,Dissolved Oxygen (%),OTH,0.001,3,LEVEL,PERC,T,,,,,,F,,0,,14/11/2011,1030,SPETCHEL
+220,Gauged Stage (m),metres,Gauged Stage (m),SW,0.001,3,LEVEL,M,T,,,,,,F,,0,,14/11/2011,1030,SPETCHEL
+221,Gauged Discharged (Ml/d),megalitres/day,Gauged Discharged (M,SW,0.001,3,RATE,MLD,T,,,,,,F,,0,,14/11/2011,1030,SPETCHEL
+222,Deviation (%),%,Deviation (%),SW,0.001,3,LEVEL,PERC,T,,,,,,F,,0,,14/11/2011,1030,SPETCHEL
+223,Rating Table Number,number,Rating Table Number,SW,0.01,2,LEVEL,SCAL,T,,,,,,F,,0,,14/11/2011,1030,SPETCHEL
+225,Gauges levelled,scalar,Gauges levelled,SW,0.001,3,LEVEL,SCAL,T,,,,,,F,,0,,14/11/2011,1030,SPETCHEL
+230,Sewer Sill Level (m),metres,Sewer Sill Level (m),SW,0.001,3,LEVEL,M,T,,,,,,F,,0,,14/11/2011,1030,SPETCHEL
+231,Drain Sill Level (m),metres,Drain Sill Level (m),OTH,0.001,3,LEVEL,M,T,,,,,,F,,0,,14/11/2011,1030,SPETCHEL
+234,Keller-Winston discharge (l/s),litres/second,Keller-Winston disch,OTH,0.01,2,RATE,LS,T,,,,,,F,,0,,14/11/2011,1030,SPETCHEL
+239,Flow Velocity (cm/s),cm/s,Flow Velocity (cm/s),SW,0.001,3,RATE,CMS,T,,,,,,F,,0,,14/11/2011,1030,SPETCHEL
+240,Flow Velocity (m/s),m/s,Flow Velocity (m/s),SW,0.001,3,RATE,MS,T,,,,,,F,,0,,14/11/2011,1030,SPETCHEL
+241,Flow Velocity (m/s),m/s,Flow Velocity (m/s),OTH,0.001,3,RATE,MS,T,,,,,,F,,0,,14/11/2011,1030,SPETCHEL
+242,Flow Velocity (mm/s),mm/sec,Flow Velocity (mm/s),OTH,0.001,3,RATE,MMS,T,,,,,,F,,0,,14/11/2011,1030,SPETCHEL
+245,Flow Velocity (km/d),km/day,Flow Velocity (km/d),OTH,0.1,1,RATE,KMD,T,,,,,,F,,0,,14/11/2011,1030,SPETCHEL
+250,X-Section Area (m2),m2,X-Section Area (m2),SW,0.00001,5,LEVEL,M2,T,,,,,,F,,0,,14/11/2011,1030,SPETCHEL
+280,Datum shifted Stream Water Level (m),metres,Datum shift WL (m),SW,0.001,3,LEVEL,M,T,,,,,,F,,0,,09/03/2012,1038,SPETCHEL
+300,Logger Battery Voltage (volts),volts,Logger Battery (V),INS,0.01,2,LEVEL,VOLT,T,,,,,,F,,0,,27/03/2014,1051,SPETCHEL
+305,Milliamps level SCA (mA),mA,Milliamps level SCA,OTH,0.1,1,LEVEL,MA,T,,,,,,F,,0,,14/11/2011,1030,SPETCHEL
+310,Modem Battery Voltage (volts),volts,Modem Battery Voltag,INS,0.01,2,LEVEL,VOLT,F,,,,,,F,,0,,14/11/2011,1030,SPETCHEL
+350,Sampler Initialisation (binary),binary,Sampler Initialisati,INS,0.00001,5,LEVEL,SCAL,T,,,,,,F,,0,,14/11/2011,1030,SPETCHEL
+351,Sampler Reset (binary),binary,Sampler Reset (binar,INS,0.00001,5,LEVEL,SCAL,F,,,,,,F,,0,,14/11/2011,1030,SPETCHEL
+352,Sample Count,scalar,Sample Count,OTH,1,0,LEVEL,SCAL,T,,,,,,F,,0,,14/11/2011,1030,SPETCHEL
+353,Samples Taken Yes=1 No=0,1,Status Check,OTH,1,0,LEVEL,SCAL,T,,,,,,F,,0,,27/08/2012,1650,PDOWLAND
+400,Dry Bulb Temperature (\176C),Degrees celcius,Dry Bulb Temperature,MET,0.1,1,LEVEL,DEGC,T,,,,,,F,,0,,14/11/2011,1030,SPETCHEL
+401,Dry Bulb Temperature Hourly Average (\176C,Degrees celcius,Dry Bulb Temperature,OTH,0.1,1,LEVEL,DEGC,T,,,,,,F,,0,,14/11/2011,1030,SPETCHEL
+402,Dry Bulb Temperature 10 Minutes Average,Degrees celcius,Dry Bulb Temperature,OTH,0.1,1,LEVEL,DEGC,T,,,,,,F,,0,,14/11/2011,1030,SPETCHEL
+403,Max Daily Dry Bulb Temperature (%) (\176C,Degrees celcius,Max Daily Dry Bulb T,OTH,0.1,1,LEVEL,DEGC,T,,,,,,F,,0,,14/11/2011,1030,SPETCHEL
+404,Min Daily Dry Bulb Temperature (%) (\176C,Degrees celcius,Min Daily Dry Bulb T,OTH,0.1,1,LEVEL,DEGC,T,,,,,,F,,0,,14/11/2011,1030,SPETCHEL
+405,Unknown variable,Unknown,Unknown variable,WQ,0.1,1,LEVEL,SCAL,F,,,,,,F,,0,,01/03/2013,1054,SPETCHEL
+410,Wet Bulb Temperature (\176C),Degrees celcius,Wet Bulb Temperature,MET,0.1,1,LEVEL,DEGC,F,,,,,,F,,0,,14/11/2011,1030,SPETCHEL
+415,Unknown variable (\176C),Degrees celcius,Unknown variable (de,OTH,0.1,1,LEVEL,DEGC,F,,,,,,F,,0,,14/11/2011,1030,SPETCHEL
+420,Dew Point (\176C),Degrees celcius,Dew Point (\176C),MET,0.1,1,LEVEL,DEGC,F,,,,,,F,,0,,14/11/2011,1030,SPETCHEL
+430,Relative Humidity (%),%,Rel. Humidity (%),SW,0.1,1,LEVEL,PERC,T,,,,,,F,,0,,31/10/2012,1221,SPETCHEL
+431,Hourly Average Humidity (%),%,Hourly Average Humid,MET,0.1,1,LEVEL,PERC,T,,,,,,F,,0,,14/11/2011,1030,SPETCHEL
+432,10 Minutes Average Humidity (%),%,10 Minutes Average H,MET,0.1,1,LEVEL,PERC,T,,,,,,F,,0,,14/11/2011,1030,SPETCHEL
+433,Max Daily Humidity (%),%,Max Daily Humidity (,OTH,0.1,1,LEVEL,PERC,T,,,,,,F,,0,,14/11/2011,1030,SPETCHEL
+434,Min Daily Humidity (%),%,Min Daily Humidity (,OTH,0.1,1,LEVEL,PERC,T,,,,,,F,,0,,14/11/2011,1030,SPETCHEL
+440,Soil Temperature (\176C),Degrees celcius,Soil Temperature (de,OTH,0.1,1,LEVEL,DEGC,F,,,,,,F,,0,,14/11/2011,1030,SPETCHEL
+442,Soil Moisture (%),%,Soil Moisture (%),OTH,0.001,3,LEVEL,PERC,T,,,,,,F,,0,,14/11/2011,1030,SPETCHEL
+444,Soil Moisture Capilliary Pressure (bar),bar,Soil Moisture Capill,OTH,0.001,3,LEVEL,BAR,F,,,,,,F,,0,,14/11/2011,1030,SPETCHEL
+450,Water Temperature (\176C),Degrees celcius,Temp (\176C),SW,0.1,1,LEVEL,DEGC,T,,,,,,F,,0,,31/10/2012,1221,SPETCHEL
+451,Sample Temperature (\176C),Degrees celcius,Sample Temp (\176C),OTH,0.1,1,LEVEL,DEGC,T,,,,,,F,,0,,14/11/2011,1030,SPETCHEL
+452,Water Temperature from DO sensor (\176C),Degrees celcius,Water Temperature DO,OTH,0.1,1,LEVEL,DEGC,T,,,,,,F,,0,,14/11/2011,1030,SPETCHEL
+454,Water Temperature (no WQ sensor) (\176C),Degrees celcius,Water Temperature (n,OTH,0.1,1,LEVEL,DEGC,T,,,,,,F,,0,,14/11/2011,1030,SPETCHEL
+455,Air Temperature Degrees Celcius (\176C),Degrees celcius,Air Temp. (\176C),OTH,0.01,2,LEVEL,DEGC,T,,,,,,F,,0,,14/11/2011,1030,SPETCHEL
+460,Maximum Air Temperature (\176C),Degrees celcius,Maximum Air Temperat,MET,0.1,1,LEVEL,DEGC,T,,,,,,F,,0,,14/11/2011,1030,SPETCHEL
+470,Minimum Air Temperature (\176C),Degrees celcius,Minimum Air Temperat,MET,0.1,1,LEVEL,DEGC,T,,,,,,F,,0,,14/11/2011,1030,SPETCHEL
+471,Average Air Temperature (Hourly/Daily) (,Degrees celcius,Average Air Temperat,OTH,0.1,1,LEVEL,DEGC,T,,,,,,F,,0,,14/11/2011,1030,SPETCHEL
+480,Total Cloud Amount (okta),okta,Total Cloud Amount (,OTH,1,0,LEVEL,OKTA,F,,,,,,F,,0,,14/11/2011,1030,SPETCHEL
+485,Dust Mass Concentration PM10,ug/m3,Dust Mass Conc PM10,OTH,0.000001,6,LEVEL,UGM3,T,,,,,,F,30/04/2014,1251,SGARVITC,30/04/2014,1416,SPETCHEL
+486,Dust Mass Concentration PM4,ug/m3,Dust Mass Conc PM4,OTH,0.000001,6,LEVEL,UGM3,T,,,,,,F,30/04/2014,1253,SGARVITC,30/04/2014,1416,SPETCHEL
+487,Dust Mass Concentration PM2.5,ug/m3,Dust Mass Conc PM2.5,OTH,0.000001,6,LEVEL,UGM3,T,,,,,,F,30/04/2014,1254,SGARVITC,30/04/2014,1416,SPETCHEL
+488,Dust Mass Concentration PM1,ug/m3,Dust Mass Conc PM1,OTH,0.000001,6,LEVEL,UGM3,T,,,,,,F,30/04/2014,1255,SGARVITC,30/04/2014,1416,SPETCHEL
+489,Dust Mass Concentration TSP,ug/m3,Dust Mass Conc TSP,OTH,0.000001,6,LEVEL,UGM3,T,,,,,,F,30/04/2014,1256,SGARVITC,30/04/2014,1416,SPETCHEL
+490,Clarity,,Clarity,SW,0.001,3,LEVEL,SCAL,T,,,,,,F,,0,,14/11/2011,1030,SPETCHEL
+491,Visible coal,,Visible coal,SW,0.001,3,LEVEL,SCAL,T,,,,,,F,,0,,14/11/2011,1030,SPETCHEL
+492,Dust Scale,,Dust Scale,SW,0.001,3,LEVEL,SCAL,T,,,,,,F,,0,,30/04/2014,1416,SPETCHEL
+493,Insects,,Insects,SW,0.001,3,LEVEL,SCAL,T,,,,,,F,,0,,14/11/2011,1030,SPETCHEL
+494,Odour,,Odour,SW,0.001,3,LEVEL,SCAL,T,,,,,,F,,0,,14/11/2011,1030,SPETCHEL
+495,Dust Mass Concentration PM10,mg/m3,Dust Mass Conc PM10,OTH,0.000001,6,LEVEL,MGM3,T,,,,,,F,20/02/2014,811,SPETCHEL,30/04/2014,1416,SPETCHEL
+496,Dust Mass Concentration PM4,mg/m3,Dust Mass Conc PM4,OTH,0.000001,6,LEVEL,MGM3,T,,,,,,F,20/02/2014,811,SPETCHEL,30/04/2014,1416,SPETCHEL
+497,Dust Mass Concentration PM2.5,mg/m3,Dust Mass Conc PM2.5,OTH,0.000001,6,LEVEL,MGM3,T,,,,,,F,20/02/2014,811,SPETCHEL,30/04/2014,1416,SPETCHEL
+498,Dust Mass Concentration PM1,mg/m3,Dust Mass Conc PM1,OTH,0.000001,6,LEVEL,MGM3,T,,,,,,F,20/02/2014,811,SPETCHEL,30/04/2014,1416,SPETCHEL
+499,Dust Mass Concentration TSP,mg/m3,Dust Mass Conc TSP,OTH,0.000001,6,LEVEL,MGM3,T,,,,,,F,20/02/2014,811,SPETCHEL,30/04/2014,1416,SPETCHEL
+500,Wind Direction (\176),degrees,Wind Direction (\176),MET,1,0,LEVEL,DEG,T,,,,,,F,,0,,14/11/2011,1030,SPETCHEL
+501,Wind Direction - Maximum (\176),degrees,Wind Direction - Max,OTH,1,0,LEVEL,DEG,T,,,,,,F,,0,,14/11/2011,1030,SPETCHEL
+502,Wind Direction - Minimum (\176),degrees,Wind Direction - Min,OTH,1,0,LEVEL,DEG,T,,,,,,F,,0,,14/11/2011,1030,SPETCHEL
+503,Wind Direction/Current (\176),degrees,Wind Direction/Curre,OTH,1,0,LEVEL,DEG,T,,,,,,F,,0,,14/11/2011,1030,SPETCHEL
+504,Average Vector Wind Direction (\176),degrees,Average Vector Wind,OTH,1,0,LEVEL,DEG,T,,,,,,F,,0,,14/11/2011,1030,SPETCHEL
+505,Wind Direction Standard Deviation (\176),degrees,Wind Dir SD (\176),MET,1,0,LEVEL,DEG,T,,,,,,F,,0,,15/05/2014,1037,SPETCHEL
+510,Wind Speed (knots),knots,Wind Speed (knots),MET,1,0,RATE,KNOT,F,,,,,,F,,0,,14/11/2011,1030,SPETCHEL
+511,Wind Speed Hourly Average (km/h),km/hour,Wind Speed Hourly Av,OTH,0.1,1,RATE,KMH,T,,,,,,F,,0,,14/11/2011,1030,SPETCHEL
+512,Wind Speed Daily Average (km/h),km/hour,Wind Speed Daily Ave,OTH,0.1,1,RATE,KMH,T,,,,,,F,,0,,14/11/2011,1030,SPETCHEL
+515,Wind Velocity (m/s),m/s,Wind Velocity (m/s),MET,0.1,1,RATE,MS,T,,,,,,F,,0,,14/11/2011,1030,SPETCHEL
+516,Wind Velocity (km/h),km/hour,Wind Velocity (km/h),MET,0.001,3,RATE,KMH,F,,,,,,F,,0,,14/11/2011,1030,SPETCHEL
+517,Wind Velocity (km/d),km/day,Wind Velocity (km/d),MET,0.00001,5,LEVEL,KMD,F,,,,,,F,,0,,14/11/2011,1030,SPETCHEL
+518,Wind Velocity - Maximum (m/s),m/s,Wind Velocity - Maxi,OTH,0.1,1,RATE,MS,T,,,,,,F,,0,,14/11/2011,1030,SPETCHEL
+519,Wind Velocity - Minimum (m/s),m/s,Wind Velocity - Mini,OTH,0.1,1,RATE,MS,T,,,,,,F,,0,,14/11/2011,1030,SPETCHEL
+520,Anemometer (below 3m) Wind Run (km),km,Wind Run (below 3m),OTH,1,0,TOTAL,KM,T,,,,,,F,,0,,14/11/2011,1030,SPETCHEL
+521,Average Vector Wind Speed (km/h),km/hour,Average Vector Wind,OTH,0.01,2,LEVEL,KMH,T,,,,,,F,,0,,14/11/2011,1030,SPETCHEL
+522,Anemometer (above 3m) Wind Run (km),km,Wind Run (above 3m),OTH,0.001,3,TOTAL,KM,T,,,,,,F,,0,,14/11/2011,1030,SPETCHEL
+525,DELETE ME IF YOU FIND ME,hectopascal,Station Level Pressu,MET,0.1,1,LEVEL,HPA,T,,,,,,F,,0,,14/11/2011,1030,SPETCHEL
+550,Barometric Pressure (hPa),hectopascal,Baro Pressure (hPa),MET,0.1,1,LEVEL,HPA,T,,,,,,F,,0,,02/03/2012,1350,SPETCHEL
+551,Water pressure (kPa),kPa,Water pressure (kPa),OTH,1,0,LEVEL,KP,T,,,,,,F,,0,,14/11/2011,1030,SPETCHEL
+552,Water Pressure (m),metres,Water Pressure (m),MET,0.0001,4,LEVEL,M,T,,,,,,F,,0,,14/11/2011,1030,SPETCHEL
+560,Surface Direction (\176),degrees,Surface Direction (d,OTH,0.00001,5,LEVEL,SCAL,F,,,,,,F,,0,,14/11/2011,1030,SPETCHEL
+570,Surface Temperature (\176C),Degrees celcius,Surface Temperature,MET,0.1,1,LEVEL,DEGC,F,,,,,,F,,0,,14/11/2011,1030,SPETCHEL
+600,Stream Cross Section Data (m),metres,Stream Cross Section,SW,0.001,3,LEVEL,M,F,,,,,,F,,0,,14/11/2011,1030,SPETCHEL
+630,Depth below water surface (m),metres,Depth (m),SW,0.00001,5,LEVEL,M,F,,,,,,F,,0,,14/11/2011,1030,SPETCHEL
+631,Distance from bottom (m),metres,Distance from bottom,SW,0.00001,5,LEVEL,M,F,,,,,,F,,0,,14/11/2011,1030,SPETCHEL
+660,Sunshine Duration in Hours,Time/0.1 Hour,Sunshine Duration in,OTH,0.1,1,TOTAL,SCAL,F,,,,,,F,,0,,14/11/2011,1030,SPETCHEL
+666,Conductivity & Temp. Quality Summary,\181S/cm @ 25\176C,Conductivity & Temp.,OTH,1,0,LEVEL,MISC,T,,,,,,F,,0,,14/11/2011,1030,SPETCHEL
+700,Evaporation from a U.S. Class A Pan (mm),mm,Evaporation from a U,MET,0.1,1,RAIN,MM,F,,,,,,F,,0,,14/11/2011,1030,SPETCHEL
+701,Evaporation (mm),mm,Evaporation (mm),OTH,0.01,2,RAIN,MM,T,,,,,,F,,0,,14/11/2011,1030,SPETCHEL
+702,Evapotranspiration (mm/d),mm/day,Evapotranspiration (,OTH,0.00001,5,RAIN,MMD,T,,,,,,F,,0,,14/11/2011,1030,SPETCHEL
+705,Derived Evaporation (mm),mm,Derived Evaporation,OTH,0.01,2,RAIN,MM,T,,,,,,F,,0,,14/11/2011,1030,SPETCHEL
+710,Evaporation from Australian Standard Pan,mm,Evaporation from Aus,MET,0.1,1,RAIN,MM,T,,,,,,F,,0,,14/11/2011,1030,SPETCHEL
+720,Effective Evaporation (Gl),gigalitres,Effective Evaporatio,MET,0.00001,5,LEVEL,GL,F,,,,,,F,,0,,14/11/2011,1030,SPETCHEL
+740,Total Solar Radiation (Wh/m2),Watt hours/m2,Total Solar Radiatio,MET,0.001,3,TOTAL,WHSM,F,,,,,,F,,0,,14/11/2011,1030,SPETCHEL
+741,Total Solar Radiation Hourly (MJ/m2),MJ/m2,Total Solar Radiatio,OTH,0.001,3,LEVEL,MJSM,T,,,,,,F,,0,,14/11/2011,1030,SPETCHEL
+742,Daily Solar Radiation (MJ/m2),MJ/m2,Daily Solar Radiatio,OTH,0.001,3,LEVEL,MJSM,T,,,,,,F,,0,,14/11/2011,1030,SPETCHEL
+750,Solar Radiation Intensity (W/m2),Watts/m2,Solar Radiatn (W/m2),MET,1,0,LEVEL,WSM,T,,,,,,F,,0,,14/11/2011,1030,SPETCHEL
+751,Solar Radition Intensity - Max (W/m2),Watts/m2,Solar Radition Inten,OTH,1,0,LEVEL,WSM,T,,,,,,F,,0,,14/11/2011,1030,SPETCHEL
+752,Solar Radition Intensity - Min (W/m2),Watts/m2,Solar Radition Inten,OTH,1,0,LEVEL,WSM,T,,,,,,F,,0,,14/11/2011,1030,SPETCHEL
+760,Soil Moisture (%),%,Soil Moisture (%),OTH,0.1,1,LEVEL,PERC,F,,,,,,F,,0,,14/11/2011,1030,SPETCHEL
+770,Horizontal Visibility,,Horizontal Visibilit,MET,0.00001,5,LEVEL,SCAL,F,,,,,,F,,0,,14/11/2011,1030,SPETCHEL
+772,Total Cloud Cover (okta),oktas,Total Cloud Cover (o,MET,0.00001,5,LEVEL,SCAL,F,,,,,,F,,0,,14/11/2011,1030,SPETCHEL
+774,Height of Cloud Base,,Height of Cloud Base,MET,0.00001,5,LEVEL,SCAL,F,,,,,,F,,0,,14/11/2011,1030,SPETCHEL
+776,Current Weather,,Current Weather,MET,0.00001,5,LEVEL,SCAL,F,,,,,,F,,0,,14/11/2011,1030,SPETCHEL
+778,Past Weather,,Past Weather,MET,0.00001,5,LEVEL,SCAL,F,,,,,,F,,0,,14/11/2011,1030,SPETCHEL
+782,Cloud Type Low,,Cloud Type Low,MET,0.00001,5,LEVEL,SCAL,F,,,,,,F,,0,,14/11/2011,1030,SPETCHEL
+784,Cloud Type Medium,,Cloud Type Medium,MET,0.00001,5,LEVEL,SCAL,F,,,,,,F,,0,,14/11/2011,1030,SPETCHEL
+786,Cloud Type High,,Cloud Type High,MET,0.00001,5,LEVEL,SCAL,F,,,,,,F,,0,,14/11/2011,1030,SPETCHEL
+790,Dummy,,Dummy,OTH,0.00001,5,LEVEL,SCAL,F,,,,,,F,,0,,14/11/2011,1030,SPETCHEL
+792,Cloud Direction Low,,Cloud Direction Low,MET,0.00001,5,LEVEL,SCAL,F,,,,,,F,,0,,14/11/2011,1030,SPETCHEL
+794,Cloud Direction Medium,,Cloud Direction Medi,MET,0.00001,5,LEVEL,SCAL,F,,,,,,F,,0,,14/11/2011,1030,SPETCHEL
+796,Cloud Direction High,,Cloud Direction High,MET,0.00001,5,LEVEL,SCAL,F,,,,,,F,,0,,14/11/2011,1030,SPETCHEL
+799,Nutrient Concentration (mg/l),mg/l,Nutrient Concentrati,OTH,0.01,2,LEVEL,MGL,F,,,,,,F,,0,,14/11/2011,1030,SPETCHEL
+800,Salinity (Total Dissolved Salts) (mg/l),mg/l,TDS (mg/l),WQ,0.1,1,LEVEL,MGL,F,,,,,,F,,0,,14/11/2011,1030,SPETCHEL
+801,Total Salt Transport (mg/s),mg/sec,Total Salt Transport,WQ,0.001,3,RATE,MGS,F,,,,,,F,,0,,14/11/2011,1030,SPETCHEL
+802,Salt Load (calc from MDFs) (t),tonnes,Salt Load (calc from,OTH,0.001,3,TOTAL,TONN,F,,,,,,F,,0,,14/11/2011,1030,SPETCHEL
+803,Salt Transport (calc from MDFs) (t/d),tonnes/day,Salt Transport (calc,OTH,0.001,3,RATE,TOND,F,,,,,,F,,0,,14/11/2011,1030,SPETCHEL
+804,Salt Transport (t/d),tonnes/day,Salt Transport (t/d),WQ,0.001,3,RATE,TOND,T,,,,,,F,,0,,14/11/2011,1030,SPETCHEL
+805,Salt Load (t),tonnes,Salt Load (t),WQ,0.01,2,TOTAL,TONN,T,,,,,,F,,0,,14/11/2011,1030,SPETCHEL
+806,Total Phosphorus (mg/l),mg/l,Total Phosphorus (mg,OTH,0.01,2,LEVEL,MGL,T,,,,,,F,,0,,14/11/2011,1030,SPETCHEL
+807,Total Nitrogen (mg/l),mg/l,Total Nitrogen (mg/l,OTH,0.01,2,LEVEL,MGL,T,,,,,,F,,0,,14/11/2011,1030,SPETCHEL
+808,Kjeldahl Nitrogen (mg/l),mg/l,Kjeldahl Nitrogen (m,OTH,0.01,2,LEVEL,MGL,T,,,,,,F,,0,,14/11/2011,1030,SPETCHEL
+809,Soluble Phosphate (mg/l),mg/l,Soluble Phosphate (m,OTH,0.01,2,LEVEL,MGL,T,,,,,,F,,0,,14/11/2011,1030,SPETCHEL
+810,Turbidity (NTU),NTU,Turbidity (NTU),WQ,0.1,1,LEVEL,NTU,T,,,,,,F,,0,,14/11/2011,1030,SPETCHEL
+811,Phosphorus Transport (t/d),tonnes/day,Phosphorus Transport,OTH,0.001,3,RATE,TOND,F,,,,,,F,,0,,14/11/2011,1030,SPETCHEL
+812,Phosphorus Load (t),tonnes,Phosphorus Load (t),OTH,0.01,2,TOTAL,TONN,F,,,,,,F,,0,,14/11/2011,1030,SPETCHEL
+813,Phosphorus (mg),milligrams,Phosphorus (mg),OTH,0.01,2,TOTAL,MG,F,,,,,,F,,0,,14/11/2011,1030,SPETCHEL
+814,Nitrate & Nitrite Transport (t/d),tonnes/day,Nitrate & Nitrite Tr,OTH,0.001,3,RATE,TOND,F,,,,,,F,,0,,14/11/2011,1030,SPETCHEL
+815,Nitrate & Nitrite Load (t),tonnes,Nitrate & Nitrite Lo,OTH,0.01,2,TOTAL,TONN,F,,,,,,F,,0,,14/11/2011,1030,SPETCHEL
+816,Nitrate & Nitrite (mg),milligrams,Nitrate & Nitrite (m,OTH,0.01,2,TOTAL,MG,F,,,,,,F,,0,,14/11/2011,1030,SPETCHEL
+819,EC @ Field Temp Unadjusted (\181S/cm),\181S/cm,EC @ Temp (\181S/cm),OTH,0.000001,6,LEVEL,MISC,T,,,,,,F,,0,,14/11/2011,1030,SPETCHEL
+820,Conductivity (\181S/cm),\181S/cm@25\176C,EC@25C (\181S/cm),OTH,0.1,1,LEVEL,MISC,T,,,,,,F,,0,,20/12/2011,1639,RCUMMING
+822,Envirogen code 822,,Envirogen code 822,OTH,0.000001,6,LEVEL,SCAL,F,,,,,,F,,0,,14/11/2011,1030,SPETCHEL
+823,Envirogen code 823,,Envirogen code 823,OTH,0.000001,6,LEVEL,SCAL,F,,,,,,F,,0,,14/11/2011,1030,SPETCHEL
+824,Envirogen code 824,,Envirogen code 824,OTH,0.000001,6,LEVEL,SCAL,F,,,,,,F,,0,,14/11/2011,1030,SPETCHEL
+825,Salt Load (kg/d),kg/day,Salt Load (kg/d),OTH,0.00001,5,RATE,KGD,F,,,,,,F,,0,,14/11/2011,1030,SPETCHEL
+826,Salt Transport (calc from MDFs) (kg/d),kg/day,Salt Transport (calc,OTH,0.001,3,RATE,KGD,F,,,,,,F,,0,,14/11/2011,1030,SPETCHEL
+827,Envirogen code 827,,Envirogen code 827,OTH,0.000001,6,LEVEL,SCAL,F,,,,,,F,,0,,14/11/2011,1030,SPETCHEL
+828,Envirogen code 828,,Envirogen code 828,OTH,0.000001,6,LEVEL,SCAL,T,,,,,,F,,0,,14/11/2011,1030,SPETCHEL
+829,Envirogen code 829,,Envirogen code 829,OTH,0.000001,6,LEVEL,SCAL,T,,,,,,F,,0,,14/11/2011,1030,SPETCHEL
+830,Sediment Yield (t/d),tonnes/day,Sediment Yield (t/d),WQ,0.000001,6,RATE,TOND,F,,,,,,F,,0,,14/11/2011,1030,SPETCHEL
+831,Nutrient Load (mg/sec),mg/sec,Nutrient Load (mg/se,OTH,0.000001,6,RATE,MGS,F,,,,,,F,,0,,14/11/2011,1030,SPETCHEL
+836,Total Phosphorous load (kg),kg,Total Phosphorous lo,OTH,0.01,2,TOTAL,KG,F,,,,,,F,,0,,14/11/2011,1030,SPETCHEL
+837,Total Nitrogen load (kg),kg,Total Nitrogen load,OTH,0.01,2,TOTAL,KG,F,,,,,,F,,0,,14/11/2011,1030,SPETCHEL
+838,Kjehdahl Nitrogen load (kg),kg,Kjehdahl Nitrogen lo,OTH,0.01,2,TOTAL,KG,F,,,,,,F,,0,,14/11/2011,1030,SPETCHEL
+839,Soluble Phosphorous load (kg),kg,Soluble Phosphorous,OTH,0.01,2,TOTAL,KG,F,,,,,,F,,0,,14/11/2011,1030,SPETCHEL
+840,Sewer Discharge (m3/s),cubic metres/second,Sewer Discharge (m3/,SEW,0.001,3,RATE,CUMC,F,,,,,,F,,0,,14/11/2011,1030,SPETCHEL
+841,Sewer Discharge logged (l/s),litres/second,Sewer Discharge logg,SEW,0.001,3,RATE,LS,T,,,,,,F,,0,,14/11/2011,1030,SPETCHEL
+842,Sewer Discharge Volume logged (kl),kilolitres,Sewer Discharge Volu,OTH,0.0001,4,TOTAL,KL,F,,,,,,F,,0,,14/11/2011,1030,SPETCHEL
+844,Sewer Discharge (Ml/d),megalitres/day,Sewer Discharge (Ml/,SEW,0.0001,4,RATE,MLD,F,,,,,,F,,0,,14/11/2011,1030,SPETCHEL
+845,Total Suspended Solids (mg/l),mg/l,Total Suspended Soli,WQ,0.00001,5,LEVEL,MGL,T,,,,,,F,,0,,14/11/2011,1030,SPETCHEL
+846,Colebrook-White K variable (mm),mm,Colebrook-White K va,SEW,0.001,3,LEVEL,MM,T,,,,,,F,,0,,14/11/2011,1030,SPETCHEL
+850,Bedload Transport (t/d),tonnes/day,Bedload Transport (t,WQ,0.000001,6,RATE,TOND,F,,,,,,F,,0,,14/11/2011,1030,SPETCHEL
+851,Transport (kg/d),kg/day,Transport (kg/d),OTH,1,0,RATE,KGD,T,,,,,,F,,0,,14/11/2011,1030,SPETCHEL
+852,Load (kg),kg,Load (kg),OTH,0.01,2,TOTAL,KG,T,,,,,,F,,0,,14/11/2011,1030,SPETCHEL
+853,Transport (kg/d),kg/day,Transport (kg/d),OTH,0.00001,5,RATE,KGD,F,,,,,,F,,0,,14/11/2011,1030,SPETCHEL
+854,Load (kg),kg,Load (kg),OTH,0.01,2,TOTAL,KG,F,,,,,,F,,0,,14/11/2011,1030,SPETCHEL
+860,Ammonia (ppm),ppm,Ammonia (ppm),OTH,0.001,3,LEVEL,MGL,T,,,,,,F,,0,,14/11/2011,1030,SPETCHEL
+865,Sulphur Dioxide (ppb),ppb,Sulphur Dioxide (ppb,OTH,0.01,2,RATE,PPB,T,,,,,,F,,0,,14/11/2011,1030,SPETCHEL
+866,Sulphur Dioxide (ppm),ppm,Sulphur Dioxide (ppm,OTH,0.01,2,RATE,PPM,T,,,,,,F,,0,,14/11/2011,1030,SPETCHEL
+867,Sulphur Dioxide - 8 hour roll ave (ppm),ppm,Sulphur Dioxide - 8,OTH,0.000001,6,LEVEL,PPM,F,,,,,,F,,0,,14/11/2011,1030,SPETCHEL
+868,Sulphur Dioxide - 24 hour ave (ppm),ppm,Sulphur Dioxide - 24,OTH,0.01,2,RATE,PPM,F,,,,,,F,,0,,14/11/2011,1030,SPETCHEL
+870,Pump Status,,Pump Status,SEW,0.00001,5,LEVEL,SCAL,F,,,,,,F,,0,,14/11/2011,1030,SPETCHEL
+871,Pump Time (min),minutes,Pump Time (min),SEW,0.00001,5,TOTAL,MIN,F,,,,,,F,,0,,14/11/2011,1030,SPETCHEL
+872,Pump Time (s),seconds,Pump Time (s),SEW,0.00001,5,LEVEL,SEC,F,,,,,,F,,0,,14/11/2011,1030,SPETCHEL
+873,Pump Time (h),hours,Pump Time (h),SEW,0.00001,5,TOTAL,HOUR,T,,,,,,F,,0,,14/11/2011,1030,SPETCHEL
+880,Pump Discharge (l/s),litres/second,Pump Discharge (l/s),SEW,0.00001,5,LEVEL,LS,F,,,,,,F,,0,,14/11/2011,1030,SPETCHEL
+881,Pump Discharge (m3/s),cubic metres/second,Pump Discharge (m3/s,SEW,0.00001,5,LEVEL,CUMC,F,,,,,,F,,0,,14/11/2011,1030,SPETCHEL
+882,Inflow (l/s),litres/second,Inflow (l/s),SEW,0.00001,5,LEVEL,LS,F,,,,,,F,,0,,14/11/2011,1030,SPETCHEL
+883,Inflow (m3/s),cubic metres/second,Inflow (m3/s),SEW,0.00001,5,LEVEL,CUMC,F,,,,,,F,,0,,14/11/2011,1030,SPETCHEL
+884,Pump Rate (l/s),litres/second,Pump Rate (l/s),SEW,0.00001,5,LEVEL,LS,F,,,,,,F,,0,,14/11/2011,1030,SPETCHEL
+890,Pumped Volume (l),litres,Pumped Volume (l),SEW,0.001,3,TOTAL,L,T,,,,,,F,,0,,14/11/2011,1030,SPETCHEL
+891,Pumped Volume (m3),m3,Pumped Volume (m3),SEW,0.001,3,TOTAL,M3,T,,,,,,F,,0,,14/11/2011,1030,SPETCHEL
+892,Pumped Volume (kl),kilolitres,Pumped Volume (kl),OTH,0.001,3,TOTAL,KL,T,,,,,,F,,0,,14/11/2011,1030,SPETCHEL
+894,Sewer Pump Station Delivery Pressure BCC,metres,Sewer Pump Station D,OTH,0.001,3,LEVEL,M,T,,,,,,F,,0,,14/11/2011,1030,SPETCHEL
+896,Pump Speed (%),%,Pump Speed (%),OTH,0.001,3,LEVEL,PERC,T,,,,,,F,,0,,14/11/2011,1030,SPETCHEL
+900,Deviation from Mean (%),%,Deviation from Mean,OTH,0.00001,5,LEVEL,PERC,F,,,,,,F,,0,,14/11/2011,1030,SPETCHEL
+910,Error,stage,Error,OTH,0.00001,5,LEVEL,SCAL,F,,,,,,F,,0,,14/11/2011,1030,SPETCHEL
+920,Error,discharge,Error,OTH,0.00001,5,LEVEL,SCAL,F,,,,,,F,,0,,14/11/2011,1030,SPETCHEL
+921,Gauging Uncertainty (%),%,Gauging Uncertainty,SW,0.00001,5,LEVEL,PERC,F,,,,,,F,,0,,14/11/2011,1030,SPETCHEL
+930,Processing Error,stage,Processing Error,OTH,0.00001,5,LEVEL,SCAL,F,,,,,,F,,0,,14/11/2011,1030,SPETCHEL
+950,Combined Error,stage,Combined Error,OTH,0.00001,5,LEVEL,SCAL,F,,,,,,F,,0,,14/11/2011,1030,SPETCHEL
+960,Meter revolutions per second,revs/sec,Meter revolutions pe,OTH,0.00001,5,LEVEL,SEC,F,,,,,,F,,0,,14/11/2011,1030,SPETCHEL
+961,Velocity (m/s),m/s,Velocity (m/s),SW,0.00001,5,LEVEL,MS,F,,,,,,F,,0,,14/11/2011,1030,SPETCHEL
+970,Time,days,Time,OTH,0.0001,4,LEVEL,DAY,F,,,,,,F,,0,,14/11/2011,1030,SPETCHEL
+971,Quality,HYDSYS,Quality,OTH,1,0,LEVEL,SCAL,F,,,,,,F,,0,,14/11/2011,1030,SPETCHEL
+972,Poll Frequency (polls/d),polls/day,Poll Frequency (poll,MAN,0.00001,5,LEVEL,PERD,F,,,,,,F,,0,,14/11/2011,1030,SPETCHEL
+975,Travel Time (h),hours,Travel Time (h),SW,0.00001,5,LEVEL,HOUR,F,,,,,,F,,0,,14/11/2011,1030,SPETCHEL
+980,Rainfall Duration (min),minutes,Rainfall Duration (m,MET,0.001,3,LEVEL,MIN,F,,,,,,F,,0,,14/11/2011,1030,SPETCHEL
+981,Max Rainfall Intensity 1 Year ARI (mm/h),mm/hour,Max Rainfall Intensi,MET,0.001,3,LEVEL,MMH,F,,,,,,F,,0,,14/11/2011,1030,SPETCHEL
+982,Max Rainfall Intensity 2 Year ARI (mm/h),mm/hour,Max Rainfall Intensi,MET,0.001,3,LEVEL,MMH,F,,,,,,F,,0,,14/11/2011,1030,SPETCHEL
+983,Max Rainfall Intensity 5 Year ARI (mm/h),mm/hour,Max Rainfall Intensi,MET,0.001,3,LEVEL,MMH,F,,,,,,F,,0,,14/11/2011,1030,SPETCHEL
+984,Max Rainfall Intensity 10 Year ARI (mm/h,mm/hour,Max Rainfall Intensi,MET,0.001,3,LEVEL,MMH,F,,,,,,F,,0,,14/11/2011,1030,SPETCHEL
+985,Max Rainfall Intensity 20 Year ARI (mm/h,mm/hour,Max Rainfall Intensi,MET,0.001,3,LEVEL,MMH,F,,,,,,F,,0,,14/11/2011,1030,SPETCHEL
+986,Max Rainfall Intensity 50 Year ARI (mm/h,mm/hour,Max Rainfall Intensi,MET,0.001,3,LEVEL,MMH,F,,,,,,F,,0,,14/11/2011,1030,SPETCHEL
+987,Max Rainfall Intensity 100 Year ARI (mm/,mm/hour,Max Rainfall Intensi,MET,0.001,3,LEVEL,MMH,F,,,,,,F,,0,,14/11/2011,1030,SPETCHEL
+988,Max Rainfall Intensity 1000 Year ARI (mm,mm/hour,Max Rainfall Intensi,MET,0.00001,5,LEVEL,MMH,F,,,,,,F,,0,,14/11/2011,1030,SPETCHEL
+990,Cross-section to HYDSYS file,metres = 1000 mins,Cross-section to HYD,OTH,0.00001,5,LEVEL,SCAL,F,,,,,,F,,0,,14/11/2011,1030,SPETCHEL
+992,Period-based VarFrom,,Period-based VarFrom,OTH,0.00001,5,LEVEL,SCAL,F,,,,,,F,,0,,14/11/2011,1030,SPETCHEL
+996,Date for Population Tables,YYYY.MMDD,Date for Population,OTH,0.0001,4,LEVEL,DAY,F,,,,,,F,,0,,14/11/2011,1030,SPETCHEL
+997,Population,People,Population,OTH,1,0,TOTAL,SCAL,F,,,,,,F,,0,,14/11/2011,1030,SPETCHEL
+998,Catchment Area (km2),km2,Catchment Area (km2),OTH,0.001,3,LEVEL,KM2,F,,,,,,F,,0,,14/11/2011,1030,SPETCHEL
+999,Number of turns of valve (turns),turns,Number of turns of v,MAN,0.1,1,RATE,SCAL,F,,,,,,F,,0,,14/11/2011,1030,SPETCHEL
+1100,CAIRO Stream Level (m),metres,CAIRO Stream Level (,DAM,0.00001,5,LEVEL,M,F,,,,,,F,,0,,14/11/2011,1030,SPETCHEL
+1117,Turbidity NTU (NTU),NTU,Turbidity NTU (NTU),OTH,0.01,2,LEVEL,SCAL,T,,,,,,F,,0,,14/11/2011,1030,SPETCHEL
+1118,Potential Hydrogen (pH),pH Units,Potential Hydrogen (,OTH,0.001,3,LEVEL,SCAL,T,,,,,,F,,0,,14/11/2011,1030,SPETCHEL
+1130,CAIRO Storage Elevation (m),metres,CAIRO Storage Elevat,DAM,0.00001,5,LEVEL,M,F,,,,,,F,,0,,14/11/2011,1030,SPETCHEL
+1134,CAIRO Storage Release (Ml/d),megalitres/day,CAIRO Storage Releas,DAM,0.00001,5,LEVEL,MLD,F,,,,,,F,,0,,14/11/2011,1030,SPETCHEL
+1136,CAIRO Storage Capacity (Ml),megalitres,CAIRO Storage Capaci,DAM,0.00001,5,LEVEL,ML,F,,,,,,F,,0,,14/11/2011,1030,SPETCHEL
+1139,CAIRO Storage Inflow (Ml/d),megalitres/day,CAIRO Storage Inflow,DAM,0.00001,5,LEVEL,MLD,F,,,,,,F,,0,,14/11/2011,1030,SPETCHEL
+1141,CAIRO Stream Discharge (m),metres,CAIRO Stream Dischar,DAM,0.00001,5,LEVEL,M,F,,,,,,F,,0,,14/11/2011,1030,SPETCHEL
+1200,NOISE - LMAX (dB),dB,NOISE - LMAX (dB),OTH,0.000001,6,LEVEL,DBEL,F,,,,,,F,,0,,14/11/2011,1030,SPETCHEL
+1201,NOISE - L1 (dB),dB,NOISE - L1 (dB),OTH,0.000001,6,LEVEL,DBEL,F,,,,,,F,,0,,14/11/2011,1030,SPETCHEL
+1202,NOISE - L5 (dB),dB,NOISE - L5 (dB),OTH,0.000001,6,LEVEL,DBEL,F,,,,,,F,,0,,14/11/2011,1030,SPETCHEL
+1203,NOISE - L10 (dB),dB,NOISE - L10 (dB),OTH,0.000001,6,LEVEL,DBEL,F,,,,,,F,,0,,14/11/2011,1030,SPETCHEL
+1204,NOISE - L50 (dB),dB,NOISE - L50 (dB),OTH,0.000001,6,LEVEL,DBEL,F,,,,,,F,,0,,14/11/2011,1030,SPETCHEL
+1205,NOISE - L90 (dB),dB,NOISE - L90 (dB),OTH,0.000001,6,LEVEL,DBEL,F,,,,,,F,,0,,14/11/2011,1030,SPETCHEL
+1206,NOISE - L95 (dB),dB,NOISE - L95 (dB),OTH,0.000001,6,LEVEL,DBEL,F,,,,,,F,,0,,14/11/2011,1030,SPETCHEL
+1207,NOISE - L99 (dB),dB,NOISE - L99 (dB),OTH,0.000001,6,LEVEL,DBEL,F,,,,,,F,,0,,14/11/2011,1030,SPETCHEL
+1208,NOISE - LMIN (dB),dB,NOISE - LMIN (dB),OTH,0.000001,6,LEVEL,DBEL,F,,,,,,F,,0,,14/11/2011,1030,SPETCHEL
+1209,NOISE - LEQ (dB),dB,NOISE - LEQ (dB),OTH,0.000001,6,LEVEL,DBEL,F,,,,,,F,,0,,14/11/2011,1030,SPETCHEL
+1210,Peak particle velocity (mm/s),mm/sec,Peak particle veloci,OTH,0.000001,6,RATE,MMS,F,,,,,,F,,0,,14/11/2011,1030,SPETCHEL
+1220,Dissolved Oxygen (mg/l),mg/l,Dissolved Oxygen (mg,OTH,0.0001,4,LEVEL,MGL,T,,,,,,F,,0,,14/11/2011,1030,SPETCHEL
+1990,CAIRO Full Capacity (Ml),megalitres,CAIRO Full Capacity,DAM,0.00001,5,LEVEL,ML,F,,,,,,F,,0,,14/11/2011,1030,SPETCHEL
+1991,CAIRO Dead Storage (Ml),megalitres,CAIRO Dead Storage (,DAM,0.00001,5,LEVEL,ML,F,,,,,,F,,0,,14/11/2011,1030,SPETCHEL
+1992,CAIRO Full Supply Level (%),percent,CAIRO Full Supply Le,OTH,0.00001,5,LEVEL,SCAL,F,,,,,,F,,0,,14/11/2011,1030,SPETCHEL
+1996,CAIRO Time,,CAIRO Time,DAM,0.00001,5,LEVEL,SCAL,F,,,,,,F,,0,,14/11/2011,1030,SPETCHEL
+2001,Water Level (Siphonic) Stage I (m),metres,Water Level (Siphoni,WQ,0.00001,5,LEVEL,M,F,,,,,,F,,0,,14/11/2011,1030,SPETCHEL
+2002,Water Level (Siphonic) Stage II (m),metres,Water Level (Siphoni,WQ,0.00001,5,LEVEL,M,F,,,,,,F,,0,,14/11/2011,1030,SPETCHEL
+2003,Water Level (Siphonic) Stage III (m),metres,Water Level (Siphoni,WQ,0.00001,5,LEVEL,M,F,,,,,,F,,0,,14/11/2011,1030,SPETCHEL
+2004,Water Level (Siphonic) Stage IV (m),metres,Water Level (Siphoni,WQ,0.00001,5,LEVEL,M,F,,,,,,F,,0,,14/11/2011,1030,SPETCHEL
+2005,Salt Load Rate (kg/d),kg/day,Salt Load Rate (kg/d,OTH,0.00001,5,LEVEL,SCAL,F,,,,,,F,,0,,14/11/2011,1030,SPETCHEL
+2006,Salt Load Rate (t/d),tonnes/day,Salt Load Rate (t/d),WQ,0.00001,5,LEVEL,TOND,F,,,,,,F,,0,,14/11/2011,1030,SPETCHEL
+2007,Total Salt Load (t),tonnes,Total Salt Load (t),WQ,0.00001,5,LEVEL,TONN,F,,,,,,F,,0,,14/11/2011,1030,SPETCHEL
+2008,Total Salt Load (mg),milligrams,Total Salt Load (mg),WQ,0.00001,5,LEVEL,MG,F,,,,,,F,,0,,14/11/2011,1030,SPETCHEL
+2010,Siphonic Overflow Volume (Ml),megalitres,Siphonic Overflow Vo,WQ,0.00001,5,LEVEL,ML,F,,,,,,F,,0,,14/11/2011,1030,SPETCHEL
+2011,Electrical Conductivity @ 25C (ms/cm),millisiemens/cm,Electrical Conductiv,WQ,0.00001,5,LEVEL,MSCM,F,,,,,,F,,0,,14/11/2011,1030,SPETCHEL
+2012,Conductivity (\181S/cm),\181S/cm @ 25\176C,\181S/cm @ 25\176C,WQ,1,0,LEVEL,MISC,T,,,,,,F,,0,,14/11/2011,1030,SPETCHEL
+2013,Electrical Conductivity (ppm),ppm,Electrical Conductiv,OTH,0.00001,5,LEVEL,PPM,F,,,,,,F,,0,,14/11/2011,1030,SPETCHEL
+2014,PM10 (mg),milligrams,PM10 (mg),OTH,0.00001,5,LEVEL,MG,F,,,,,,F,,0,,14/11/2011,1030,SPETCHEL
+2015,PM10 (\181S/cmg),micrograms,PM10 (\181S/cmg),OTH,0.00001,5,LEVEL,MICG,F,,,,,,F,,0,,14/11/2011,1030,SPETCHEL
+2016,PM10 - 8 HOUR ROLLING AVERAGE (\181S/cmg),micrograms,PM10 - 8 HOUR ROLLIN,OTH,0.00001,5,LEVEL,MICG,F,,,,,,F,,0,,14/11/2011,1030,SPETCHEL
+2017,PM10 -24 HOUR AVERAGE (\181S/cmg),micrograms,PM10 -24 HOUR AVERAG,OTH,0.00001,5,LEVEL,MICG,F,,,,,,F,,0,,14/11/2011,1030,SPETCHEL
+2019,PM10 (\181S/cmg),micrograms,PM10 (\181S/cmg),OTH,0.00001,5,LEVEL,MICG,F,,,,,,F,,0,,14/11/2011,1030,SPETCHEL
+2021,Specific Gravity (g/ml),Grams/ml,Specific Gravity (g/,WQ,0.00001,5,LEVEL,GM,F,,,,,,F,,0,,14/11/2011,1030,SPETCHEL
+2023,Viscosity (mPa.s),millipascals.s,Viscosity (mPa.s),WQ,0.00001,5,LEVEL,MIPA,F,,,,,,F,,0,,14/11/2011,1030,SPETCHEL
+2030,Turbidity (NTU),NTU,Turbidity (NTU),WQ,0.00001,5,LEVEL,NTU,T,,,,,,F,,0,,02/03/2012,1349,SPETCHEL
+2040,Transmissivity (%),percent,Transmissivity (%),OTH,0.00001,5,LEVEL,SCAL,F,,,,,,F,,0,,14/11/2011,1030,SPETCHEL
+2046,Transparency (secchi depth) (m),metres,Transparency (secchi,WQ,0.00001,5,LEVEL,M,F,,,,,,F,,0,,14/11/2011,1030,SPETCHEL
+2049,Gilvin Absorbtion,,Gilvin Absorbtion,WQ,0.00001,5,LEVEL,SCAL,F,,,,,,F,,0,,14/11/2011,1030,SPETCHEL
+2051,Colour - True (Hazen units),Hazen units,Colour - True (Hazen,WQ,0.00001,5,LEVEL,SCAL,F,,,,,,F,,0,,14/11/2011,1030,SPETCHEL
+2053,Colour - Apparent (Hazen units),Hazen units,Colour - Apparent (H,WQ,0.00001,5,LEVEL,SCAL,T,,,,,,F,,0,,14/11/2011,1030,SPETCHEL
+2054,Colour (True Filtered) (PCU),PCU,Colour True (PCU),OTH,0.000001,6,LEVEL,SCAL,T,,,,,,F,,0,,14/11/2011,1030,SPETCHEL
+2055,pH Colour,Units,pH Colour,OTH,0.001,3,LEVEL,SCAL,T,,,,,,F,,0,,14/11/2011,1030,SPETCHEL
+2060,Dry Bulb Temperature (\176C),Degrees celcius,Dry Bulb Temperature,MET,0.00001,5,LEVEL,DEGC,F,,,,,,F,,0,,14/11/2011,1030,SPETCHEL
+2061,Dry Bulb Temp (Corrected) (\176C),Degrees celcius,Dry Bulb Temp (Corre,MET,0.00001,5,LEVEL,DEGC,F,,,,,,F,,0,,14/11/2011,1030,SPETCHEL
+2062,Ambient Air Temperature (\176C),Degrees celcius,Ambient Air Temperat,MET,0.00001,5,LEVEL,DEGC,F,,,,,,F,,0,,14/11/2011,1030,SPETCHEL
+2063,Mean Air Temperature (\176C),Degrees celcius,Mean Air Temperature,MET,0.00001,5,LEVEL,DEGC,F,,,,,,F,,0,,14/11/2011,1030,SPETCHEL
+2065,Air Temperature (\176C),Degrees celcius,Air Temperature (\176C),MET,0.00001,5,LEVEL,DEGC,F,,,,,,F,,0,,14/11/2011,1030,SPETCHEL
+2066,Maximum Air Temperature (\176C),Degrees celcius,Maximum Air Temperat,MET,0.00001,5,LEVEL,DEGC,F,,,,,,F,,0,,14/11/2011,1030,SPETCHEL
+2067,Minimum Air Temperature (\176C),Degrees celcius,Minimum Air Temperat,MET,0.00001,5,LEVEL,DEGC,F,,,,,,F,,0,,14/11/2011,1030,SPETCHEL
+2068,Wet Bulb Temperature (\176C),Degrees celcius,Wet Bulb Temperature,MET,0.00001,5,LEVEL,DEGC,F,,,,,,F,,0,,14/11/2011,1030,SPETCHEL
+2069,Dew Point (\176C),Degrees celcius,Dew Point (\176C),MET,0.00001,5,LEVEL,DEGC,F,,,,,,F,,0,,14/11/2011,1030,SPETCHEL
+2070,Relative Humidity (%),%,Relative Humidity (%,OTH,0.00001,5,LEVEL,SCAL,F,,,,,,F,,0,,14/11/2011,1030,SPETCHEL
+2071,Relative Humidity ( Corrected ) (%),%,Relative Humidity (,OTH,0.00001,5,LEVEL,SCAL,F,,,,,,F,,0,,14/11/2011,1030,SPETCHEL
+2072,Relative Humidity - Maximum (%),%,Relative Humidity -,OTH,0.00001,5,LEVEL,SCAL,F,,,,,,F,,0,,14/11/2011,1030,SPETCHEL
+2073,Relative Humidity - Minimum (%),%,Relative Humidity -,OTH,0.00001,5,LEVEL,SCAL,F,,,,,,F,,0,,14/11/2011,1030,SPETCHEL
+2080,Water Temperature (\176C),Degrees celcius,Water Temperature (d,WQ,0.00001,5,LEVEL,DEGC,F,,,,,,F,,0,,14/11/2011,1030,SPETCHEL
+2081,Water Temp Corr Factor,Factor,Water Temp Corr Fact,WQ,0.00001,5,LEVEL,SCAL,F,,,,,,F,,0,,14/11/2011,1030,SPETCHEL
+2100,pH,pH units,pH,WQ,0.00001,5,LEVEL,SCAL,T,,,,,,F,,0,,14/11/2011,1030,SPETCHEL
+2102,Oxygen Reductn Pot (REDOX) (mV),millivolts,Oxygen Reductn Pot (,WQ,0.00001,5,LEVEL,MV,F,,,,,,F,,0,,14/11/2011,1030,SPETCHEL
+2111,Acidity as CaCO3 (mg/l),mg/l,Acidity as CaCO3 (mg,WQ,0.00001,5,LEVEL,MGL,F,,,,,,F,,0,,14/11/2011,1030,SPETCHEL
+2113,Total Alkalinity as CaCO3 (mg/l),mg/l,Total Alk. (mg/l),WQ,0.00001,5,LEVEL,MGL,T,,,,,,F,,0,,14/11/2011,1030,SPETCHEL
+2114,Phenolphthalein Alkalinity as CaCO3 (mg/,mg/l,Phenolphthalein Alka,WQ,0.00001,5,LEVEL,MGL,F,,,,,,F,,0,,14/11/2011,1030,SPETCHEL
+2115,Residual Alkalinity as Na2CO3 (mg/l),mg/l,Residual Alkalinity,WQ,0.00001,5,LEVEL,MGL,F,,,,,,F,,0,,14/11/2011,1030,SPETCHEL
+2116,Bicarbonate Alkalinity as CaCO3 (mg/l),mg/l,Bicarb Alk. (mg/l),OTH,0.000001,6,LEVEL,MGL,T,,,,,,F,,0,,14/11/2011,1030,SPETCHEL
+2117,Carbonate Alkalinity as CaCO3 (mg/l),mg/l,Carb Alk. (mg/l),OTH,0.000001,6,LEVEL,MGL,T,,,,,,F,,0,,14/11/2011,1030,SPETCHEL
+2118,Hydroxide Alkalinity as CaCO3 (mg/l),mg/l,Hydroxide Alk (mg/l),OTH,0.000001,6,LEVEL,MGL,T,,,,,,F,,0,,14/11/2011,1030,SPETCHEL
+2121,Calcium Carbonate Saturation (mg/l),mg/l,Calcium Carbonate Sa,WQ,0.00001,5,LEVEL,MGL,F,,,,,,F,,0,,14/11/2011,1030,SPETCHEL
+2122,Langlier Index (mg/l),mg/l,Langlier Index (mg/l,WQ,0.00001,5,LEVEL,MGL,F,,,,,,F,,0,,14/11/2011,1030,SPETCHEL
+2123,Alkalinity Hydroxide as OH (mg/l),mg/l,Alkalinity Hydroxide,WQ,0.00001,5,LEVEL,MGL,F,,,,,,F,,0,,14/11/2011,1030,SPETCHEL
+2124,Alkalinity Carbonate as CO3 (mg/l),mg/l,Alkalinity Carbonate,WQ,0.00001,5,LEVEL,MGL,F,,,,,,F,,0,,14/11/2011,1030,SPETCHEL
+2125,Alkalinity Bicarbonate as HCO3 (mg/l),mg/l,Alkalinity Bicarbona,WQ,0.00001,5,LEVEL,MGL,F,,,,,,F,,0,,14/11/2011,1030,SPETCHEL
+2126,Total Inorganic Carbon (mg/l),mg/l,Total Inorganic Carb,WQ,0.00001,5,LEVEL,MGL,F,,,,,,F,,0,,14/11/2011,1030,SPETCHEL
+2131,Hardness as CaCO3 (measured) (mg/l),mg/l,Hardness as CaCO3 (m,WQ,0.00001,5,LEVEL,MGL,F,,,,,,F,,0,,14/11/2011,1030,SPETCHEL
+2132,Hardness as CaCO3 (calculated) (mg/l),mg/l,Hardness as CaCO3 (c,WQ,0.00001,5,LEVEL,MGL,T,,,,,,F,,0,,14/11/2011,1030,SPETCHEL
+2133,Calcium hardness as CaCO3 (mg/l),mg/l,Ca hard. as CaCO3,WQ,0.00001,5,LEVEL,MGL,F,,,,,,F,,0,,31/01/2014,1556,SPETCHEL
+2134,Magnesium hardness as CaCO3 (mg/l),mg/l,Mg hard. as CaCO3,WQ,0.00001,5,LEVEL,MGL,F,,,,,,F,,0,,31/01/2014,1558,SPETCHEL
+2141,Hydrogen as H (mg/l),mg/l,Hydrogen as H (mg/l),WQ,0.00001,5,LEVEL,MGL,F,,,,,,F,,0,,14/11/2011,1030,SPETCHEL
+2143,Sodium Adsorption Ratio (mg/l),mg/l,Sodium Adsorption Ra,WQ,0.00001,5,LEVEL,MGL,F,,,,,,F,,0,,14/11/2011,1030,SPETCHEL
+2169,Total Dissolved Solids (calc) (mg/l),mg/l,Total Dissolved Soli,WQ,0.00001,5,LEVEL,MGL,F,,,,,,F,,0,,14/11/2011,1030,SPETCHEL
+2170,Total Dissolved Ions (mg/l),mg/l,Total Dissolved Ions,WQ,0.00001,5,LEVEL,MGL,F,,,,,,F,,0,,14/11/2011,1030,SPETCHEL
+2171,Total Solids (mg/l),mg/l,Total Solids (mg/l),WQ,0.00001,5,LEVEL,MGL,F,,,,,,F,,0,,14/11/2011,1030,SPETCHEL
+2172,Total Suspended Solids (mg/l),mg/l,TSS (mg/l),WQ,0.00001,5,LEVEL,MGL,T,,,,,,F,,0,,14/11/2011,1030,SPETCHEL
+2173,Volatile Suspended Solids (mg/l),mg/l,Volatile Suspended S,WQ,0.00001,5,LEVEL,MGL,F,,,,,,F,,0,,14/11/2011,1030,SPETCHEL
+2174,Fixed Suspended Solids (mg/l),mg/l,Fixed Suspended Soli,WQ,0.00001,5,LEVEL,MGL,F,,,,,,F,,0,,14/11/2011,1030,SPETCHEL
+2175,Total Dissolved Solids (measured) (mg/l),mg/l,Total Dissolved Soli,WQ,0.00001,5,LEVEL,MGL,F,,,,,,F,,0,,14/11/2011,1030,SPETCHEL
+2176,Volatile Dissolved Solids (mg/l),mg/l,Volatile Dissolved S,WQ,0.00001,5,LEVEL,MGL,F,,,,,,F,,0,,14/11/2011,1030,SPETCHEL
+2177,Fixed Dissolved Solids (mg/l),mg/l,Fixed Dissolved Soli,WQ,0.00001,5,LEVEL,MGL,F,,,,,,F,,0,,14/11/2011,1030,SPETCHEL
+2178,Total Volatile Solids (mg/l),mg/l,Total Volatile Solid,WQ,0.00001,5,LEVEL,MGL,F,,,,,,F,,0,,14/11/2011,1030,SPETCHEL
+2179,Volatile residue (mg/l),mg/l,Volatile residue (mg,WQ,0.00001,5,LEVEL,MGL,F,,,,,,F,,0,,14/11/2011,1030,SPETCHEL
+2180,Fixed Solids (mg/l),mg/l,Fixed Solids (mg/l),WQ,0.00001,5,LEVEL,MGL,F,,,,,,F,,0,,14/11/2011,1030,SPETCHEL
+2181,Fixed and Volatile Solids (ignited at 50,mg/l,Fixed and Volatile S,WQ,0.00001,5,LEVEL,MGL,F,,,,,,F,,0,,14/11/2011,1030,SPETCHEL
+2182,Settleable matter (mg/l),mg/l,Settleable matter (m,WQ,0.00001,5,LEVEL,MGL,F,,,,,,F,,0,,14/11/2011,1030,SPETCHEL
+2196,Sludge (total) (%),%,Sludge (total) (%),OTH,0.00001,5,LEVEL,SCAL,F,,,,,,F,,0,,14/11/2011,1030,SPETCHEL
+2197,Sludge (solids) wet (%),%,Sludge (solids) wet,OTH,0.00001,5,LEVEL,SCAL,F,,,,,,F,,0,,14/11/2011,1030,SPETCHEL
+2198,Sludge dried (%),%,Sludge dried (%),OTH,0.00001,5,LEVEL,SCAL,F,,,,,,F,,0,,14/11/2011,1030,SPETCHEL
+2301,Calcium as Ca - total (mg/l),mg/l,Ca - total (mg/l),WQ,0.00001,5,LEVEL,MGL,T,,,,,,F,,0,,14/11/2011,1030,SPETCHEL
+2302,Calcium as Ca - soluble (mg/l),mg/l,Calcium as Ca - solu,WQ,0.00001,5,LEVEL,MGL,F,,,,,,F,,0,,14/11/2011,1030,SPETCHEL
+2303,Calcium Oxide (%),%,Calcium Oxide (%),OTH,0.00001,5,LEVEL,SCAL,F,,,,,,F,,0,,14/11/2011,1030,SPETCHEL
+2311,Chloride as Cl (mg/l),mg/l,Cl (mg/l),WQ,0.00001,5,LEVEL,MGL,T,,,,,,F,,0,,14/11/2011,1030,SPETCHEL
+2316,Chloride as NaCl (mg/l),mg/l,Chloride as NaCl (mg,WQ,0.00001,5,LEVEL,MGL,F,,,,,,F,,0,,14/11/2011,1030,SPETCHEL
+2317,Chlorine demand/requirement (mg/l),mg/l,Chlorine demand/requ,WQ,0.00001,5,LEVEL,MGL,F,,,,,,F,,0,,14/11/2011,1030,SPETCHEL
+2321,Magnesium as Mg - total (mg/l),mg/l,Mg - total (mg/l),WQ,0.00001,5,LEVEL,MGL,T,,,,,,F,,0,,14/11/2011,1030,SPETCHEL
+2322,Magnesium as Mg - soluble (mg/l),mg/l,Magnesium as Mg - so,WQ,0.00001,5,LEVEL,MGL,F,,,,,,F,,0,,14/11/2011,1030,SPETCHEL
+2331,Nitrate Nitrogen (mg/l),mg/l,Nitrate N (mg/l),WQ,0.00001,5,LEVEL,MGL,T,,,,,,F,,0,,14/11/2011,1030,SPETCHEL
+2332,Nitrite Nitrogen (mg/l),mg/l,Nitrite N (mg/l),WQ,0.00001,5,LEVEL,MGL,T,,,,,,F,,0,,14/11/2011,1030,SPETCHEL
+2333,Nitrate + nitrite as N - total (mg/l),mg/l,Total NO2+NO3 (mg/l),WQ,0.00001,5,LEVEL,MGL,T,,,,,,F,,0,,14/05/2014,1206,SPETCHEL
+2334,Free Ammonia as N (mg/l),mg/l,Free Ammonia as N (m,WQ,0.00001,5,LEVEL,MGL,F,,,,,,F,,0,,14/11/2011,1030,SPETCHEL
+2335,Ammonia as N - total (mg/l),mg/l,Ammonia as N - total,WQ,0.00001,5,LEVEL,MGL,T,,,,,,F,,0,,14/11/2011,1030,SPETCHEL
+2336,Kjeldahl Nitrogen (mg/l),mg/l,Kjeldahl N (mg/l),WQ,0.00001,5,LEVEL,MGL,T,,,,,,F,,0,,14/11/2011,1030,SPETCHEL
+2337,Total Nitrogen (mg/l),mg/l,Total N (mg/l),WQ,0.00001,5,LEVEL,MGL,T,,,,,,F,,0,,14/11/2011,1030,SPETCHEL
+2338,Albuminoid Nitrogen (mg/l),mg/l,Albuminoid Nitrogen,WQ,0.00001,5,LEVEL,MGL,F,,,,,,F,,0,,14/11/2011,1030,SPETCHEL
+2339,Organic Nitrogen (mg/l),mg/l,Organic Nitrogen (mg,WQ,0.00001,5,LEVEL,MGL,F,,,,,,F,,0,,14/11/2011,1030,SPETCHEL
+2340,Inorganic Nitrogen (mg/l),mg/l,Inorganic Nitrogen (,WQ,0.00001,5,LEVEL,MGL,F,,,,,,F,,0,,14/11/2011,1030,SPETCHEL
+2341,Detrital Nitrogen (mg/l),mg/l,Detrital Nitrogen (m,WQ,0.00001,5,LEVEL,MGL,F,,,,,,F,,0,,14/11/2011,1030,SPETCHEL
+2342,Albuminoid filtered (mg/l),mg/l,Albuminoid filtered,WQ,0.00001,5,LEVEL,MGL,F,,,,,,F,,0,,14/11/2011,1030,SPETCHEL
+2343,Nitrate + nitrite as N - soluble (mg/l),mg/l,Nitrate + nitrite as,WQ,0.00001,5,LEVEL,MGL,F,,,,,,F,,0,,14/11/2011,1030,SPETCHEL
+2344,Nitrate + nitrite as N - non filterable,mg/l,Nitrate + nitrite as,WQ,0.00001,5,LEVEL,MGL,F,,,,,,F,,0,,14/11/2011,1030,SPETCHEL
+2345,Ammonia as N - soluble (mg/l),mg/l,Ammonia as N - solub,WQ,0.00001,5,LEVEL,MGL,F,,,,,,F,,0,,14/11/2011,1030,SPETCHEL
+2346,Ammonia as N - non filterable (mg/l),mg/l,Ammonia as N - non f,WQ,0.00001,5,LEVEL,MGL,F,,,,,,F,,0,,14/11/2011,1030,SPETCHEL
+2347,Oxidised Nitrogen (mg/l),mg/l,Oxidised Nitrogen (m,OTH,0.000001,6,LEVEL,MGL,T,,,,,,F,,0,,14/11/2011,1030,SPETCHEL
+2351,Dissolved Oxygen (mg/l),mg/l,Dissolved Oxygen (mg,WQ,0.00001,5,LEVEL,MGL,F,,,,,,F,,0,,14/11/2011,1030,SPETCHEL
+2352,Oxygen (Dissolved) (% sat),% sat,Oxygen (Dissolved) (,OTH,0.00001,5,LEVEL,SCAL,F,,,,,,F,,0,,14/11/2011,1030,SPETCHEL
+2361,Orthophosphate total (mg/l),mg/l,,WQ,0.00001,5,LEVEL,MGL,F,,,,,,F,,0,,14/11/2011,1030,SPETCHEL
+2362,Total Acid Hydrolysable P (mg/l),mg/l,,WQ,0.00001,5,LEVEL,MGL,F,,,,,,F,,0,,14/11/2011,1030,SPETCHEL
+2363,Total Phosphorus as P (mg/l),mg/l,Total P (mg/l),WQ,0.01,2,LEVEL,MGL,T,,,,,,F,,0,,14/11/2011,1030,SPETCHEL
+2364,Total Reactive Phosphorus (mg/l),mg/l,Total Reac. P (mg/l),WQ,0.00001,5,LEVEL,MGL,T,,,,,,F,,0,,14/11/2011,1030,SPETCHEL
+2365,Filtered Reactive Phosphorus (mg/l),mg/l,FRP (mg/l),WQ,0.00001,5,LEVEL,MGL,F,,,,,,F,,0,,14/11/2011,1030,SPETCHEL
+2366,Total React P (Orthophosphate) - non fil,mg/l,,WQ,0.00001,5,LEVEL,MGL,F,,,,,,F,,0,,14/11/2011,1030,SPETCHEL
+2367,Total Phosphorus as P (filt) (mg/l),mg/l,Total P filt. (mg/l),WQ,0.01,2,LEVEL,MGL,T,,,,,,F,,0,,14/11/2011,1030,SPETCHEL
+2371,Sol React P (orthophosphate) (mg/l),mg/l,,WQ,0.00001,5,LEVEL,MGL,F,,,,,,F,,0,,14/11/2011,1030,SPETCHEL
+2372,Soluble Acid Hydrolysable P (mg/l),mg/l,,WQ,0.00001,5,LEVEL,MGL,F,,,,,,F,,0,,14/11/2011,1030,SPETCHEL
+2373,Soluble Phosphorus as P (mg/l),mg/l,Soluble P (mg/l),WQ,0.00001,5,LEVEL,MGL,F,,,,,,F,,0,,14/11/2011,1030,SPETCHEL
+2374,Filtered Reactive Phosphorus (mg/l),mg/l,FRP (mg/l),WQ,0.00001,5,LEVEL,MGL,T,,,,,,F,,0,,14/11/2011,1030,SPETCHEL
+2375,Suspended Total Phosphorus (mg/l),mg/l,,WQ,0.00001,5,LEVEL,MGL,F,,,,,,F,,0,,14/11/2011,1030,SPETCHEL
+2376,Suspended Reactive Phosphorus (mg/l),mg/l,,WQ,0.00001,5,LEVEL,MGL,F,,,,,,F,,0,,14/11/2011,1030,SPETCHEL
+2377,Suspended acid Hydrolysable Phosphorus,mg/l,,WQ,0.00001,5,LEVEL,MGL,F,,,,,,F,,0,,14/11/2011,1030,SPETCHEL
+2378,Suspended Reactive & Acid Hydrol. P,mg/l,,WQ,0.00001,5,LEVEL,MGL,F,,,,,,F,,0,,14/11/2011,1030,SPETCHEL
+2381,Potassium as K (mg/l),mg/l,K (mg/l),WQ,0.00001,5,LEVEL,MGL,T,,,,,,F,,0,,14/11/2011,1030,SPETCHEL
+2391,Sodium as Na (mg/l),mg/l,Na (mg/l),WQ,0.00001,5,LEVEL,MGL,T,,,,,,F,,0,,14/11/2011,1030,SPETCHEL
+2401,Sulphate as SO4 (mg/l),mg/l,SO4 (mg/l),WQ,0.00001,5,LEVEL,MGL,T,,,,,,F,,0,,14/11/2011,1030,SPETCHEL
+2402,Sulphate as S (mg/l),mg/l,Sulphate as S (mg/l),WQ,0.00001,5,LEVEL,MGL,F,,,,,,F,,0,,14/11/2011,1030,SPETCHEL
+2403,Sulphite as SO3 (mg/l),mg/l,Sulphite as SO3 (mg/,WQ,0.00001,5,LEVEL,MGL,F,,,,,,F,,0,,14/11/2011,1030,SPETCHEL
+2404,Sulphite as S (mg/l),mg/l,Sulphite as S (mg/l),WQ,0.00001,5,LEVEL,MGL,F,,,,,,F,,0,,14/11/2011,1030,SPETCHEL
+2405,Sulphide as S (mg/l),mg/l,Sulphide as S (mg/l),WQ,0.00001,5,LEVEL,MGL,F,,,,,,F,,0,,14/11/2011,1030,SPETCHEL
+2406,Hydrogen Sulphide (mg/l),mg/l,Hydrogen Sulphide (m,WQ,0.00001,5,LEVEL,MGL,F,,,,,,F,,0,,14/11/2011,1030,SPETCHEL
+2408,Total Sulphur as S (mg/l),mg/l,Total Sulphur as S (,OTH,0.00001,5,LEVEL,MGL,F,,,,,,F,,0,,14/11/2011,1030,SPETCHEL
+2410,Sulphate as SO4 - Turbidmetric (mg/l),mg/l,SO4 - Turbid (mg/l),OTH,0.00001,5,LEVEL,MGL,T,,,,,,F,,0,,14/11/2011,1030,SPETCHEL
+2501,Aluminium as Al - total (mg/l),mg/l,Aluminium as Al - to,WQ,0.00001,5,LEVEL,MGL,T,,,,,,F,,0,,14/11/2011,1030,SPETCHEL
+2502,Aluminium as Al - soluble (mg/l),mg/l,Aluminium as Al - so,WQ,0.00001,5,LEVEL,MGL,F,,,,,,F,,0,,14/11/2011,1030,SPETCHEL
+2503,Aluminium as Al - non-filterable (mg/l),mg/l,Aluminium as Al - no,WQ,0.00001,5,LEVEL,MGL,F,,,,,,F,,0,,14/11/2011,1030,SPETCHEL
+2511,Antimony as Sb - total (mg/l),mg/l,Antimony as Sb - tot,WQ,0.00001,5,LEVEL,MGL,T,,,,,,F,,0,,14/11/2011,1030,SPETCHEL
+2512,Antimony as Sb - soluble (mg/l),mg/l,Antimony as Sb - sol,WQ,0.00001,5,LEVEL,MGL,F,,,,,,F,,0,,14/11/2011,1030,SPETCHEL
+2513,Antimony as Sb - non-filterable (mg/l),mg/l,Antimony as Sb - non,WQ,0.00001,5,LEVEL,MGL,F,,,,,,F,,0,,14/11/2011,1030,SPETCHEL
+2521,Arsenic as As - total (mg/l),mg/l,As - total (mg/l),WQ,0.00001,5,LEVEL,MGL,T,,,,,,F,,0,,14/11/2011,1030,SPETCHEL
+2522,Arsenic as As - soluble (mg/l),mg/l,Arsenic as As - solu,WQ,0.00001,5,LEVEL,MGL,F,,,,,,F,,0,,14/11/2011,1030,SPETCHEL
+2523,Arsenic as As - non-filterable (mg/l),mg/l,Arsenic as As - non-,WQ,0.00001,5,LEVEL,MGL,F,,,,,,F,,0,,14/11/2011,1030,SPETCHEL
+2524,Arsenic as As - total (\181g/l),micrograms/litre,Arsenic as As - tota,WQ,0.00001,5,LEVEL,UT,F,,,,,,F,,0,,14/11/2011,1030,SPETCHEL
+2525,Arsenic as As - soluble (\181g/l),micrograms/litre,Arsenic as As - solu,WQ,0.00001,5,LEVEL,UT,F,,,,,,F,,0,,14/11/2011,1030,SPETCHEL
+2531,Barium as Ba - total (mg/l),mg/l,Barium as Ba - total,WQ,0.00001,5,LEVEL,MGL,T,,,,,,F,,0,,14/11/2011,1030,SPETCHEL
+2532,Barium as Ba - soluble (mg/l),mg/l,Barium as Ba - solub,WQ,0.00001,5,LEVEL,MGL,F,,,,,,F,,0,,14/11/2011,1030,SPETCHEL
+2533,Barium as Ba - non-filterable (mg/l),mg/l,Barium as Ba - non-f,WQ,0.00001,5,LEVEL,MGL,F,,,,,,F,,0,,14/11/2011,1030,SPETCHEL
+2541,Bismuth as Bi - total (mg/l),mg/l,Bismuth as Bi - tota,WQ,0.00001,5,LEVEL,MGL,F,,,,,,F,,0,,14/11/2011,1030,SPETCHEL
+2542,Bismuth as Bi - soluble (mg/l),mg/l,Bismuth as Bi - solu,WQ,0.00001,5,LEVEL,MGL,F,,,,,,F,,0,,14/11/2011,1030,SPETCHEL
+2543,Bismuth as Bi - non-filterable (mg/l),mg/l,Bismuth as Bi - non-,WQ,0.00001,5,LEVEL,MGL,F,,,,,,F,,0,,14/11/2011,1030,SPETCHEL
+2551,Boron as B (mg/l),mg/l,Boron as B (mg/l),WQ,0.00001,5,LEVEL,MGL,T,,,,,,F,,0,,14/11/2011,1030,SPETCHEL
+2561,Bromide as Br (mg/l),mg/l,Bromide as Br (mg/l),WQ,0.00001,5,LEVEL,MGL,F,,,,,,F,,0,,14/11/2011,1030,SPETCHEL
+2571,Cadmium as Cd - total (mg/l),mg/l,Cd - total (mg/l),WQ,0.00001,5,LEVEL,MGL,T,,,,,,F,,0,,14/11/2011,1030,SPETCHEL
+2572,Cadmium as Cd - soluble (mg/l),mg/l,Cadmium as Cd - solu,WQ,0.00001,5,LEVEL,MGL,F,,,,,,F,,0,,14/11/2011,1030,SPETCHEL
+2573,Cadmium as Cd - non-filterable (mg/l),mg/l,Cadmium as Cd - non-,WQ,0.00001,5,LEVEL,MGL,F,,,,,,F,,0,,14/11/2011,1030,SPETCHEL
+2574,Cadmium as Cd - total (\181g/l),micrograms/litre,Cadmium as Cd - tota,WQ,0.00001,5,LEVEL,UT,F,,,,,,F,,0,,14/11/2011,1030,SPETCHEL
+2575,Cadmium as Cd - soluble (\181g/l),micrograms/litre,Cadmium as Cd - solu,WQ,0.00001,5,LEVEL,UT,F,,,,,,F,,0,,14/11/2011,1030,SPETCHEL
+2581,Cesium as Cs - total (mg/l),mg/l,Cesium as Cs - total,WQ,0.00001,5,LEVEL,MGL,F,,,,,,F,,0,,14/11/2011,1030,SPETCHEL
+2582,Cesium as Cs - soluble (mg/l),mg/l,Cesium as Cs - solub,WQ,0.00001,5,LEVEL,MGL,F,,,,,,F,,0,,14/11/2011,1030,SPETCHEL
+2583,Cesium as Cs - non-filterable (mg/l),mg/l,Cesium as Cs - non-f,WQ,0.00001,5,LEVEL,MGL,F,,,,,,F,,0,,14/11/2011,1030,SPETCHEL
+2591,Total Chlorine (mg/l),mg/l,Total Chlorine (mg/l,WQ,0.00001,5,LEVEL,MGL,F,,,,,,F,,0,,14/11/2011,1030,SPETCHEL
+2592,Free chlorine (mg/l),mg/l,Free chlorine (mg/l),WQ,0.00001,5,LEVEL,MGL,F,,,,,,F,,0,,14/11/2011,1030,SPETCHEL
+2596,Residual Chlorine (mg/l),mg/l,Residual Chlorine (m,WQ,0.00001,5,LEVEL,MGL,F,,,,,,F,,0,,14/11/2011,1030,SPETCHEL
+2597,Combined Chlorine (mg/l),mg/l,Combined Chlorine (m,WQ,0.00001,5,LEVEL,MGL,F,,,,,,F,,0,,14/11/2011,1030,SPETCHEL
+2601,Chromium as Cr - total (mg/l),mg/l,Cr - total (mg/l),WQ,0.00001,5,LEVEL,MGL,T,,,,,,F,,0,,14/11/2011,1030,SPETCHEL
+2602,Chromium as Cr - soluble (mg/l),mg/l,Chromium as Cr - sol,WQ,0.00001,5,LEVEL,MGL,F,,,,,,F,,0,,14/11/2011,1030,SPETCHEL
+2603,Chromium as Cr - non-filterable (mg/l),mg/l,Chromium as Cr - non,WQ,0.00001,5,LEVEL,MGL,F,,,,,,F,,0,,14/11/2011,1030,SPETCHEL
+2604,Chromium Hexavalent (mg/l),mg/l,Chromium Hexavalent,WQ,0.00001,5,LEVEL,MGL,F,,,,,,F,,0,,14/11/2011,1030,SPETCHEL
+2605,Chromium as Cr - total (\181g/l),micrograms/litre,Chromium as Cr - tot,WQ,0.00001,5,LEVEL,UT,F,,,,,,F,,0,,14/11/2011,1030,SPETCHEL
+2606,Chromium as Cr - soluble (\181g/l),micrograms/litre,Chromium as Cr - sol,WQ,0.00001,5,LEVEL,UT,F,,,,,,F,,0,,14/11/2011,1030,SPETCHEL
+2611,Cobalt as Co - total (mg/l),mg/l,Cobalt as Co - total,WQ,0.00001,5,LEVEL,MGL,T,,,,,,F,,0,,14/11/2011,1030,SPETCHEL
+2612,Cobalt as Co - soluble (mg/l),mg/l,Cobalt as Co - solub,WQ,0.00001,5,LEVEL,MGL,F,,,,,,F,,0,,14/11/2011,1030,SPETCHEL
+2613,Cobalt as Co - non-filterable (mg/l),mg/l,Cobalt as Co - non-f,WQ,0.00001,5,LEVEL,MGL,F,,,,,,F,,0,,14/11/2011,1030,SPETCHEL
+2621,Copper as Cu - total (mg/l),mg/l,Cu - total (mg/l),WQ,0.00001,5,LEVEL,MGL,T,,,,,,F,,0,,14/11/2011,1030,SPETCHEL
+2622,Copper as Cu - soluble (mg/l),mg/l,Copper as Cu - solub,WQ,0.00001,5,LEVEL,MGL,F,,,,,,F,,0,,14/11/2011,1030,SPETCHEL
+2623,Copper as Cu - non-filterable (mg/l),mg/l,Copper as Cu - non-f,WQ,0.00001,5,LEVEL,MGL,F,,,,,,F,,0,,14/11/2011,1030,SPETCHEL
+2624,Copper as Cu - total (\181g/l),micrograms/litre,Copper as Cu - total,WQ,0.00001,5,LEVEL,UT,F,,,,,,F,,0,,14/11/2011,1030,SPETCHEL
+2625,Copper as Cu - soluble (\181g/l),micrograms/litre,Copper as Cu - solub,WQ,0.00001,5,LEVEL,UT,F,,,,,,F,,0,,14/11/2011,1030,SPETCHEL
+2631,Cyanide as CN (mg/l),mg/l,Cyanide as CN (mg/l),WQ,0.00001,5,LEVEL,MGL,F,,,,,,F,,0,,14/11/2011,1030,SPETCHEL
+2632,Cyanide free (mg/l),mg/l,Cyanide free (mg/l),WQ,0.00001,5,LEVEL,MGL,F,,,,,,F,,0,,14/11/2011,1030,SPETCHEL
+2633,Total Cyanide after Distillation (mg/l),mg/l,Total Cyanide after,WQ,0.00001,5,LEVEL,MGL,F,,,,,,F,,0,,14/11/2011,1030,SPETCHEL
+2634,Cyanides amendable to chlorination after,mg/l,Cyanides amendable t,WQ,0.00001,5,LEVEL,MGL,F,,,,,,F,,0,,14/11/2011,1030,SPETCHEL
+2635,Cyanides amendable to chlorination witho,mg/l,Cyanides amendable t,WQ,0.00001,5,LEVEL,MGL,F,,,,,,F,,0,,14/11/2011,1030,SPETCHEL
+2636,Weak Acid Dissociable Cyanide (mg/l),mg/l,Weak Acid Dissociabl,WQ,0.00001,5,LEVEL,MGL,F,,,,,,F,,0,,14/11/2011,1030,SPETCHEL
+2637,Thiocyanate (mg/l),mg/l,Thiocyanate (mg/l),WQ,0.00001,5,LEVEL,MGL,F,,,,,,F,,0,,14/11/2011,1030,SPETCHEL
+2641,Flouride as F (mg/l),mg/l,Flouride as F (mg/l),WQ,0.00001,5,LEVEL,MGL,T,,,,,,F,,0,,14/11/2011,1030,SPETCHEL
+2651,Gold as Au - total (mg/l),mg/l,Gold as Au - total (,WQ,0.00001,5,LEVEL,MGL,F,,,,,,F,,0,,14/11/2011,1030,SPETCHEL
+2652,Gold as Au - soluble (mg/l),mg/l,Gold as Au - soluble,WQ,0.00001,5,LEVEL,MGL,F,,,,,,F,,0,,14/11/2011,1030,SPETCHEL
+2653,Gold as Au - non-filterable (mg/l),mg/l,Gold as Au - non-fil,WQ,0.00001,5,LEVEL,MGL,F,,,,,,F,,0,,14/11/2011,1030,SPETCHEL
+2661,Iodine as I (mg/l),mg/l,Iodine as I (mg/l),WQ,0.00001,5,LEVEL,MGL,F,,,,,,F,,0,,14/11/2011,1030,SPETCHEL
+2671,Iodide as I (mg/l),mg/l,Iodide as I (mg/l),WQ,0.00001,5,LEVEL,MGL,F,,,,,,F,,0,,14/11/2011,1030,SPETCHEL
+2681,Iron as Fe - total (mg/l),mg/l,Fe - total (mg/l),WQ,0.00001,5,LEVEL,MGL,T,,,,,,F,,0,,14/11/2011,1030,SPETCHEL
+2682,Iron as Fe - soluble (mg/l),mg/l,Iron as Fe - soluble,WQ,0.00001,5,LEVEL,MGL,F,,,,,,F,,0,,14/11/2011,1030,SPETCHEL
+2683,Iron as Fe - non-filterable (mg/l),mg/l,Iron as Fe - non-fil,WQ,0.00001,5,LEVEL,MGL,F,,,,,,F,,0,,14/11/2011,1030,SPETCHEL
+2684,Iron as Fe - total (\181g/l),micrograms/litre,Iron as Fe - total (,WQ,0.00001,5,LEVEL,UT,F,,,,,,F,,0,,14/11/2011,1030,SPETCHEL
+2685,Iron as Fe - soluble (\181g/l),micrograms/litre,Iron as Fe - soluble,WQ,0.00001,5,LEVEL,UT,F,,,,,,F,,0,,14/11/2011,1030,SPETCHEL
+2691,Lead as Pb - total (mg/l),mg/l,Pb - total (mg/l),WQ,0.00001,5,LEVEL,MGL,T,,,,,,F,,0,,14/11/2011,1030,SPETCHEL
+2692,Lead as Pb - soluble (mg/l),mg/l,Lead as Pb - soluble,WQ,0.00001,5,LEVEL,MGL,F,,,,,,F,,0,,14/11/2011,1030,SPETCHEL
+2693,Lead as Pb - non-filterable (mg/l),mg/l,Lead as Pb - non-fil,WQ,0.00001,5,LEVEL,MGL,F,,,,,,F,,0,,14/11/2011,1030,SPETCHEL
+2694,Lead as Pb - total (\181g/l),micrograms/litre,Lead as Pb - total (,WQ,0.00001,5,LEVEL,UT,F,,,,,,F,,0,,14/11/2011,1030,SPETCHEL
+2695,Lead as Pb - soluble (\181g/l),micrograms/litre,Lead as Pb - soluble,WQ,0.00001,5,LEVEL,UT,F,,,,,,F,,0,,14/11/2011,1030,SPETCHEL
+2701,Lithium as Li - total (mg/l),mg/l,Lithium as Li - tota,WQ,0.00001,5,LEVEL,MGL,F,,,,,,F,,0,,14/11/2011,1030,SPETCHEL
+2711,Manganese as Mn - total (mg/l),mg/l,Mn - total (mg/l),WQ,0.00001,5,LEVEL,MGL,T,,,,,,F,,0,,14/11/2011,1030,SPETCHEL
+2712,Manganese as Mn - soluble (mg/l),mg/l,Manganese as Mn - so,WQ,0.00001,5,LEVEL,MGL,F,,,,,,F,,0,,14/11/2011,1030,SPETCHEL
+2713,Manganese as Mn - non-filterable (mg/l),mg/l,Manganese as Mn - no,WQ,0.00001,5,LEVEL,MGL,F,,,,,,F,,0,,14/11/2011,1030,SPETCHEL
+2714,Manganese as Mn - total (\181g/l),micrograms/litre,Manganese as Mn - to,WQ,0.00001,5,LEVEL,UT,F,,,,,,F,,0,,14/11/2011,1030,SPETCHEL
+2715,Manganese as Mn - soluble (\181g/l),micrograms/litre,Manganese as Mn - so,WQ,0.00001,5,LEVEL,UT,F,,,,,,F,,0,,14/11/2011,1030,SPETCHEL
+2721,Mercury as Hg - total (mg/l),mg/l,Hg - total (mg/l),WQ,0.00001,5,LEVEL,MGL,T,,,,,,F,,0,,14/11/2011,1030,SPETCHEL
+2722,Mercury - soluble (mg/l),mg/l,Mercury - soluble (m,WQ,0.00001,5,LEVEL,MGL,F,,,,,,F,,0,,14/11/2011,1030,SPETCHEL
+2724,Mercury as Hg - inorganic (mg/l),mg/l,Mercury as Hg - inor,WQ,0.00001,5,LEVEL,MGL,F,,,,,,F,,0,,14/11/2011,1030,SPETCHEL
+2725,Mercury as Hg - organic (mg/l),mg/l,Mercury as Hg - orga,WQ,0.00001,5,LEVEL,MGL,F,,,,,,F,,0,,14/11/2011,1030,SPETCHEL
+2731,Molybdenum as Mo - total (mg/l),mg/l,Molybdenum as Mo - t,WQ,0.00001,5,LEVEL,MGL,T,,,,,,F,,0,,14/11/2011,1030,SPETCHEL
+2732,Molybdenum as Mo - soluble (mg/l),mg/l,Molybdenum as Mo - s,WQ,0.00001,5,LEVEL,MGL,F,,,,,,F,,0,,14/11/2011,1030,SPETCHEL
+2733,Molybdenum as Mo - non-filt (mg/l),mg/l,Molybdenum as Mo - n,WQ,0.00001,5,LEVEL,MGL,F,,,,,,F,,0,,14/11/2011,1030,SPETCHEL
+2741,Nickel as Ni - total (mg/l),mg/l,Ni - total (mg/l),WQ,0.00001,5,LEVEL,MGL,T,,,,,,F,,0,,14/11/2011,1030,SPETCHEL
+2742,Nickel as Ni - soluble (mg/l),mg/l,Nickel as Ni - solub,WQ,0.00001,5,LEVEL,MGL,F,,,,,,F,,0,,14/11/2011,1030,SPETCHEL
+2743,Nickel as Ni - non-filterable (mg/l),mg/l,Nickel as Ni - non-f,WQ,0.00001,5,LEVEL,MGL,F,,,,,,F,,0,,14/11/2011,1030,SPETCHEL
+2744,Nickel as Ni - total (\181g/l),micrograms/litre,Nickel as Ni - total,WQ,0.00001,5,LEVEL,UT,F,,,,,,F,,0,,14/11/2011,1030,SPETCHEL
+2745,Nickel as Ni - soluble (\181g/l),micrograms/litre,Nickel as Ni - solub,WQ,0.00001,5,LEVEL,UT,F,,,,,,F,,0,,14/11/2011,1030,SPETCHEL
+2751,Selenium as Se - total (mg/l),mg/l,Selenium as Se - tot,WQ,0.00001,5,LEVEL,MGL,T,,,,,,F,,0,,14/11/2011,1030,SPETCHEL
+2752,Selenium as Se - soluble (mg/l),mg/l,Selenium as Se - sol,WQ,0.00001,5,LEVEL,MGL,F,,,,,,F,,0,,14/11/2011,1030,SPETCHEL
+2753,Selenium as Se - non-filterable (mg/l),mg/l,Selenium as Se - non,WQ,0.00001,5,LEVEL,MGL,F,,,,,,F,,0,,14/11/2011,1030,SPETCHEL
+2760,Silicon as Si - total (mg/l),mg/l,Silicon as Si (tot),WQ,0.00001,5,LEVEL,MGL,F,,,,,,F,,0,,31/01/2014,1549,SPETCHEL
+2761,Silica as SiO2 - total (mg/l),mg/l,Silica as SiO2 - tot,WQ,0.00001,5,LEVEL,MGL,F,,,,,,F,,0,,14/11/2011,1030,SPETCHEL
+2762,Silica as SiO2 - soluble (mg/l),mg/l,Silica as SiO2 - sol,WQ,0.00001,5,LEVEL,MGL,F,,,,,,F,,0,,14/11/2011,1030,SPETCHEL
+2766,Silica as SiO2 - reactive EG052G (mg/l),mg/l,SiO2 EG052G (mg/l),WQ,0.00001,5,LEVEL,MGL,T,,,,,,F,,0,,14/11/2011,1030,SPETCHEL
+2767,Silica (Acid soluble as SiO2),mg/l,Acid sol. Si02,WQ,0.00001,5,LEVEL,MGL,T,,,,,,F,,0,,31/01/2014,1553,SPETCHEL
+2771,Silver as Ag - total (mg/l),mg/l,Silver as Ag - total,WQ,0.00001,5,LEVEL,MGL,T,,,,,,F,,0,,14/11/2011,1030,SPETCHEL
+2772,Silver as Ag - soluble (mg/l),mg/l,Silver as Ag - solub,WQ,0.00001,5,LEVEL,MGL,F,,,,,,F,,0,,14/11/2011,1030,SPETCHEL
+2773,Silver as Ag - non-filterable (mg/l),mg/l,Silver as Ag - non-f,WQ,0.00001,5,LEVEL,MGL,F,,,,,,F,,0,,14/11/2011,1030,SPETCHEL
+2781,Strontium as Sr - total (mg/l),mg/l,Strontium as Sr - to,WQ,0.00001,5,LEVEL,MGL,T,,,,,,F,,0,,14/11/2011,1030,SPETCHEL
+2782,Strontium as Sr - soluble (mg/l),mg/l,Strontium as Sr - so,WQ,0.00001,5,LEVEL,MGL,F,,,,,,F,,0,,14/11/2011,1030,SPETCHEL
+2783,Strontium as Sr - non-filterable (mg/l),mg/l,Strontium as Sr - no,WQ,0.00001,5,LEVEL,MGL,F,,,,,,F,,0,,14/11/2011,1030,SPETCHEL
+2791,Tin as Sn - total (mg/l),mg/l,Tin as Sn - total (m,WQ,0.00001,5,LEVEL,MGL,T,,,,,,F,,0,,14/11/2011,1030,SPETCHEL
+2792,Tin as Sn - soluble (mg/l),mg/l,Tin as Sn - soluble,WQ,0.00001,5,LEVEL,MGL,F,,,,,,F,,0,,14/11/2011,1030,SPETCHEL
+2793,Tin as Sn - non-filterable (mg/l),mg/l,Tin as Sn - non-filt,WQ,0.00001,5,LEVEL,MGL,F,,,,,,F,,0,,14/11/2011,1030,SPETCHEL
+2795,Tin as Sn - organic (mg/l),mg/l,Tin as Sn - organic,WQ,0.00001,5,LEVEL,MGL,F,,,,,,F,,0,,14/11/2011,1030,SPETCHEL
+2801,Titanium as Ti - total (mg/l),mg/l,Titanium as Ti - tot,WQ,0.00001,5,LEVEL,MGL,T,,,,,,F,,0,,14/11/2011,1030,SPETCHEL
+2802,Titanium as Ti - soluble (mg/l),mg/l,Titanium as Ti - sol,WQ,0.00001,5,LEVEL,MGL,F,,,,,,F,,0,,14/11/2011,1030,SPETCHEL
+2803,Titanium as Ti - non-filterable (mg/l),mg/l,Titanium as Ti - non,WQ,0.00001,5,LEVEL,MGL,F,,,,,,F,,0,,14/11/2011,1030,SPETCHEL
+2804,Titanium as Ti - total (\181g/l),micrograms/litre,Titanium as Ti - tot,OTH,0.00001,5,LEVEL,UT,F,,,,,,F,,0,,14/11/2011,1030,SPETCHEL
+2811,Vanadium as V - total (mg/l),mg/l,Vanadium as V - tota,WQ,0.00001,5,LEVEL,MGL,T,,,,,,F,,0,,14/11/2011,1030,SPETCHEL
+2812,Vanadium as V - soluble (mg/l),mg/l,Vanadium as V - solu,WQ,0.00001,5,LEVEL,MGL,F,,,,,,F,,0,,14/11/2011,1030,SPETCHEL
+2813,Vanadium as V - non-filterable (mg/l),mg/l,Vanadium as V - non-,WQ,0.00001,5,LEVEL,MGL,F,,,,,,F,,0,,14/11/2011,1030,SPETCHEL
+2820,Zinc as Zn - total (mg/l),mg/l,Zinc as Zn - total (,OTH,0.00001,5,LEVEL,MGL,T,,,,,,F,,0,,14/11/2011,1030,SPETCHEL
+2821,Zinc as Zn - total (mg/l),mg/l,Zn - total (mg/l),WQ,0.00001,5,LEVEL,MGL,T,,,,,,F,,0,,14/11/2011,1030,SPETCHEL
+2822,Zinc as Zn - soluble (mg/l),mg/l,Zinc as Zn - soluble,WQ,0.00001,5,LEVEL,MGL,F,,,,,,F,,0,,14/11/2011,1030,SPETCHEL
+2823,Zinc as Zn - non-filterable (mg/l),mg/l,Zinc as Zn - non-fil,WQ,0.00001,5,LEVEL,MGL,F,,,,,,F,,0,,14/11/2011,1030,SPETCHEL
+2824,Zinc as Zn - total (\181g/l),micrograms/litre,Zinc as Zn - total (,WQ,0.00001,5,LEVEL,UT,F,,,,,,F,,0,,14/11/2011,1030,SPETCHEL
+2825,Zinc as Zn - soluble (\181g/l),micrograms/litre,Zinc as Zn - soluble,WQ,0.00001,5,LEVEL,UT,F,,,,,,F,,0,,14/11/2011,1030,SPETCHEL
+2831,Zirconium as Zr - total (mg/l),mg/l,Zirconium as Zr - to,WQ,0.00001,5,LEVEL,MGL,F,,,,,,F,,0,,14/11/2011,1030,SPETCHEL
+2832,Zirconium as Zr - soluble (mg/l),mg/l,Zirconium as Zr - so,WQ,0.00001,5,LEVEL,MGL,F,,,,,,F,,0,,14/11/2011,1030,SPETCHEL
+2833,Zirconium as Zr - non-filterable (mg/l),mg/l,Zirconium as Zr - no,WQ,0.00001,5,LEVEL,MGL,F,,,,,,F,,0,,14/11/2011,1030,SPETCHEL
+2891,Uranium - total (\181g/l),micrograms/litre,Uranium - total (\181g/,WQ,0.00001,5,LEVEL,UT,F,,,,,,F,,0,,14/11/2011,1030,SPETCHEL
+2892,Uranium - soluble (\181g/l),micrograms/litre,Uranium - soluble (u,WQ,0.00001,5,LEVEL,UT,F,,,,,,F,,0,,14/11/2011,1030,SPETCHEL
+2893,Uranium - non-filterable (\181g/l),micrograms/litre,Uranium - non-filter,WQ,0.00001,5,LEVEL,UT,F,,,,,,F,,0,,14/11/2011,1030,SPETCHEL
+2894,U308 in stack emmission (g/24h),g/24hours,U308 in stack emmiss,OTH,0.00001,5,LEVEL,SCAL,F,,,,,,F,,0,,14/11/2011,1030,SPETCHEL
+2901,Carbon Dioxide as CO2 (mg/l),mg/l,Carbon Dioxide as CO,WQ,0.00001,5,LEVEL,MGL,F,,,,,,F,,0,,14/11/2011,1030,SPETCHEL
+2902,Ionic balance (%),%,Ionic balance (%),WQ,0.000001,6,LEVEL,PERC,T,,,,,,F,,0,,14/11/2011,1030,SPETCHEL
+2903,Total Anions (meq/l),meq/L,Total Anions (meq/l),WQ,0.000001,6,LEVEL,SCAL,T,,,,,,F,,0,,14/11/2011,1030,SPETCHEL
+2904,Total Cations (meq/l),meq/L,Total Cations (meq/l,WQ,0.000001,6,LEVEL,SCAL,T,,,,,,F,,0,,14/11/2011,1030,SPETCHEL
+3001,Biochem Oxygen Demand (BOD) (mg/l),mg/l,Biochem Oxygen Deman,WQ,0.00001,5,LEVEL,MGL,F,,,,,,F,,0,,14/11/2011,1030,SPETCHEL
+3002,Biochem Oxygen Demand - 5 (BOD-5) (filte,mg/l,Biochem Oxygen Deman,WQ,0.00001,5,LEVEL,MGL,F,,,,,,F,,0,,14/11/2011,1030,SPETCHEL
+3011,Chemical Oxygen Demand (COD) (mg/l),mg/l,Chemical Oxygen Dema,WQ,0.00001,5,LEVEL,MGL,F,,,,,,F,,0,,14/11/2011,1030,SPETCHEL
+3012,Chemical Oxygen Demand filtered (mg/l),mg/l,Chemical Oxygen Dema,WQ,0.00001,5,LEVEL,MGL,F,,,,,,F,,0,,14/11/2011,1030,SPETCHEL
+3020,Total Carbon (mg/l),mg/l,Total Carbon (mg/l),OTH,0.000001,6,LEVEL,MGL,T,,,,,,F,,0,,14/11/2011,1030,SPETCHEL
+3021,Total Organic Carbon (TOC) (mg/l),mg/l,Total Organic Carbon,WQ,0.00001,5,LEVEL,MGL,T,,,,,,F,,0,,14/11/2011,1030,SPETCHEL
+3022,TOC Permanganate Value (mg/l),mg/l,TOC Permanganate Val,WQ,0.00001,5,LEVEL,MGL,F,,,,,,F,,0,,14/11/2011,1030,SPETCHEL
+3026,Dissolved Organic Carbon (mg/l),mg/l,Dissolved Organic Ca,WQ,0.00001,5,LEVEL,MGL,T,,,,,,F,,0,,14/11/2011,1030,SPETCHEL
+3031,Dissolved Organic Halogen (mg/l),mg/l,Dissolved Organic Ha,WQ,0.00001,5,LEVEL,MGL,F,,,,,,F,,0,,14/11/2011,1030,SPETCHEL
+3041,Oil and Grease (mg/l),mg/l,Oil and Grease (mg/l,WQ,0.00001,5,LEVEL,MGL,F,,,,,,F,,0,,14/11/2011,1030,SPETCHEL
+3051,Detergent (mg/l),mg/l,Detergent (mg/l),WQ,0.00001,5,LEVEL,MGL,F,,,,,,F,,0,,14/11/2011,1030,SPETCHEL
+3061,Tannins (mg/l),mg/l,Tannins (mg/l),WQ,0.00001,5,LEVEL,MGL,F,,,,,,F,,0,,14/11/2011,1030,SPETCHEL
+3062,Lignins (mg/l),mg/l,Lignins (mg/l),WQ,0.00001,5,LEVEL,MGL,F,,,,,,F,,0,,14/11/2011,1030,SPETCHEL
+3071,Organic Acids (mg/l),mg/l,Organic Acids (mg/l),WQ,0.00001,5,LEVEL,MGL,F,,,,,,F,,0,,14/11/2011,1030,SPETCHEL
+3072,Volatile fatty acids (mg/l),mg/l,Volatile fatty acids,WQ,0.00001,5,LEVEL,MGL,F,,,,,,F,,0,,14/11/2011,1030,SPETCHEL
+3101,Total Organochlorines (mg/l),mg/l,Total Organochlorine,WQ,0.00001,5,LEVEL,MGL,F,,,,,,F,,0,,14/11/2011,1030,SPETCHEL
+3102,Total Organochlorines (\181g/l),micrograms/litre,Total Organochlorine,WQ,0.00001,5,LEVEL,UT,F,,,,,,F,,0,,14/11/2011,1030,SPETCHEL
+3103,Toxaphene; Chlordane; Endrin (mg/l),mg/l,Toxaphene; Chlordane,WQ,0.00001,5,LEVEL,MGL,F,,,,,,F,,0,,14/11/2011,1030,SPETCHEL
+3104,Toxaphene; Chlordane; Endrin (\181g/l),micrograms/litre,Toxaphene; Chlordane,WQ,0.00001,5,LEVEL,UT,F,,,,,,F,,0,,14/11/2011,1030,SPETCHEL
+3105,Total DDT (mg/l),mg/l,Total DDT (mg/l),WQ,0.00001,5,LEVEL,MGL,F,,,,,,F,,0,,14/11/2011,1030,SPETCHEL
+3106,Total DDT (\181g/l),micrograms/litre,Total DDT (\181g/l),WQ,0.00001,5,LEVEL,UT,F,,,,,,F,,0,,14/11/2011,1030,SPETCHEL
+3121,Aldrin 309-00-2 (\181g/l),micrograms/litre,Aldrin 309-00-2 (\181g/,WQ,0.00001,5,LEVEL,UT,F,,,,,,F,,0,,14/11/2011,1030,SPETCHEL
+3122,Chlordane 57-74-9 (\181g/l),micrograms/litre,Chlordane 57-74-9 (u,WQ,0.00001,5,LEVEL,UT,F,,,,,,F,,0,,14/11/2011,1030,SPETCHEL
+3123,alpha Chlordane 5103-71-9 (\181g/l),micrograms/litre,alpha Chlordane 5103,WQ,0.00001,5,LEVEL,UT,F,,,,,,F,,0,,14/11/2011,1030,SPETCHEL
+3124,gamma Chlordane 5103-74-2 (\181g/l),micrograms/litre,gamma Chlordane 5103,WQ,0.00001,5,LEVEL,UT,F,,,,,,F,,0,,14/11/2011,1030,SPETCHEL
+3125,DCPA 1897-45-6 (\181g/l),micrograms/litre,DCPA 1897-45-6 (\181g/l,WQ,0.00001,5,LEVEL,UT,F,,,,,,F,,0,,14/11/2011,1030,SPETCHEL
+3126,4\0444'-DDD 72-54-8 (\181g/l),micrograms/litre,4\0444'-DDD 72-54-8 (\181g,WQ,0.00001,5,LEVEL,UT,F,,,,,,F,,0,,14/11/2011,1030,SPETCHEL
+3127,4\0444'-DDE 72-55-9 (\181g/l),micrograms/litre,4\0444'-DDE 72-55-9 (\181g,WQ,0.00001,5,LEVEL,UT,F,,,,,,F,,0,,14/11/2011,1030,SPETCHEL
+3128,4\0444'-DDT 50-29-3 (\181g/l),micrograms/litre,4\0444'-DDT 50-29-3 (\181g,WQ,0.00001,5,LEVEL,UT,F,,,,,,F,,0,,14/11/2011,1030,SPETCHEL
+3129,Dieldrin 60-57-1 (\181g/l),micrograms/litre,Dieldrin 60-57-1 (\181g,WQ,0.00001,5,LEVEL,UT,F,,,,,,F,,0,,14/11/2011,1030,SPETCHEL
+3130,Endosulfan(alpha isomer)959-98-8 (\181g/l),micrograms/litre,Endosulfan(alpha iso,WQ,0.00001,5,LEVEL,UT,F,,,,,,F,,0,,14/11/2011,1030,SPETCHEL
+3131,Endosulfan(beta isomer)33213-65-9 (\181g/l),micrograms/litre,Endosulfan(beta isom,WQ,0.00001,5,LEVEL,UT,F,,,,,,F,,0,,14/11/2011,1030,SPETCHEL
+3132,Endosulfan sulfate 1031-07-8 (\181g/l),micrograms/litre,Endosulfan sulfate 1,WQ,0.00001,5,LEVEL,UT,F,,,,,,F,,0,,14/11/2011,1030,SPETCHEL
+3133,Endrin 72-20  (\181g/l),micrograms/litre,Endrin 72-20  (\181g/l),WQ,0.00001,5,LEVEL,UT,F,,,,,,F,,0,,14/11/2011,1030,SPETCHEL
+3134,Endrin aldehyde 7421-93-4 (\181g/l,micrograms/litre,Endrin aldehyde 7421,WQ,0.00001,5,LEVEL,UT,F,,,,,,F,,0,,14/11/2011,1030,SPETCHEL
+3135,BHC(alpha isomer) 319-84-6 (\181g/l),micrograms/litre,BHC(alpha isomer) 31,WQ,0.00001,5,LEVEL,UT,F,,,,,,F,,0,,14/11/2011,1030,SPETCHEL
+3136,BHC(beta isomer) 319-85-7 (\181g/l),micrograms/litre,BHC(beta isomer) 319,WQ,0.00001,5,LEVEL,UT,F,,,,,,F,,0,,14/11/2011,1030,SPETCHEL
+3137,BHC(delta isomer) 319-86-8 (\181g/l),micrograms/litre,BHC(delta isomer) 31,WQ,0.00001,5,LEVEL,UT,F,,,,,,F,,0,,14/11/2011,1030,SPETCHEL
+3138,BHC(gamma isomer)Lindane58-89-9 (\181g/l),micrograms/litre,BHC(gamma isomer)Lin,WQ,0.00001,5,LEVEL,UT,F,,,,,,F,,0,,14/11/2011,1030,SPETCHEL
+3139,Heptachlor 76-44-8 (\181g/l),micrograms/litre,Heptachlor 76-44-8 (,WQ,0.00001,5,LEVEL,UT,F,,,,,,F,,0,,14/11/2011,1030,SPETCHEL
+3140,Heptachlor epoxide 1024-57-3 (\181g/l),micrograms/litre,Heptachlor epoxide 1,WQ,0.00001,5,LEVEL,UT,F,,,,,,F,,0,,14/11/2011,1030,SPETCHEL
+3141,Hexachlorobenzene 118-74-1 (\181g/l),micrograms/litre,Hexachlorobenzene 11,WQ,0.00001,5,LEVEL,UT,F,,,,,,F,,0,,14/11/2011,1030,SPETCHEL
+3142,Methoxychlor 72-43-5 (\181g/l),micrograms/litre,Methoxychlor 72-43-5,WQ,0.00001,5,LEVEL,UT,F,,,,,,F,,0,,14/11/2011,1030,SPETCHEL
+3143,Mirex 2385-85 (\181g/l),micrograms/litre,Mirex 2385-85 (\181g/l),WQ,0.00001,5,LEVEL,UT,F,,,,,,F,,0,,14/11/2011,1030,SPETCHEL
+3144,Toxaphene 8001-35-2 (\181g/l),micrograms/litre,Toxaphene 8001-35-2,WQ,0.00001,5,LEVEL,UT,F,,,,,,F,,0,,14/11/2011,1030,SPETCHEL
+3145,Dibromo DDE 21655-73-2(\181g/l),micrograms/litre,Dibromo DDE,WQ,0.00001,5,LEVEL,UT,F,,,,,,F,,0,,19/09/2012,1904,PDOWLAND
+3146,DEF 78-48-8 (ug/l),micrograms/litre,DEF,WQ,0.00001,5,LEVEL,UT,F,,,,,,F,,0,,19/09/2012,1908,PDOWLAND
+3148,Endrin Ketone  53494-70-5(\181g/l),micrograms/litre,Endrin Ketone,WQ,0.00001,5,LEVEL,UT,F,,,,,,F,,0,,19/09/2012,1811,PDOWLAND
+3201,Total Organophosphates (mg/l),mg/l,Total Organophosphat,WQ,0.00001,5,LEVEL,MGL,F,,,,,,F,,0,,14/11/2011,1030,SPETCHEL
+3202,Total Organophosphates (\181g/l),micrograms/litre,Total Organophosphat,WQ,0.00001,5,LEVEL,UT,F,,,,,,F,,0,,14/11/2011,1030,SPETCHEL
+3321,Abate 3383-96-8 (\181g/l),micrograms/litre,Abate 3383-96-8 (\181g/,WQ,0.00001,5,LEVEL,UT,F,,,,,,F,,0,,14/11/2011,1030,SPETCHEL
+3322,Acephate 30560-19-1 (\181g/l),micrograms/litre,Acephate 30560-19-1,WQ,0.00001,5,LEVEL,UT,F,,,,,,F,,0,,14/11/2011,1030,SPETCHEL
+3323,Azinphos (ethyl) 2642-71-9 (\181g/l),micrograms/litre,Azinphos (ethyl) 264,WQ,0.00001,5,LEVEL,UT,F,,,,,,F,,0,,14/11/2011,1030,SPETCHEL
+3324,Azinphos (methyl) 86-50-0-9 (\181g/l),micrograms/litre,Azinphos (methyl) 86,WQ,0.00001,5,LEVEL,UT,F,,,,,,F,,0,,14/11/2011,1030,SPETCHEL
+3325,Suprophos 35400-43-2 (\181g/l),micrograms/litre,Suprophos 35400-43-2,WQ,0.00001,5,LEVEL,UT,F,,,,,,F,,0,,14/11/2011,1030,SPETCHEL
+3326,Chlorpyrifos 2921-88-2 (\181g/l),micrograms/litre,Chlorpyrifos 2921-88,WQ,0.00001,5,LEVEL,UT,F,,,,,,F,,0,,14/11/2011,1030,SPETCHEL
+3327,Coumaphos 56-72-4 (\181g/l),micrograms/litre,Coumaphos 56-72-4 (u,WQ,0.00001,5,LEVEL,UT,F,,,,,,F,,0,,14/11/2011,1030,SPETCHEL
+3328,Demeton O&S 8065-48-5 (\181g/l),micrograms/litre,Demeton O&S 8065-48-,WQ,0.00001,5,LEVEL,UT,F,,,,,,F,,0,,14/11/2011,1030,SPETCHEL
+3329,Demeton-S-methyl 919-86-8 (\181g/l),micrograms/litre,Demeton-S-methyl 919,WQ,0.00001,5,LEVEL,UT,F,,,,,,F,,0,,14/11/2011,1030,SPETCHEL
+3330,Diazinon 333-41-5 (\181g/l),micrograms/litre,Diazinon 333-41-5 (u,WQ,0.00001,5,LEVEL,UT,F,,,,,,F,,0,,14/11/2011,1030,SPETCHEL
+3331,Dichlorvos 62-73-7 (\181g/l),micrograms/litre,Dichlorvos 62-73-7 (,WQ,0.00001,5,LEVEL,UT,F,,,,,,F,,0,,14/11/2011,1030,SPETCHEL
+3332,Dimethoate 60-51-5 (\181g/l),micrograms/litre,Dimethoate 60-51-5 (,WQ,0.00001,5,LEVEL,UT,F,,,,,,F,,0,,14/11/2011,1030,SPETCHEL
+3333,Disulfoton 298-04-4 (\181g/l),micrograms/litre,Disulfoton 298-04-4,WQ,0.00001,5,LEVEL,UT,F,,,,,,F,,0,,14/11/2011,1030,SPETCHEL
+3334,Fenthion 55-38-9 (\181g/l),micrograms/litre,Fenthion 55-38-9 (\181g,WQ,0.00001,5,LEVEL,UT,F,,,,,,F,,0,,14/11/2011,1030,SPETCHEL
+3335,Malathion 121-75-5 (\181g/l),micrograms/litre,Malathion 121-75-5 (,WQ,0.00001,5,LEVEL,UT,F,,,,,,F,,0,,14/11/2011,1030,SPETCHEL
+3336,Folex - Merphos 150-50-5 (\181g/l),micrograms/litre,Folex - Merphos 150-,WQ,0.00001,5,LEVEL,UT,F,,,,,,F,,0,,14/11/2011,1030,SPETCHEL
+3337,0-methoate 1113-02-6 (\181g/l),micrograms/litre,0-methoate 1113-02-6,WQ,0.00001,5,LEVEL,UT,F,,,,,,F,,0,,14/11/2011,1030,SPETCHEL
+3338,Mevinphos 7786-34-7 (\181g/l),micrograms/litre,Mevinphos 7786-34-7,WQ,0.00001,5,LEVEL,UT,F,,,,,,F,,0,,14/11/2011,1030,SPETCHEL
+3339,Monocrotophos 6923-22-4 (\181g/l),micrograms/litre,Monocrotophos 6923-2,WQ,0.00001,5,LEVEL,UT,F,,,,,,F,,0,,14/11/2011,1030,SPETCHEL
+3340,Parathion (ethyl) 56-38-2 (\181g/l),micrograms/litre,Parathion (ethyl) 56,WQ,0.00001,5,LEVEL,UT,F,,,,,,F,,0,,14/11/2011,1030,SPETCHEL
+3341,Parathion (methyl) 298-00-0 (\181g/l),micrograms/litre,Parathion (methyl) 2,WQ,0.00001,5,LEVEL,UT,F,,,,,,F,,0,,14/11/2011,1030,SPETCHEL
+3342,Profenofos 41198-08-7 (\181g/l),micrograms/litre,Profenofos 41198-08-,WQ,0.00001,5,LEVEL,UT,F,,,,,,F,,0,,14/11/2011,1030,SPETCHEL
+3343,Phorate 298-02-2 (\181g/l),micrograms/litre,Phorate 298-02-2 (\181g,WQ,0.00001,5,LEVEL,UT,F,,,,,,F,,0,,14/11/2011,1030,SPETCHEL
+3344,Sulfotep - dithione 3689-24-5 (\181g/l),micrograms/litre,Sulfotep - dithione,WQ,0.00001,5,LEVEL,UT,F,,,,,,F,,0,,14/11/2011,1030,SPETCHEL
+3345,Thiometon 640-15-3 (\181g/l),micrograms/litre,Thiometon 640-15-3 (,WQ,0.00001,5,LEVEL,UT,F,,,,,,F,,0,,14/11/2011,1030,SPETCHEL
+3346,Trichlorfon 52-68-6 (\181g/l),micrograms/litre,Trichlorfon 52-68-6,WQ,0.00001,5,LEVEL,UT,F,,,,,,F,,0,,14/11/2011,1030,SPETCHEL
+3347,Formothion ???2540-82-1 (\181g/l),micrograms/litre,Formothion ???2540-8,WQ,0.00001,5,LEVEL,UT,F,,,,,,F,,0,,14/11/2011,1030,SPETCHEL
+3348,Methamidophos ???10265-92-6 (\181g/l),micrograms/litre,Methamidophos ???102,WQ,0.00001,5,LEVEL,UT,F,,,,,,F,,0,,14/11/2011,1030,SPETCHEL
+3391,Bromophos Ethyl (mg/l),mg/l,Bromophos Ethyl (mg/,WQ,0.00001,5,LEVEL,MGL,F,,,,,,F,,0,,14/11/2011,1030,SPETCHEL
+3392,Ethion (mg/l),mg/l,Ethion (mg/l),WQ,0.00001,5,LEVEL,MGL,F,,,,,,F,,0,,14/11/2011,1030,SPETCHEL
+3393,Carbophenothion (ug/l),ug/l,Carbophenothion,WQ,0.00001,5,LEVEL,MGL,F,,,,,,F,,0,,19/09/2012,1911,PDOWLAND
+3394,Chlorpyrifos-methyl 5598-13-0 (\181g/l),micrograms/litre,Chlorpyrifos-methyl,WQ,0.00001,5,LEVEL,UT,F,,,,,,F,,0,,20/09/2012,845,PDOWLAND
+3395,Chlorfenvinphos 470-90-6 (\181g/l),micrograms/litre,Chlorfenvinphos,WQ,0.00001,5,LEVEL,UT,F,,,,,,F,,0,,20/09/2012,849,PDOWLAND
+3396,Pirimphos-ethyl 23505-41-1(\181g/l),micrograms/litre,Pirimphos-ethyl,WQ,0.00001,5,LEVEL,UT,T,,,,,,F,,0,,20/09/2012,854,PDOWLAND
+3397,Fenamiphos 22224-92-6(\181g/l),micrograms/litre,Fenamiphos,WQ,0.00001,5,LEVEL,UT,T,,,,,,F,,0,,20/09/2012,857,PDOWLAND
+3398,Prothiofos 34643-46-4(\181g/l),micrograms/litre,Prothiofos,WQ,0.00001,5,LEVEL,UT,T,,,,,,F,,0,,20/09/2012,859,PDOWLAND
+3501,Total Carbamates (mg/l),mg/l,Total Carbamates (mg,WQ,0.00001,5,LEVEL,MGL,F,,,,,,F,,0,,14/11/2011,1030,SPETCHEL
+3502,Total Carbamates (\181g/l),micrograms/litre,Total Carbamates (\181g,WQ,0.00001,5,LEVEL,UT,F,,,,,,F,,0,,14/11/2011,1030,SPETCHEL
+3521,Propoxur 114-26-1 (\181g/l),micrograms/litre,Propoxur 114-26-1 (u,WQ,0.00001,5,LEVEL,UT,F,,,,,,F,,0,,14/11/2011,1030,SPETCHEL
+3522,Aldicarb 116-06-3 (\181g/l),micrograms/litre,Aldicarb 116-06-3 (u,WQ,0.00001,5,LEVEL,UT,F,,,,,,F,,0,,14/11/2011,1030,SPETCHEL
+3523,Carbofuran 1563-66-2 (\181g/l),micrograms/litre,Carbofuran 1563-66-2,WQ,0.00001,5,LEVEL,UT,F,,,,,,F,,0,,14/11/2011,1030,SPETCHEL
+3524,Methomyl 16752-77-5 (\181g/l),micrograms/litre,Methomyl 16752-77-5,WQ,0.00001,5,LEVEL,UT,F,,,,,,F,,0,,14/11/2011,1030,SPETCHEL
+3525,Methiocarb 2032-65-7 (\181g/l),micrograms/litre,Methiocarb 2032-65-7,WQ,0.00001,5,LEVEL,UT,F,,,,,,F,,0,,14/11/2011,1030,SPETCHEL
+3526,Bentazon 25057-89-0 (\181g/l),micrograms/litre,Bentazon 25057-89-0,WQ,0.00001,5,LEVEL,UT,F,,,,,,F,,0,,14/11/2011,1030,SPETCHEL
+3527,Bendiocarb 22781-23-3 (\181g/l),micrograms/litre,Bendiocarb 22781-23-,WQ,0.00001,5,LEVEL,UT,F,,,,,,F,,0,,14/11/2011,1030,SPETCHEL
+3528,Benthiocarb 28249-77-6 (\181g/l),micrograms/litre,Benthiocarb 28249-77,WQ,0.00001,5,LEVEL,UT,F,,,,,,F,,0,,14/11/2011,1030,SPETCHEL
+3529,Carbaryl 63-25-2 (\181g/l),micrograms/litre,Carbaryl 63-25-2 (\181g,WQ,0.00001,5,LEVEL,UT,F,,,,,,F,,0,,14/11/2011,1030,SPETCHEL
+3701,Total Pyrethroids (mg/l),mg/l,Total Pyrethroids (m,WQ,0.00001,5,LEVEL,MGL,F,,,,,,F,,0,,14/11/2011,1030,SPETCHEL
+3702,Total Pyrethroids (\181g/l),micrograms/litre,Total Pyrethroids (u,WQ,0.00001,5,LEVEL,UT,F,,,,,,F,,0,,14/11/2011,1030,SPETCHEL
+3721,Alphamethrin ??? (\181g/l),micrograms/litre,Alphamethrin ??? (\181g,WQ,0.00001,5,LEVEL,UT,F,,,,,,F,,0,,14/11/2011,1030,SPETCHEL
+3722,Deltamethrin ???52918-63-5 (\181g/l),micrograms/litre,Deltamethrin ???5291,WQ,0.00001,5,LEVEL,UT,F,,,,,,F,,0,,14/11/2011,1030,SPETCHEL
+3723,Lambdacyhalothrin ??? (\181g/l),micrograms/litre,Lambdacyhalothrin ??,WQ,0.00001,5,LEVEL,UT,F,,,,,,F,,0,,14/11/2011,1030,SPETCHEL
+3724,Fenvalerate 51630-58-1 (\181g/l),micrograms/litre,Fenvalerate 51630-58,WQ,0.00001,5,LEVEL,UT,F,,,,,,F,,0,,14/11/2011,1030,SPETCHEL
+3725,Cypermethrin 52315-07-8 (\181g/l),micrograms/litre,Cypermethrin 52315-0,WQ,0.00001,5,LEVEL,UT,F,,,,,,F,,0,,14/11/2011,1030,SPETCHEL
+3726,Fluvalinate 69409-94-5 (\181g/l),micrograms/litre,Fluvalinate 69409-94,WQ,0.00001,5,LEVEL,UT,F,,,,,,F,,0,,14/11/2011,1030,SPETCHEL
+3922,Omite (propargite) 2312-35-8 (\181g/l),micrograms/litre,Omite (propargite) 2,WQ,0.00001,5,LEVEL,UT,F,,,,,,F,,0,,14/11/2011,1030,SPETCHEL
+3923,Oxyfluorfen 42874-03-3 (\181g/l),micrograms/litre,Oxyfluorfen 42874-03,WQ,0.00001,5,LEVEL,UT,F,,,,,,F,,0,,14/11/2011,1030,SPETCHEL
+3924,Baythroid 68359-37-5 (\181g/l),micrograms/litre,Baythroid 68359-37-5,WQ,0.00001,5,LEVEL,UT,F,,,,,,F,,0,,14/11/2011,1030,SPETCHEL
+3925,Permethrin 52645-53-1 (\181g/l),micrograms/litre,Permethrin 52645-53-,WQ,0.00001,5,LEVEL,UT,F,,,,,,F,,0,,14/11/2011,1030,SPETCHEL
+3926,Dicofol (Kelthane) 115-32-2 (\181g/l),micrograms/litre,Dicofol (Kelthane) 1,WQ,0.00001,5,LEVEL,UT,F,,,,,,F,,0,,14/11/2011,1030,SPETCHEL
+4001,Total triazines (mg/l),mg/l,Total triazines (mg/,WQ,0.00001,5,LEVEL,MGL,F,,,,,,F,,0,,14/11/2011,1030,SPETCHEL
+4002,Total triazines (\181g/l),micrograms/litre,Total triazines (\181g/,WQ,0.00001,5,LEVEL,UT,F,,,,,,F,,0,,14/11/2011,1030,SPETCHEL
+4021,Simazine 122-34-9 (\181g/l),micrograms/litre,Simazine 122-34-9 (u,WQ,0.00001,5,LEVEL,UT,F,,,,,,F,,0,,14/11/2011,1030,SPETCHEL
+4022,Propazine 139-40-2 (\181g/l),micrograms/litre,Propazine 139-40-2 (,WQ,0.00001,5,LEVEL,UT,F,,,,,,F,,0,,14/11/2011,1030,SPETCHEL
+4023,Prometon 1610-18-0 (\181g/l),micrograms/litre,Prometon 1610-18-0 (,WQ,0.00001,5,LEVEL,UT,F,,,,,,F,,0,,14/11/2011,1030,SPETCHEL
+4024,Atrazine 1912-24-9 (\181g/l),micrograms/litre,Atrazine 1912-24-9 (,WQ,0.00001,5,LEVEL,UT,F,,,,,,F,,0,,14/11/2011,1030,SPETCHEL
+4025,Prometryne 7287-19-6 (\181g/l),micrograms/litre,Prometryne 7287-19-6,WQ,0.00001,5,LEVEL,UT,F,,,,,,F,,0,,14/11/2011,1030,SPETCHEL
+4201,Total phenyl ureas (mg/l),mg/l,Total phenyl ureas (,WQ,0.00001,5,LEVEL,MGL,F,,,,,,F,,0,,14/11/2011,1030,SPETCHEL
+4202,Total phenyl ureas (\181g/l),micrograms/litre,Total phenyl ureas (,WQ,0.00001,5,LEVEL,UT,F,,,,,,F,,0,,14/11/2011,1030,SPETCHEL
+4221,Fluometuron 2164-17-2 (\181g/l),micrograms/litre,Fluometuron 2164-17-,WQ,0.00001,5,LEVEL,UT,F,,,,,,F,,0,,14/11/2011,1030,SPETCHEL
+4222,Diuron 330-54-1 (\181g/l),micrograms/litre,Diuron 330-54-1 (\181g/,WQ,0.00001,5,LEVEL,UT,F,,,,,,F,,0,,14/11/2011,1030,SPETCHEL
+4223,Linuron 330-55-2 (\181g/l),micrograms/litre,Linuron 330-55-2 (\181g,WQ,0.00001,5,LEVEL,UT,F,,,,,,F,,0,,14/11/2011,1030,SPETCHEL
+4401,Total benzoic acid type herbicides (mg/l,mg/l,Total benzoic acid t,WQ,0.00001,5,LEVEL,MGL,F,,,,,,F,,0,,14/11/2011,1030,SPETCHEL
+4402,Total benzoic acid type herbicides (\181g/l,micrograms/litre,Total benzoic acid t,WQ,0.00001,5,LEVEL,UT,F,,,,,,F,,0,,14/11/2011,1030,SPETCHEL
+4403,2\0444-D and 2\0444\0445-T (mg/l),mg/l,2\0444-D and 2\0444\0445-T (m,WQ,0.00001,5,LEVEL,MGL,F,,,,,,F,,0,,14/11/2011,1030,SPETCHEL
+4404,2\0444-D and 2\0444\0445-T (\181g/l),micrograms/litre,2\0444-D and 2\0444\0445-T (u,WQ,0.00001,5,LEVEL,UT,F,,,,,,F,,0,,14/11/2011,1030,SPETCHEL
+4421,Mecoprop 93-65-2 (\181g/l),micrograms/litre,Mecoprop 93-65-2 (\181g,WQ,0.00001,5,LEVEL,UT,F,,,,,,F,,0,,14/11/2011,1030,SPETCHEL
+4422,4-chloro-o-Tolyloxyacetic acid (MCPA) (u,micrograms/litre,4-chloro-o-Tolyloxya,WQ,0.00001,5,LEVEL,UT,F,,,,,,F,,0,,14/11/2011,1030,SPETCHEL
+4423,2\0444-D 94-75-7 (\181g/l),micrograms/litre,2\0444-D 94-75-7 (\181g/l),WQ,0.00001,5,LEVEL,UT,F,,,,,,F,,0,,14/11/2011,1030,SPETCHEL
+4424,Dicamba 1918-00-9 (\181g/l),micrograms/litre,Dicamba 1918-00-9 (u,WQ,0.00001,5,LEVEL,UT,F,,,,,,F,,0,,14/11/2011,1030,SPETCHEL
+4425,2\0444\0445-T 93-76-5 (\181g/l),micrograms/litre,2\0444\0445-T 93-76-5 (\181g/,WQ,0.00001,5,LEVEL,UT,F,,,,,,F,,0,,14/11/2011,1030,SPETCHEL
+4426,2\0444\0445-TP (Silvex) 93-72-1 (\181g/l),micrograms/litre,2\0444\0445-TP (Silvex) 93,WQ,0.00001,5,LEVEL,UT,F,,,,,,F,,0,,14/11/2011,1030,SPETCHEL
+4601,Total dipyridyls milligrams/litre (mg/l),mg/l,Total dipyridyls mil,WQ,0.00001,5,LEVEL,MGL,F,,,,,,F,,0,,14/11/2011,1030,SPETCHEL
+4602,Total dipyridyls micrograms/litre (\181g/l),micrograms/litre,Total dipyridyls mic,WQ,0.00001,5,LEVEL,UT,F,,,,,,F,,0,,14/11/2011,1030,SPETCHEL
+4621,S\044S\044S-Tributylphosphortrithioate(Degreen,mg/l,S\044S\044S-Tributylphosph,WQ,0.00001,5,LEVEL,MGL,F,,,,,,F,,0,,14/11/2011,1030,SPETCHEL
+4622,Paraquat 1910-42-5 (\181g/l),micrograms/litre,Paraquat 1910-42-5 (,WQ,0.00001,5,LEVEL,UT,F,,,,,,F,,0,,14/11/2011,1030,SPETCHEL
+4623,Glyphosate 1071-83-6 (\181g/l),micrograms/litre,Glyphosate 1071-83-6,WQ,0.00001,5,LEVEL,UT,F,,,,,,F,,0,,14/11/2011,1030,SPETCHEL
+4624,DSMA 144-21-8 (\181g/l),micrograms/litre,DSMA 144-21-8 (\181g/l),WQ,0.00001,5,LEVEL,UT,F,,,,,,F,,0,,14/11/2011,1030,SPETCHEL
+4625,Endothal 145-73-3 (\181g/l),micrograms/litre,Endothal 145-73-3 (u,WQ,0.00001,5,LEVEL,UT,F,,,,,,F,,0,,14/11/2011,1030,SPETCHEL
+4626,Trifluralin 1582-09-8 (\181g/l),micrograms/litre,Trifluralin 1582-09-,WQ,0.00001,5,LEVEL,UT,F,,,,,,F,,0,,14/11/2011,1030,SPETCHEL
+4627,Benefin 1861-40-1 (\181g/l),micrograms/litre,Benefin 1861-40-1 (u,WQ,0.00001,5,LEVEL,UT,F,,,,,,F,,0,,14/11/2011,1030,SPETCHEL
+4628,Oxyfluorfen 42874-03-3 (\181g/l),micrograms/litre,Oxyfluorfen 42874-03,WQ,0.00001,5,LEVEL,UT,F,,,,,,F,,0,,14/11/2011,1030,SPETCHEL
+4629,Aminotriazole 61-82-5 (\181g/l),micrograms/litre,Aminotriazole 61-82-,WQ,0.00001,5,LEVEL,UT,F,,,,,,F,,0,,14/11/2011,1030,SPETCHEL
+4630,Diquat Dibromide 6385-62-2 (\181g/l),micrograms/litre,Diquat Dibromide 638,WQ,0.00001,5,LEVEL,UT,F,,,,,,F,,0,,14/11/2011,1030,SPETCHEL
+4631,Trichloroacetic Acid 76-03-9 (\181g/l),micrograms/litre,Trichloroacetic Acid,WQ,0.00001,5,LEVEL,UT,F,,,,,,F,,0,,14/11/2011,1030,SPETCHEL
+4632,Thidiazuron 51707-55-2 (\181g/l),micrograms/litre,Thidiazuron 51707-55,WQ,0.00001,5,LEVEL,UT,F,,,,,,F,,0,,14/11/2011,1030,SPETCHEL
+4633,Fluazifop-P-butyl 79241-46-6 (\181g/l),micrograms/litre,Fluazifop-P-butyl 79,WQ,0.00001,5,LEVEL,UT,F,,,,,,F,,0,,14/11/2011,1030,SPETCHEL
+4634,Bromacil 314-40-9 (\181g/l),micrograms/litre,Bromacil 314-40-9 (u,WQ,0.00001,5,LEVEL,UT,F,,,,,,F,,0,,14/11/2011,1030,SPETCHEL
+4635,Butachlor 23184-66-9 (\181g/l),micrograms/litre,Butachlor 23184-66-9,WQ,0.00001,5,LEVEL,UT,F,,,,,,F,,0,,14/11/2011,1030,SPETCHEL
+4636,Pendimethalin 40487-42-1 (\181g/l),micrograms/litre,Pendimethalin 40487-,WQ,0.00001,5,LEVEL,UT,F,,,,,,F,,0,,14/11/2011,1030,SPETCHEL
+4637,Metolachlor 51218-45-2 (\181g/l),micrograms/litre,Metolachlor 51218-45,WQ,0.00001,5,LEVEL,UT,F,,,,,,F,,0,,14/11/2011,1030,SPETCHEL
+4638,Haloxyfop ??? (\181g/l),micrograms/litre,Haloxyfop ??? (\181g/l),WQ,0.00001,5,LEVEL,UT,F,,,,,,F,,0,,14/11/2011,1030,SPETCHEL
+4639,Dimethipin ??? (\181g/l),micrograms/litre,Dimethipin ??? (\181g/l,WQ,0.00001,5,LEVEL,UT,F,,,,,,F,,0,,14/11/2011,1030,SPETCHEL
+4640,Molinate 2212-67-1 (\181g/l),micrograms/litre,Molinate 2212-67-1 (,WQ,0.00001,5,LEVEL,UT,F,,,,,,F,,0,,14/11/2011,1030,SPETCHEL
+4821,Chlorothalonil 1897-45-6 (\181g/l),micrograms/litre,Chlorothalonil 1897-,WQ,0.00001,5,LEVEL,UT,F,,,,,,F,,0,,14/11/2011,1030,SPETCHEL
+4822,Chloranil 118-75-2 (\181g/l),micrograms/litre,Chloranil 118-75-2 (,WQ,0.00001,5,LEVEL,UT,F,,,,,,F,,0,,14/11/2011,1030,SPETCHEL
+4823,Iprodione 36734-19-7 (\181g/l),micrograms/litre,Iprodione 36734-19-7,WQ,0.00001,5,LEVEL,UT,F,,,,,,F,,0,,14/11/2011,1030,SPETCHEL
+4824,Maneb 12427-38-2 (\181g/l),micrograms/litre,Maneb 12427-38-2 (\181g,WQ,0.00001,5,LEVEL,UT,F,,,,,,F,,0,,14/11/2011,1030,SPETCHEL
+4825,Zineb 12122-67-7 (\181g/l),micrograms/litre,Zineb 12122-67-7 (\181g,WQ,0.00001,5,LEVEL,UT,F,,,,,,F,,0,,14/11/2011,1030,SPETCHEL
+4826,Thiram 137-26-8 (\181g/l),micrograms/litre,Thiram 137-26-8 (\181g/,WQ,0.00001,5,LEVEL,UT,F,,,,,,F,,0,,14/11/2011,1030,SPETCHEL
+4827,Benomyl 17804-35-2 (\181g/l),micrograms/litre,Benomyl 17804-35-2 (,WQ,0.00001,5,LEVEL,UT,F,,,,,,F,,0,,14/11/2011,1030,SPETCHEL
+4828,Captan 133-06-2 (\181g/l),micrograms/litre,Captan 133-06-2 (\181g/,WQ,0.00001,5,LEVEL,UT,F,,,,,,F,,0,,14/11/2011,1030,SPETCHEL
+4829,Baytan 55219-65-3 (\181g/l),micrograms/litre,Baytan 55219-65-3 (u,WQ,0.00001,5,LEVEL,UT,F,,,,,,F,,0,,14/11/2011,1030,SPETCHEL
+5001,Total Chlorophenol (mg/l),mg/l,Total Chlorophenol (,WQ,0.00001,5,LEVEL,MGL,F,,,,,,F,,0,,14/11/2011,1030,SPETCHEL
+5002,Total Chlorophenol (\181g/l),micrograms/litre,Total Chlorophenol (,WQ,0.00001,5,LEVEL,UT,F,,,,,,F,,0,,14/11/2011,1030,SPETCHEL
+5021,Phenol 108-95-2 (\181g/l),micrograms/litre,Phenol 108-95-2 (\181g/,WQ,0.00001,5,LEVEL,UT,F,,,,,,F,,0,,14/11/2011,1030,SPETCHEL
+5022,2\0444-Dimethylphenol 105-67-9 (\181g/l),micrograms/litre,2\0444-Dimethylphenol 1,WQ,0.00001,5,LEVEL,UT,F,,,,,,F,,0,,14/11/2011,1030,SPETCHEL
+5023,4-Chloro-3-Methylphenol 59-50-7 (\181g/l),micrograms/litre,4-Chloro-3-Methylphe,WQ,0.00001,5,LEVEL,UT,F,,,,,,F,,0,,14/11/2011,1030,SPETCHEL
+5024,2-Chlorophenol 95-57-8 (\181g/l),micrograms/litre,2-Chlorophenol 95-57,WQ,0.00001,5,LEVEL,UT,F,,,,,,F,,0,,14/11/2011,1030,SPETCHEL
+5025,2\0444-Dichlorophenol 120-83-2 (\181g/l),micrograms/litre,2\0444-Dichlorophenol 1,WQ,0.00001,5,LEVEL,UT,F,,,,,,F,,0,,14/11/2011,1030,SPETCHEL
+5026,2\0446-Dichlorophenol 87-65-0 (\181g/l),micrograms/litre,2\0446-Dichlorophenol 8,WQ,0.00001,5,LEVEL,UT,F,,,,,,F,,0,,14/11/2011,1030,SPETCHEL
+5027,2-Fluorophenol 367-12-4 (\181g/l),micrograms/litre,2-Fluorophenol 367-1,WQ,0.00001,5,LEVEL,UT,F,,,,,,F,,0,,14/11/2011,1030,SPETCHEL
+5028,2-Nitrophenol 88-75-5 (\181g/l),micrograms/litre,2-Nitrophenol 88-75-,WQ,0.00001,5,LEVEL,UT,F,,,,,,F,,0,,14/11/2011,1030,SPETCHEL
+5029,4-Nitrophenol 554-84-7 (\181g/l),micrograms/litre,4-Nitrophenol 554-84,WQ,0.00001,5,LEVEL,UT,F,,,,,,F,,0,,14/11/2011,1030,SPETCHEL
+5030,2\0444-Dinitrophenol 51-28-5 (\181g/l),micrograms/litre,2\0444-Dinitrophenol 51,WQ,0.00001,5,LEVEL,UT,F,,,,,,F,,0,,14/11/2011,1030,SPETCHEL
+5031,2\0444\0446-Trichlorophenol 88-06-2 (\181g/l),micrograms/litre,2\0444\0446-Trichloropheno,WQ,0.00001,5,LEVEL,UT,F,,,,,,F,,0,,14/11/2011,1030,SPETCHEL
+5032,Pentachlorophenol 87-86-5 (\181g/l),micrograms/litre,Pentachlorophenol 87,WQ,0.00001,5,LEVEL,UT,F,,,,,,F,,0,,14/11/2011,1030,SPETCHEL
+5201,Total Polycyclic Aromatic Hydroc (mg/l),mg/l,Total Polycyclic Aro,WQ,0.00001,5,LEVEL,MGL,F,,,,,,F,,0,,14/11/2011,1030,SPETCHEL
+5202,Total Polycyclic Aromatic Hydroc (\181g/l),micrograms/litre,Total Polycyclic Aro,WQ,0.00001,5,LEVEL,UT,F,,,,,,F,,0,,14/11/2011,1030,SPETCHEL
+5221,Acenaphthene 83-32-9 (\181g/l),micrograms/litre,Acenaphthene 83-32-9,WQ,0.00001,5,LEVEL,UT,F,,,,,,F,,0,,14/11/2011,1030,SPETCHEL
+5222,Acenaphthylene 208-96-8 (\181g/l),micrograms/litre,Acenaphthylene 208-9,WQ,0.00001,5,LEVEL,UT,F,,,,,,F,,0,,14/11/2011,1030,SPETCHEL
+5223,Anthracene 120-12-7 (\181g/l),micrograms/litre,Anthracene 120-12-7,WQ,0.00001,5,LEVEL,UT,F,,,,,,F,,0,,14/11/2011,1030,SPETCHEL
+5224,Benzo(a)anthracene 56-33-3 (\181g/l),micrograms/litre,Benzo(a)anthracene 5,WQ,0.00001,5,LEVEL,UT,F,,,,,,F,,0,,14/11/2011,1030,SPETCHEL
+5225,Benzo(a)pyrene 50-32-8 (\181g/l),micrograms/litre,Benzo(a)pyrene 50-32,WQ,0.00001,5,LEVEL,UT,F,,,,,,F,,0,,14/11/2011,1030,SPETCHEL
+5226,Benzo(b)fluoranthene 205-99-2 (\181g/l),micrograms/litre,Benzo(b)fluoranthene,WQ,0.00001,5,LEVEL,UT,F,,,,,,F,,0,,14/11/2011,1030,SPETCHEL
+5227,Benzo(j)fluoranthene ??? (\181g/l),micrograms/litre,Benzo(j)fluoranthene,WQ,0.00001,5,LEVEL,UT,F,,,,,,F,,0,,14/11/2011,1030,SPETCHEL
+5228,Benzo(k)fluoranthene 207-08-9 (\181g/l),micrograms/litre,Benzo(k)fluoranthene,WQ,0.00001,5,LEVEL,UT,F,,,,,,F,,0,,14/11/2011,1030,SPETCHEL
+5229,Benzo(ghi)perylene 191-24-2 (\181g/l),micrograms/litre,Benzo(ghi)perylene 1,WQ,0.00001,5,LEVEL,UT,F,,,,,,F,,0,,14/11/2011,1030,SPETCHEL
+5230,Chrysene 218-01-9 (\181g/l),micrograms/litre,Chrysene 218-01-9 (u,WQ,0.00001,5,LEVEL,UT,F,,,,,,F,,0,,14/11/2011,1030,SPETCHEL
+5231,Dibenz(a\044h)acridine ??? (\181g/l),micrograms/litre,Dibenz(a\044h)acridine,WQ,0.00001,5,LEVEL,UT,F,,,,,,F,,0,,14/11/2011,1030,SPETCHEL
+5232,Dibenz(a\044j)acridine 224-42-0 (\181g/l),micrograms/litre,Dibenz(a\044j)acridine,WQ,0.00001,5,LEVEL,UT,F,,,,,,F,,0,,14/11/2011,1030,SPETCHEL
+5233,Dibenz(a\044h)anthracene 53-70-3 (\181g/l),micrograms/litre,Dibenz(a\044h)anthracen,WQ,0.00001,5,LEVEL,UT,F,,,,,,F,,0,,14/11/2011,1030,SPETCHEL
+5234,7H-Dibenzo(c\044g)carbazole ??? (\181g/l),micrograms/litre,7H-Dibenzo(c\044g)carba,WQ,0.00001,5,LEVEL,UT,F,,,,,,F,,0,,14/11/2011,1030,SPETCHEL
+5235,Dibenzo(a\044e)pyrene 192-65-4 (\181g/l),micrograms/litre,Dibenzo(a\044e)pyrene 1,WQ,0.00001,5,LEVEL,UT,F,,,,,,F,,0,,14/11/2011,1030,SPETCHEL
+5236,Dibenzo(a\044h)pyrene ??? (\181g/l),micrograms/litre,Dibenzo(a\044h)pyrene ?,WQ,0.00001,5,LEVEL,UT,F,,,,,,F,,0,,14/11/2011,1030,SPETCHEL
+5237,Dibenzo(a\044i)pyrene ??? (\181g/l),micrograms/litre,Dibenzo(a\044i)pyrene ?,WQ,0.00001,5,LEVEL,UT,F,,,,,,F,,0,,14/11/2011,1030,SPETCHEL
+5238,Fluoranthene 206-44-0 (\181g/l),micrograms/litre,Fluoranthene 206-44-,WQ,0.00001,5,LEVEL,UT,F,,,,,,F,,0,,14/11/2011,1030,SPETCHEL
+5239,Fluorene 80-73-7 (\181g/l),micrograms/litre,Fluorene 80-73-7 (\181g,WQ,0.00001,5,LEVEL,UT,F,,,,,,F,,0,,14/11/2011,1030,SPETCHEL
+5240,Indeno(1\0442\0443-cd)pyrene 193-39-5 (\181g/l),micrograms/litre,Indeno(1\0442\0443-cd)pyre,WQ,0.00001,5,LEVEL,UT,F,,,,,,F,,0,,14/11/2011,1030,SPETCHEL
+5241,3-Methylcholanthrene 56-49-5 (\181g/l),micrograms/litre,3-Methylcholanthrene,WQ,0.00001,5,LEVEL,UT,F,,,,,,F,,0,,14/11/2011,1030,SPETCHEL
+5242,Naphthalene 91-20-3 (\181g/l),micrograms/litre,Naphthalene 91-20-3,WQ,0.00001,5,LEVEL,UT,F,,,,,,F,,0,,14/11/2011,1030,SPETCHEL
+5243,Phenanthrene 85-01-8 (\181g/l),micrograms/litre,Phenanthrene 85-01-8,WQ,0.00001,5,LEVEL,UT,F,,,,,,F,,0,,14/11/2011,1030,SPETCHEL
+5244,Pyrene 129-00-0 (\181g/l),micrograms/litre,Pyrene 129-00-0 (\181g/,WQ,0.00001,5,LEVEL,UT,F,,,,,,F,,0,,14/11/2011,1030,SPETCHEL
+5245,2-Chloronaphthalene 91-58-7 (\181g/l),micrograms/litre,2-Chloronaphthalene,WQ,0.00001,5,LEVEL,UT,F,,,,,,F,,0,,14/11/2011,1030,SPETCHEL
+5401,BTEX (mg/l),mg/l,BTEX (mg/l),WQ,0.00001,5,LEVEL,MGL,F,,,,,,F,,0,,14/11/2011,1030,SPETCHEL
+5402,BTEX (\181g/l),micrograms/litre,BTEX (\181g/l),WQ,0.00001,5,LEVEL,UT,F,,,,,,F,,0,,14/11/2011,1030,SPETCHEL
+5403,methylbenzene (mg/l),mg/l,methylbenzene (mg/l),OTH,0.000001,6,LEVEL,MGL,T,,,,,,F,,0,,14/11/2011,1030,SPETCHEL
+5404,Dimethylbenzene (mg/l),mg/l,Dimethylbenzene (mg/,OTH,0.000001,6,LEVEL,MGL,T,,,,,,F,,0,,14/11/2011,1030,SPETCHEL
+5411,Ethylbenzene 100-41-4 (\181g/l),micrograms/litre,Ethylbenzene 100-41-,WQ,0.00001,5,LEVEL,UT,F,,,,,,F,,0,,14/11/2011,1030,SPETCHEL
+5412,Chlorobenzene 108-90-7 (\181g/l),micrograms/litre,Chlorobenzene 108-90,WQ,0.00001,5,LEVEL,UT,F,,,,,,F,,0,,14/11/2011,1030,SPETCHEL
+5413,1\0442\0444-Trichlorobenzene 120-82-1 (\181g/l),micrograms/litre,1\0442\0444-Trichlorobenze,WQ,0.00001,5,LEVEL,UT,F,,,,,,F,,0,,14/11/2011,1030,SPETCHEL
+5414,4-Bromofluorobenzene 460-00-4 (\181g/l),micrograms/litre,4-Bromofluorobenzene,WQ,0.00001,5,LEVEL,UT,F,,,,,,F,,0,,14/11/2011,1030,SPETCHEL
+5415,Benzene 71-43-2 (\181g/l),micrograms/litre,Benzene 71-43-2 (\181g/,WQ,0.00001,5,LEVEL,UT,F,,,,,,F,,0,,14/11/2011,1030,SPETCHEL
+5416,Benzene - Average (\181g/l),micrograms/litre,Benzene - Average (u,OTH,0.00001,5,LEVEL,UT,F,,,,,,F,,0,,14/11/2011,1030,SPETCHEL
+5417,Benzene - Maximum (\181g/l),micrograms/litre,Benzene - Maximum (u,OTH,0.00001,5,LEVEL,UT,F,,,,,,F,,0,,14/11/2011,1030,SPETCHEL
+5418,Volatile Organic Compounds - 1 min ave (,ppm,Volatile Organic Com,OTH,0.000001,6,LEVEL,PPM,F,,,,,,F,,0,,14/11/2011,1030,SPETCHEL
+5419,Volatile Organic Compounds - inst (ppm),ppm,Volatile Organic Com,OTH,0.000001,6,LEVEL,PPM,F,,,,,,F,,0,,14/11/2011,1030,SPETCHEL
+5451,Total Petroleum Hydrocarbons C6-C9,mg/l,TPH C6-C9 (mg/l),WQ,0.00001,5,LEVEL,MGL,T,,,,,,F,,0,,21/12/2012,947,SPETCHEL
+5452,Total Petroleum Hydrocarbons C10-C14,mg/l,TPH C10-C14 (mg/l),WQ,0.00001,5,LEVEL,MGL,T,,,,,,F,,0,,21/12/2012,1012,SPETCHEL
+5453,Total Petroleum Hydrocarbons C15-C28,mg/l,TPH C15-C28 (mg/l),WQ,0.00001,5,LEVEL,MGL,T,,,,,,F,,0,,21/12/2012,1012,SPETCHEL
+5454,Total Petroleum Hydrocarbons C29-C36,mg/l,TPH C29-C36 (mg/l),WQ,0.00001,5,LEVEL,MGL,T,,,,,,F,,0,,21/12/2012,1012,SPETCHEL
+5621,Acrylonitrile ???107-13-1 (\181g/l),micrograms/litre,Acrylonitrile ???107,WQ,0.00001,5,LEVEL,UT,F,,,,,,F,,0,,14/11/2011,1030,SPETCHEL
+5701,Total Polychlorinated Biphenyls (mg/l),mg/l,Total Polychlorinate,WQ,0.00001,5,LEVEL,MGL,F,,,,,,F,,0,,14/11/2011,1030,SPETCHEL
+5702,Total Polychlorinated Biphenyls (\181g/l),micrograms/litre,Total Polychlorinate,WQ,0.00001,5,LEVEL,UT,F,,,,,,F,,0,,14/11/2011,1030,SPETCHEL
+5721,Arochlor1016 12674-11-2 (\181g/l),micrograms/litre,Arochlor1016 12674-1,WQ,0.00001,5,LEVEL,UT,F,,,,,,F,,0,,14/11/2011,1030,SPETCHEL
+5722,Arochlor1221 11104-28-2 (\181g/l),micrograms/litre,Arochlor1221 11104-2,WQ,0.00001,5,LEVEL,UT,F,,,,,,F,,0,,14/11/2011,1030,SPETCHEL
+5723,Arochlor1232 11141-16-5 (\181g/l),micrograms/litre,Arochlor1232 11141-1,WQ,0.00001,5,LEVEL,UT,F,,,,,,F,,0,,14/11/2011,1030,SPETCHEL
+5724,Arochlor1242 53469-21-9 (\181g/l),micrograms/litre,Arochlor1242 53469-2,WQ,0.00001,5,LEVEL,UT,F,,,,,,F,,0,,14/11/2011,1030,SPETCHEL
+5725,Arochlor1248 12672-29-6 (\181g/l),micrograms/litre,Arochlor1248 12672-2,WQ,0.00001,5,LEVEL,UT,F,,,,,,F,,0,,14/11/2011,1030,SPETCHEL
+5726,Arochlor1254 11097-69-1 (\181g/l),micrograms/litre,Arochlor1254 11097-6,WQ,0.00001,5,LEVEL,UT,F,,,,,,F,,0,,14/11/2011,1030,SPETCHEL
+5727,Arochlor1260 11096-82-5 (\181g/l),micrograms/litre,Arochlor1260 11096-8,WQ,0.00001,5,LEVEL,UT,F,,,,,,F,,0,,14/11/2011,1030,SPETCHEL
+6001,Viruses (orgs/100ml),Orgs/100mL,Viruses (orgs/100ml),WQ,0.00001,5,LEVEL,CPHM,F,,,,,,F,,0,,14/11/2011,1030,SPETCHEL
+6002,Gram Negative bacteria,Colony Forming units,Gram Negative bacter,WQ,0.00001,5,LEVEL,SCAL,F,,,,,,F,,0,,14/11/2011,1030,SPETCHEL
+6003,Gram Positive bacteria,Colony Forming units,Gram Positive bacter,WQ,0.00001,5,LEVEL,SCAL,F,,,,,,F,,0,,14/11/2011,1030,SPETCHEL
+6101,Total Plate Count,Colony Forming units,Total Plate Count,WQ,0.00001,5,LEVEL,SCAL,F,,,,,,F,,0,,14/11/2011,1030,SPETCHEL
+6102,Gram negative bacteria,Colony Forming units,Gram negative bacter,WQ,0.00001,5,LEVEL,SCAL,F,,,,,,F,,0,,14/11/2011,1030,SPETCHEL
+6103,Gram positive bacteria,Colony Forming units,Gram positive bacter,WQ,0.00001,5,LEVEL,SCAL,F,,,,,,F,,0,,14/11/2011,1030,SPETCHEL
+6111,Total Coliform,Colony Forming units,Total Coliform,WQ,0.00001,5,LEVEL,SCAL,F,,,,,,F,,0,,14/11/2011,1030,SPETCHEL
+6112,Faecal Coliform,Colony Forming units,Faecal Coliform,WQ,0.00001,5,LEVEL,SCAL,F,,,,,,F,,0,,14/11/2011,1030,SPETCHEL
+6113,Salmonella,Colony Forming units,Salmonella,WQ,0.00001,5,LEVEL,SCAL,F,,,,,,F,,0,,14/11/2011,1030,SPETCHEL
+6114,E. coli,Colony Forming units,E. coli,WQ,0.00001,5,LEVEL,SCAL,F,,,,,,F,,0,,14/11/2011,1030,SPETCHEL
+6115,E. coli (orgs/100ml),Orgs/100mL,E. coli (orgs/100ml),WQ,0.00001,5,LEVEL,CPHM,F,,,,,,F,,0,,14/11/2011,1030,SPETCHEL
+6121,Faecal Streptococci,Colony Forming units,Faecal Streptococci,WQ,0.00001,5,LEVEL,SCAL,F,,,,,,F,,0,,14/11/2011,1030,SPETCHEL
+6122,Enterococci,Colony Forming units,Enterococci,WQ,0.00001,5,LEVEL,SCAL,F,,,,,,F,,0,,14/11/2011,1030,SPETCHEL
+6131,Thiobacillus,Colony Forming units,Thiobacillus,WQ,0.00001,5,LEVEL,SCAL,F,,,,,,F,,0,,14/11/2011,1030,SPETCHEL
+6132,Pseudomonas,Colony Forming units,Pseudomonas,WQ,0.00001,5,LEVEL,SCAL,F,,,,,,F,,0,,14/11/2011,1030,SPETCHEL
+6133,Aeromonas,Colony Forming units,Aeromonas,WQ,0.00001,5,LEVEL,SCAL,F,,,,,,F,,0,,14/11/2011,1030,SPETCHEL
+6141,Nitrosomonas,Colony Forming units,Nitrosomonas,WQ,0.00001,5,LEVEL,SCAL,F,,,,,,F,,0,,14/11/2011,1030,SPETCHEL
+6142,Nitrobacter,Colony Forming units,Nitrobacter,WQ,0.00001,5,LEVEL,SCAL,F,,,,,,F,,0,,14/11/2011,1030,SPETCHEL
+6151,Iron Bacteria,Colony Forming units,Iron Bacteria,WQ,0.00001,5,LEVEL,SCAL,F,,,,,,F,,0,,14/11/2011,1030,SPETCHEL
+6152,Sulphur Bacteria,Colony Forming units,Sulphur Bacteria,WQ,0.00001,5,LEVEL,SCAL,F,,,,,,F,,0,,14/11/2011,1030,SPETCHEL
+6201,Actinomycetes,Colony Forming units,Actinomycetes,WQ,0.00001,5,LEVEL,SCAL,F,,,,,,F,,0,,14/11/2011,1030,SPETCHEL
+6202,Thiobacillus,Colony Forming units,Thiobacillus,WQ,0.00001,5,LEVEL,SCAL,F,,,,,,F,,0,,14/11/2011,1030,SPETCHEL
+6203,Microfungae,Colony Forming units,Microfungae,WQ,0.00001,5,LEVEL,SCAL,F,,,,,,F,,0,,14/11/2011,1030,SPETCHEL
+7001,Chlorophyll-a (\181g/l),micrograms/litre,Chlorophyll-a (\181g/l),WQ,0.00001,5,LEVEL,UT,T,,,,,,F,,0,,14/11/2011,1030,SPETCHEL
+7002,Chlorophyll-b (\181g/l),micrograms/litre,Chlorophyll-b (\181g/l),WQ,0.00001,5,LEVEL,UT,F,,,,,,F,,0,,14/11/2011,1030,SPETCHEL
+7003,Chlorophyll-c (\181g/l),micrograms/litre,Chlorophyll-c (\181g/l),WQ,0.00001,5,LEVEL,UT,F,,,,,,F,,0,,14/11/2011,1030,SPETCHEL
+7004,Total Chlorophyll (\181g/l),micrograms/litre,Total Chlorophyll (u,WQ,0.00001,5,LEVEL,UT,F,,,,,,F,,0,,14/11/2011,1030,SPETCHEL
+7005,Phaeophytin (\181g/l),micrograms/litre,Phaeophytin (\181g/l),WQ,0.00001,5,LEVEL,UT,T,,,,,,F,,0,,14/11/2011,1030,SPETCHEL
+7501,Beryllium (mg/l),mg/l,Beryllium (mg/l),OTH,0.00001,5,LEVEL,MGL,T,,,,,,F,,0,,14/11/2011,1030,SPETCHEL
+7502,Scandium (\181g/l),micrograms/litre,Scandium (\181g/l),WQ,0.00001,5,LEVEL,UT,F,,,,,,F,,0,,14/11/2011,1030,SPETCHEL
+7503,Gallium (\181g/l),micrograms/litre,Gallium (\181g/l),WQ,0.00001,5,LEVEL,UT,F,,,,,,F,,0,,14/11/2011,1030,SPETCHEL
+7504,Germanium (\181g/l),micrograms/litre,Germanium (\181g/l),WQ,0.00001,5,LEVEL,UT,F,,,,,,F,,0,,14/11/2011,1030,SPETCHEL
+7505,Rubidium (\181g/l),micrograms/litre,Rubidium (\181g/l),WQ,0.00001,5,LEVEL,UT,F,,,,,,F,,0,,14/11/2011,1030,SPETCHEL
+7506,Ruthenium (\181g/l),micrograms/litre,Ruthenium (\181g/l),WQ,0.00001,5,LEVEL,UT,F,,,,,,F,,0,,14/11/2011,1030,SPETCHEL
+7507,Rhodium (\181g/l),micrograms/litre,Rhodium (\181g/l),WQ,0.00001,5,LEVEL,UT,F,,,,,,F,,0,,14/11/2011,1030,SPETCHEL
+7508,Palladium (\181g/l),micrograms/litre,Palladium (\181g/l),WQ,0.00001,5,LEVEL,UT,F,,,,,,F,,0,,14/11/2011,1030,SPETCHEL
+7509,Tellurium (mg/l),mg/l,Tellurium (mg/l),OTH,0.00001,5,LEVEL,MGL,T,,,,,,F,,0,,14/11/2011,1030,SPETCHEL
+7510,Praseodymium (\181g/l),micrograms/litre,Praseodymium (\181g/l),WQ,0.00001,5,LEVEL,UT,F,,,,,,F,,0,,14/11/2011,1030,SPETCHEL
+7511,Neodymium (\181g/l),micrograms/litre,Neodymium (\181g/l),WQ,0.00001,5,LEVEL,UT,F,,,,,,F,,0,,14/11/2011,1030,SPETCHEL
+7512,Samarium (\181g/l),micrograms/litre,Samarium (\181g/l),WQ,0.00001,5,LEVEL,UT,F,,,,,,F,,0,,14/11/2011,1030,SPETCHEL
+7513,Europium (\181g/l),micrograms/litre,Europium (\181g/l),WQ,0.00001,5,LEVEL,UT,F,,,,,,F,,0,,14/11/2011,1030,SPETCHEL
+7514,Terbium (\181g/l),micrograms/litre,Terbium (\181g/l),WQ,0.00001,5,LEVEL,UT,F,,,,,,F,,0,,14/11/2011,1030,SPETCHEL
+7515,Dysprosium (\181g/l),micrograms/litre,Dysprosium (\181g/l),WQ,0.00001,5,LEVEL,UT,F,,,,,,F,,0,,14/11/2011,1030,SPETCHEL
+7516,Holmium (\181g/l),micrograms/litre,Holmium (\181g/l),WQ,0.00001,5,LEVEL,UT,F,,,,,,F,,0,,14/11/2011,1030,SPETCHEL
+7517,Erbium (\181g/l),micrograms/litre,Erbium (\181g/l),WQ,0.00001,5,LEVEL,UT,F,,,,,,F,,0,,14/11/2011,1030,SPETCHEL
+7518,Thulium (\181g/l),micrograms/litre,Thulium (\181g/l),WQ,0.00001,5,LEVEL,UT,F,,,,,,F,,0,,14/11/2011,1030,SPETCHEL
+7519,Ytterbium (\181g/l),micrograms/litre,Ytterbium (\181g/l),WQ,0.00001,5,LEVEL,UT,F,,,,,,F,,0,,14/11/2011,1030,SPETCHEL
+7520,Lutetium (\181g/l),micrograms/litre,Lutetium (\181g/l),WQ,0.00001,5,LEVEL,UT,F,,,,,,F,,0,,14/11/2011,1030,SPETCHEL
+7521,Hafnium (\181g/l),micrograms/litre,Hafnium (\181g/l),WQ,0.00001,5,LEVEL,UT,F,,,,,,F,,0,,14/11/2011,1030,SPETCHEL
+7522,Tantalum (\181g/l),micrograms/litre,Tantalum (\181g/l),WQ,0.00001,5,LEVEL,UT,F,,,,,,F,,0,,14/11/2011,1030,SPETCHEL
+7523,Tungsen (\181g/l),micrograms/litre,Tungsen (\181g/l),WQ,0.00001,5,LEVEL,UT,F,,,,,,F,,0,,14/11/2011,1030,SPETCHEL
+7524,Rhenium (\181g/l),micrograms/litre,Rhenium (\181g/l),WQ,0.00001,5,LEVEL,UT,F,,,,,,F,,0,,14/11/2011,1030,SPETCHEL
+7525,Osmium (\181g/l),micrograms/litre,Osmium (\181g/l),WQ,0.00001,5,LEVEL,UT,F,,,,,,F,,0,,14/11/2011,1030,SPETCHEL
+7526,Iridium (\181g/l),micrograms/litre,Iridium (\181g/l),WQ,0.00001,5,LEVEL,UT,F,,,,,,F,,0,,14/11/2011,1030,SPETCHEL
+7527,Platinium (\181g/l),micrograms/litre,Platinium (\181g/l),WQ,0.00001,5,LEVEL,UT,F,,,,,,F,,0,,14/11/2011,1030,SPETCHEL
+7528,Thallium (\181g/l),micrograms/litre,Thallium (\181g/l),WQ,0.00001,5,LEVEL,UT,F,,,,,,F,,0,,14/11/2011,1030,SPETCHEL
+7529,Cerium (\181g/l),micrograms/litre,Cerium (\181g/l),WQ,0.00001,5,LEVEL,UT,F,,,,,,F,,0,,14/11/2011,1030,SPETCHEL
+7530,Gadolinium (\181g/l),micrograms/litre,Gadolinium (\181g/l),WQ,0.00001,5,LEVEL,UT,F,,,,,,F,,0,,14/11/2011,1030,SPETCHEL
+7531,Lanthanum (\181g/l),micrograms/litre,Lanthanum (\181g/l),WQ,0.00001,5,LEVEL,UT,F,,,,,,F,,0,,14/11/2011,1030,SPETCHEL
+7532,Niobium (\181g/l),micrograms/litre,Niobium (\181g/l),WQ,0.00001,5,LEVEL,UT,F,,,,,,F,,0,,14/11/2011,1030,SPETCHEL
+7533,Yttrium (\181g/l),micrograms/litre,Yttrium (\181g/l),WQ,0.00001,5,LEVEL,UT,F,,,,,,F,,0,,14/11/2011,1030,SPETCHEL
+7534,Thorium - total (\181g/l),micrograms/litre,Thorium - total (\181g/,WQ,0.00001,5,LEVEL,UT,F,,,,,,F,,0,,14/11/2011,1030,SPETCHEL
+7535,Indium (\181g/l),micrograms/litre,Indium (\181g/l),WQ,0.00001,5,LEVEL,UT,F,,,,,,F,,0,,14/11/2011,1030,SPETCHEL
+8000,Sample volume (l),Litres,Sample volume (l),OTH,0.000001,6,LEVEL,L,T,,,,,,F,,0,,14/11/2011,1030,SPETCHEL
+8001,Sample depth (mm),mm,Sample depth,OTH,1,0,TOTAL,MM,T,,,,,,F,,0,,14/11/2011,1030,SPETCHEL
+8003,Total Algae Count (inc BGA) (cells/ml),cells/ml,Total Algae Count (i,OTH,0.000001,6,LEVEL,CPML,T,,,,,,F,,0,,14/11/2011,1030,SPETCHEL
+8004,BGA Algalscan (cells/ml),cells/ml,BGA Algalscan (cells,OTH,0.000001,6,LEVEL,CPML,T,,,,,,F,,0,,14/11/2011,1030,SPETCHEL
+8100,Algae - unknown taxa (cells/ml),cells/ml,Algae - unknown taxa,WQ,0.00001,5,LEVEL,CPML,F,,,,,,F,,0,,14/11/2011,1030,SPETCHEL
+8101,Division CHLOROPHYTA - total count (cell,cells/ml,Division CHLOROPHYTA,WQ,0.00001,5,LEVEL,CPML,F,,,,,,F,,0,,14/11/2011,1030,SPETCHEL
+8102,Division CHLOROPHYTA - unknown genus (ce,cells/ml,Division CHLOROPHYTA,WQ,0.00001,5,LEVEL,CPML,F,,,,,,F,,0,,14/11/2011,1030,SPETCHEL
+8111,Sub-phyllum CHAROPHYCEAE - total count (,cells/ml,Sub-phyllum CHAROPHY,WQ,0.00001,5,LEVEL,CPML,F,,,,,,F,,0,,14/11/2011,1030,SPETCHEL
+8112,Sub-phyllum CHAROPHYCEAE - unknown genus,cells/ml,Sub-phyllum CHAROPHY,WQ,0.00001,5,LEVEL,CPML,F,,,,,,F,,0,,14/11/2011,1030,SPETCHEL
+8121,Order Charales - total count (cells/ml),cells/ml,Order Charales - tot,WQ,0.00001,5,LEVEL,CPML,F,,,,,,F,,0,,14/11/2011,1030,SPETCHEL
+8122,Order Charales - unknown genus (cells/ml,cells/ml,Order Charales - unk,WQ,0.00001,5,LEVEL,CPML,F,,,,,,F,,0,,14/11/2011,1030,SPETCHEL
+8123,Chara (cells/ml),cells/ml,Chara (cells/ml),WQ,0.00001,5,LEVEL,CPML,F,,,,,,F,,0,,14/11/2011,1030,SPETCHEL
+8124,Nitella (cells/ml),cells/ml,Nitella (cells/ml),WQ,0.00001,5,LEVEL,CPML,F,,,,,,F,,0,,14/11/2011,1030,SPETCHEL
+8131,Sub-phyllum CHLOROPHYCEAE - total count,cells/ml,Sub-phyllum CHLOROPH,WQ,0.00001,5,LEVEL,CPML,F,,,,,,F,,0,,14/11/2011,1030,SPETCHEL
+8132,Sub-phyllum CHLOROPHYCEAE - unk. genus (,cells/ml,Sub-phyllum CHLOROPH,WQ,0.00001,5,LEVEL,CPML,F,,,,,,F,,0,,14/11/2011,1030,SPETCHEL
+8133,Green filamentous (unidentified) (cells/,cells/ml,Green filamentous (u,WQ,0.00001,5,LEVEL,CPML,F,,,,,,F,,0,,14/11/2011,1030,SPETCHEL
+8134,Green filamentous (unidentified) (cells/,cells/ml,Green filamentous (u,WQ,0.00001,5,LEVEL,CPML,F,,,,,,F,,0,,14/11/2011,1030,SPETCHEL
+8141,Order Chaetophorales - total count (cell,cells/ml,Order Chaetophorales,WQ,0.00001,5,LEVEL,CPML,F,,,,,,F,,0,,14/11/2011,1030,SPETCHEL
+8142,Order Chaetophorales - unknown genus (ce,cells/ml,Order Chaetophorales,WQ,0.00001,5,LEVEL,CPML,F,,,,,,F,,0,,14/11/2011,1030,SPETCHEL
+8143,Apatococcus (cells/ml),cells/ml,Apatococcus (cells/m,WQ,0.00001,5,LEVEL,CPML,F,,,,,,F,,0,,14/11/2011,1030,SPETCHEL
+8144,Chaetophora (cells/ml),cells/ml,Chaetophora (cells/m,WQ,0.00001,5,LEVEL,CPML,F,,,,,,F,,0,,14/11/2011,1030,SPETCHEL
+8145,Desmococcus (cells/ml),cells/ml,Desmococcus (cells/m,WQ,0.00001,5,LEVEL,CPML,F,,,,,,F,,0,,14/11/2011,1030,SPETCHEL
+8146,Stigeoclonium (cells/ml),cells/ml,Stigeoclonium (cells,WQ,0.00001,5,LEVEL,CPML,F,,,,,,F,,0,,14/11/2011,1030,SPETCHEL
+8151,Order Chlorococcales - total count (cell,cells/ml,Order Chlorococcales,WQ,0.00001,5,LEVEL,CPML,F,,,,,,F,,0,,14/11/2011,1030,SPETCHEL
+8152,Order Chlorococcales - unknown genus (ce,cells/ml,Order Chlorococcales,WQ,0.00001,5,LEVEL,CPML,F,,,,,,F,,0,,14/11/2011,1030,SPETCHEL
+8153,Acanthosphaera (cells/ml),cells/ml,Acanthosphaera (cell,WQ,0.00001,5,LEVEL,CPML,F,,,,,,F,,0,,14/11/2011,1030,SPETCHEL
+8154,Actinastrum (cells/ml),cells/ml,Actinastrum (cells/m,WQ,0.00001,5,LEVEL,CPML,F,,,,,,F,,0,,14/11/2011,1030,SPETCHEL
+8155,Actinastrum aciculare (cells/ml),cells/ml,Actinastrum acicular,WQ,0.00001,5,LEVEL,CPML,F,,,,,,F,,0,,14/11/2011,1030,SPETCHEL
+8156,Actinastrum gracilis (cells/ml),cells/ml,Actinastrum gracilis,WQ,0.00001,5,LEVEL,CPML,F,,,,,,F,,0,,14/11/2011,1030,SPETCHEL
+8157,Ankistrodesmus (cells/ml),cells/ml,Ankistrodesmus (cell,WQ,0.00001,5,LEVEL,CPML,F,,,,,,F,,0,,14/11/2011,1030,SPETCHEL
+8158,Ankistrodesmus falatus (cells/ml),cells/ml,Ankistrodesmus falat,WQ,0.00001,5,LEVEL,CPML,F,,,,,,F,,0,,14/11/2011,1030,SPETCHEL
+8159,Ankistrodesmus falatus var acilula (cell,cells/ml,Ankistrodesmus falat,WQ,0.00001,5,LEVEL,CPML,F,,,,,,F,,0,,14/11/2011,1030,SPETCHEL
+8160,Ankistrodesmus falatus var setifor (cell,cells/ml,Ankistrodesmus falat,WQ,0.00001,5,LEVEL,CPML,F,,,,,,F,,0,,14/11/2011,1030,SPETCHEL
+8161,Ankistrodesmus falcatus (cells/ml),cells/ml,Ankistrodesmus falca,WQ,0.00001,5,LEVEL,CPML,F,,,,,,F,,0,,14/11/2011,1030,SPETCHEL
+8162,Ankyra (cells/ml),cells/ml,Ankyra (cells/ml),WQ,0.00001,5,LEVEL,CPML,F,,,,,,F,,0,,14/11/2011,1030,SPETCHEL
+8163,Ankyra judaii (cells/ml),cells/ml,Ankyra judaii (cells,WQ,0.00001,5,LEVEL,CPML,F,,,,,,F,,0,,14/11/2011,1030,SPETCHEL
+8164,Botryococcus (cells/ml),cells/ml,Botryococcus (cells/,WQ,0.00001,5,LEVEL,CPML,F,,,,,,F,,0,,14/11/2011,1030,SPETCHEL
+8165,Botryococcus (colony) (cells/ml),cells/ml,Botryococcus (colony,WQ,0.00001,5,LEVEL,CPML,F,,,,,,F,,0,,14/11/2011,1030,SPETCHEL
+8166,Characium (cells/ml),cells/ml,Characium (cells/ml),WQ,0.00001,5,LEVEL,CPML,F,,,,,,F,,0,,14/11/2011,1030,SPETCHEL
+8167,Chlorella (cells/ml),cells/ml,Chlorella (cells/ml),WQ,0.00001,5,LEVEL,CPML,F,,,,,,F,,0,,14/11/2011,1030,SPETCHEL
+8168,Chodatella (cells/ml),cells/ml,Chodatella (cells/ml,WQ,0.00001,5,LEVEL,CPML,F,,,,,,F,,0,,14/11/2011,1030,SPETCHEL
+8169,Chodatella quadriseta (cells/ml),cells/ml,Chodatella quadriset,WQ,0.00001,5,LEVEL,CPML,F,,,,,,F,,0,,14/11/2011,1030,SPETCHEL
+8170,Closteridium (cells/ml),cells/ml,Closteridium (cells/,WQ,0.00001,5,LEVEL,CPML,F,,,,,,F,,0,,14/11/2011,1030,SPETCHEL
+8171,Closteriopsis (cells/ml),cells/ml,Closteriopsis (cells,WQ,0.00001,5,LEVEL,CPML,F,,,,,,F,,0,,14/11/2011,1030,SPETCHEL
+8172,Closteriopsis longissima (cells/ml),cells/ml,Closteriopsis longis,WQ,0.00001,5,LEVEL,CPML,F,,,,,,F,,0,,14/11/2011,1030,SPETCHEL
+8173,Coccomyxa (cells/ml),cells/ml,Coccomyxa (cells/ml),WQ,0.00001,5,LEVEL,CPML,F,,,,,,F,,0,,14/11/2011,1030,SPETCHEL
+8174,Coelastrum (cells/ml),cells/ml,Coelastrum (cells/ml,WQ,0.00001,5,LEVEL,CPML,F,,,,,,F,,0,,14/11/2011,1030,SPETCHEL
+8175,Crucigenia (cells/ml),cells/ml,Crucigenia (cells/ml,WQ,0.00001,5,LEVEL,CPML,F,,,,,,F,,0,,14/11/2011,1030,SPETCHEL
+8176,Crucigenia fenestrata (cells/ml),cells/ml,Crucigenia fenestrat,WQ,0.00001,5,LEVEL,CPML,F,,,,,,F,,0,,14/11/2011,1030,SPETCHEL
+8177,Crucigenia tetrapedia (cells/ml),cells/ml,Crucigenia tetrapedi,WQ,0.00001,5,LEVEL,CPML,F,,,,,,F,,0,,14/11/2011,1030,SPETCHEL
+8178,Crucigenia truncata (cells/ml),cells/ml,Crucigenia truncata,WQ,0.00001,5,LEVEL,CPML,F,,,,,,F,,0,,14/11/2011,1030,SPETCHEL
+8179,Dactylococcus (cells/ml),cells/ml,Dactylococcus (cells,WQ,0.00001,5,LEVEL,CPML,F,,,,,,F,,0,,14/11/2011,1030,SPETCHEL
+8180,Dicellula (cells/ml),cells/ml,Dicellula (cells/ml),WQ,0.00001,5,LEVEL,CPML,F,,,,,,F,,0,,14/11/2011,1030,SPETCHEL
+8181,Dictyosphaeriopsis (cells/ml),cells/ml,Dictyosphaeriopsis (,WQ,0.00001,5,LEVEL,CPML,F,,,,,,F,,0,,14/11/2011,1030,SPETCHEL
+8182,Dictyosphaerium (cells/ml),cells/ml,Dictyosphaerium (cel,WQ,0.00001,5,LEVEL,CPML,F,,,,,,F,,0,,14/11/2011,1030,SPETCHEL
+8183,Dictyosphaerium pulchellum (cells/ml),cells/ml,Dictyosphaerium pulc,WQ,0.00001,5,LEVEL,CPML,F,,,,,,F,,0,,14/11/2011,1030,SPETCHEL
+8184,Dictyosphaerium very small species (cell,cells/ml,Dictyosphaerium very,WQ,0.00001,5,LEVEL,CPML,F,,,,,,F,,0,,14/11/2011,1030,SPETCHEL
+8185,Dimorphococcus (cells/ml),cells/ml,Dimorphococcus (cell,WQ,0.00001,5,LEVEL,CPML,F,,,,,,F,,0,,14/11/2011,1030,SPETCHEL
+8186,Dimorphococcus lunaris (cells/ml),cells/ml,Dimorphococcus lunar,WQ,0.00001,5,LEVEL,CPML,F,,,,,,F,,0,,14/11/2011,1030,SPETCHEL
+8187,Elakatothrix (cells/ml),cells/ml,Elakatothrix (cells/,WQ,0.00001,5,LEVEL,CPML,F,,,,,,F,,0,,14/11/2011,1030,SPETCHEL
+8188,Elakatothrix gelatinosa (cells/ml),cells/ml,Elakatothrix gelatin,WQ,0.00001,5,LEVEL,CPML,F,,,,,,F,,0,,14/11/2011,1030,SPETCHEL
+8189,Elakatothrix lacustria (cells/ml),cells/ml,Elakatothrix lacustr,WQ,0.00001,5,LEVEL,CPML,F,,,,,,F,,0,,14/11/2011,1030,SPETCHEL
+8190,Franceia (cells/ml),cells/ml,Franceia (cells/ml),WQ,0.00001,5,LEVEL,CPML,F,,,,,,F,,0,,14/11/2011,1030,SPETCHEL
+8191,Golenkinia (cells/ml),cells/ml,Golenkinia (cells/ml,WQ,0.00001,5,LEVEL,CPML,F,,,,,,F,,0,,14/11/2011,1030,SPETCHEL
+8192,Golenkiniopsis (cells/ml),cells/ml,Golenkiniopsis (cell,WQ,0.00001,5,LEVEL,CPML,F,,,,,,F,,0,,14/11/2011,1030,SPETCHEL
+8193,Hydrodictyon (cells/ml),cells/ml,Hydrodictyon (cells/,WQ,0.00001,5,LEVEL,CPML,F,,,,,,F,,0,,14/11/2011,1030,SPETCHEL
+8194,Kirchneriella (cells/ml),cells/ml,Kirchneriella (cells,WQ,0.00001,5,LEVEL,CPML,F,,,,,,F,,0,,14/11/2011,1030,SPETCHEL
+8195,Kirchneriella lunaris (cells/ml),cells/ml,Kirchneriella lunari,WQ,0.00001,5,LEVEL,CPML,F,,,,,,F,,0,,14/11/2011,1030,SPETCHEL
+8196,Kirchneriella obesa (cells/ml),cells/ml,Kirchneriella obesa,WQ,0.00001,5,LEVEL,CPML,F,,,,,,F,,0,,14/11/2011,1030,SPETCHEL
+8197,Lagerheimia (cells/ml),cells/ml,Lagerheimia (cells/m,WQ,0.00001,5,LEVEL,CPML,F,,,,,,F,,0,,14/11/2011,1030,SPETCHEL
+8198,Lagerheimia chodatella (cells/ml),cells/ml,Lagerheimia chodatel,WQ,0.00001,5,LEVEL,CPML,F,,,,,,F,,0,,14/11/2011,1030,SPETCHEL
+8199,Micractinium (cells/ml),cells/ml,Micractinium (cells/,WQ,0.00001,5,LEVEL,CPML,F,,,,,,F,,0,,14/11/2011,1030,SPETCHEL
+8200,Monoraphidiuim (cells/ml),cells/ml,Monoraphidiuim (cell,WQ,0.00001,5,LEVEL,CPML,F,,,,,,F,,0,,14/11/2011,1030,SPETCHEL
+8201,Monoraphidiuim convolutum (cells/ml),cells/ml,Monoraphidiuim convo,WQ,0.00001,5,LEVEL,CPML,F,,,,,,F,,0,,14/11/2011,1030,SPETCHEL
+8202,Nephrocytium (cells/ml),cells/ml,Nephrocytium (cells/,WQ,0.00001,5,LEVEL,CPML,F,,,,,,F,,0,,14/11/2011,1030,SPETCHEL
+8203,Oocystis (cells/ml),cells/ml,Oocystis (cells/ml),WQ,0.00001,5,LEVEL,CPML,F,,,,,,F,,0,,14/11/2011,1030,SPETCHEL
+8204,Ourococcus (cells/ml),cells/ml,Ourococcus (cells/ml,WQ,0.00001,5,LEVEL,CPML,F,,,,,,F,,0,,14/11/2011,1030,SPETCHEL
+8205,Paradoxia (cells/ml),cells/ml,Paradoxia (cells/ml),WQ,0.00001,5,LEVEL,CPML,F,,,,,,F,,0,,14/11/2011,1030,SPETCHEL
+8206,Pediastrum (cells/ml),cells/ml,Pediastrum (cells/ml,WQ,0.00001,5,LEVEL,CPML,F,,,,,,F,,0,,14/11/2011,1030,SPETCHEL
+8207,Pediastrum boryanum (cells/ml),cells/ml,Pediastrum boryanum,WQ,0.00001,5,LEVEL,CPML,F,,,,,,F,,0,,14/11/2011,1030,SPETCHEL
+8208,Pediastrum duplex (cells/ml),cells/ml,Pediastrum duplex (c,WQ,0.00001,5,LEVEL,CPML,F,,,,,,F,,0,,14/11/2011,1030,SPETCHEL
+8209,Pediastrum duplex var gracillimum (cells,cells/ml,Pediastrum duplex va,WQ,0.00001,5,LEVEL,CPML,F,,,,,,F,,0,,14/11/2011,1030,SPETCHEL
+8210,Polyedriopsis (cells/ml),cells/ml,Polyedriopsis (cells,WQ,0.00001,5,LEVEL,CPML,F,,,,,,F,,0,,14/11/2011,1030,SPETCHEL
+8211,Polyedriopsis quadrispina (cells/ml),cells/ml,Polyedriopsis quadri,WQ,0.00001,5,LEVEL,CPML,F,,,,,,F,,0,,14/11/2011,1030,SPETCHEL
+8212,Quadrigula (cells/ml),cells/ml,Quadrigula (cells/ml,WQ,0.00001,5,LEVEL,CPML,F,,,,,,F,,0,,14/11/2011,1030,SPETCHEL
+8213,Scenedesmus (cells/ml),cells/ml,Scenedesmus (cells/m,WQ,0.00001,5,LEVEL,CPML,F,,,,,,F,,0,,14/11/2011,1030,SPETCHEL
+8214,Schroederia (cells/ml),cells/ml,Schroederia (cells/m,WQ,0.00001,5,LEVEL,CPML,F,,,,,,F,,0,,14/11/2011,1030,SPETCHEL
+8215,Selenastrum (cells/ml),cells/ml,Selenastrum (cells/m,WQ,0.00001,5,LEVEL,CPML,F,,,,,,F,,0,,14/11/2011,1030,SPETCHEL
+8216,Selenastrum minutum (cells/ml),cells/ml,Selenastrum minutum,WQ,0.00001,5,LEVEL,CPML,F,,,,,,F,,0,,14/11/2011,1030,SPETCHEL
+8217,Sphaerocystis (cells/ml),cells/ml,Sphaerocystis (cells,WQ,0.00001,5,LEVEL,CPML,F,,,,,,F,,0,,14/11/2011,1030,SPETCHEL
+8218,Sphaerocystis schroeteri (cells/ml),cells/ml,Sphaerocystis schroe,WQ,0.00001,5,LEVEL,CPML,F,,,,,,F,,0,,14/11/2011,1030,SPETCHEL
+8219,Tetraedron (cells/ml),cells/ml,Tetraedron (cells/ml,WQ,0.00001,5,LEVEL,CPML,F,,,,,,F,,0,,14/11/2011,1030,SPETCHEL
+8220,Tetrallantos (cells/ml),cells/ml,Tetrallantos (cells/,WQ,0.00001,5,LEVEL,CPML,F,,,,,,F,,0,,14/11/2011,1030,SPETCHEL
+8221,Tetrastrum (cells/ml),cells/ml,Tetrastrum (cells/ml,WQ,0.00001,5,LEVEL,CPML,F,,,,,,F,,0,,14/11/2011,1030,SPETCHEL
+8222,Treubaria (cells/ml),cells/ml,Treubaria (cells/ml),WQ,0.00001,5,LEVEL,CPML,F,,,,,,F,,0,,14/11/2011,1030,SPETCHEL
+8223,Westella (cells/ml),cells/ml,Westella (cells/ml),WQ,0.00001,5,LEVEL,CPML,F,,,,,,F,,0,,14/11/2011,1030,SPETCHEL
+8224,Zoochlorella (cells/ml),cells/ml,Zoochlorella (cells/,WQ,0.00001,5,LEVEL,CPML,F,,,,,,F,,0,,14/11/2011,1030,SPETCHEL
+8241,Order Oedoginales - total count (cells/m,cells/ml,Order Oedoginales -,WQ,0.00001,5,LEVEL,CPML,F,,,,,,F,,0,,14/11/2011,1030,SPETCHEL
+8242,Order Oedoginales - unknown genus (cells,cells/ml,Order Oedoginales -,WQ,0.00001,5,LEVEL,CPML,F,,,,,,F,,0,,14/11/2011,1030,SPETCHEL
+8243,Bulbochaete (cells/ml),cells/ml,Bulbochaete (cells/m,WQ,0.00001,5,LEVEL,CPML,F,,,,,,F,,0,,14/11/2011,1030,SPETCHEL
+8244,Oedogonium (cells/ml),cells/ml,Oedogonium (cells/ml,WQ,0.00001,5,LEVEL,CPML,F,,,,,,F,,0,,14/11/2011,1030,SPETCHEL
+8251,Order Siphonocladales - total count (cel,cells/ml,Order Siphonocladale,WQ,0.00001,5,LEVEL,CPML,F,,,,,,F,,0,,14/11/2011,1030,SPETCHEL
+8252,Order Siphonocladales - unknown genus (c,cells/ml,Order Siphonocladale,WQ,0.00001,5,LEVEL,CPML,F,,,,,,F,,0,,14/11/2011,1030,SPETCHEL
+8253,Cladophora (cells/ml),cells/ml,Cladophora (cells/ml,WQ,0.00001,5,LEVEL,CPML,F,,,,,,F,,0,,14/11/2011,1030,SPETCHEL
+8254,Rhizoclonium (cells/ml),cells/ml,Rhizoclonium (cells/,WQ,0.00001,5,LEVEL,CPML,F,,,,,,F,,0,,14/11/2011,1030,SPETCHEL
+8261,Order Tetrasporales - total count (cells,cells/ml,Order Tetrasporales,WQ,0.00001,5,LEVEL,CPML,F,,,,,,F,,0,,14/11/2011,1030,SPETCHEL
+8262,Order Tetrasporales - unknown genus (cel,cells/ml,Order Tetrasporales,WQ,0.00001,5,LEVEL,CPML,F,,,,,,F,,0,,14/11/2011,1030,SPETCHEL
+8263,Asterococcus (cells/ml),cells/ml,Asterococcus (cells/,WQ,0.00001,5,LEVEL,CPML,F,,,,,,F,,0,,14/11/2011,1030,SPETCHEL
+8264,Gloeocystis (cells/ml),cells/ml,Gloeocystis (cells/m,WQ,0.00001,5,LEVEL,CPML,F,,,,,,F,,0,,14/11/2011,1030,SPETCHEL
+8265,Schizochlamys (cells/ml),cells/ml,Schizochlamys (cells,WQ,0.00001,5,LEVEL,CPML,F,,,,,,F,,0,,14/11/2011,1030,SPETCHEL
+8266,Tetraspora (cells/ml),cells/ml,Tetraspora (cells/ml,WQ,0.00001,5,LEVEL,CPML,F,,,,,,F,,0,,14/11/2011,1030,SPETCHEL
+8271,Order Ulothricales - total count (cells/,cells/ml,Order Ulothricales -,WQ,0.00001,5,LEVEL,CPML,F,,,,,,F,,0,,14/11/2011,1030,SPETCHEL
+8272,Order Ulothricales - unknown genus (cell,cells/ml,Order Ulothricales -,WQ,0.00001,5,LEVEL,CPML,F,,,,,,F,,0,,14/11/2011,1030,SPETCHEL
+8273,Geminella (cells/ml),cells/ml,Geminella (cells/ml),WQ,0.00001,5,LEVEL,CPML,F,,,,,,F,,0,,14/11/2011,1030,SPETCHEL
+8274,Hormidium (cells/ml),cells/ml,Hormidium (cells/ml),WQ,0.00001,5,LEVEL,CPML,F,,,,,,F,,0,,14/11/2011,1030,SPETCHEL
+8275,Microspora (cells/ml),cells/ml,Microspora (cells/ml,WQ,0.00001,5,LEVEL,CPML,F,,,,,,F,,0,,14/11/2011,1030,SPETCHEL
+8276,Planctonema (cells/ml),cells/ml,Planctonema (cells/m,WQ,0.00001,5,LEVEL,CPML,F,,,,,,F,,0,,14/11/2011,1030,SPETCHEL
+8277,Planctonema aenigmaticum (cells/ml),cells/ml,Planctonema aenigmat,WQ,0.00001,5,LEVEL,CPML,F,,,,,,F,,0,,14/11/2011,1030,SPETCHEL
+8278,Ulothrix (cells/ml),cells/ml,Ulothrix (cells/ml),WQ,0.00001,5,LEVEL,CPML,F,,,,,,F,,0,,14/11/2011,1030,SPETCHEL
+8279,Uronema (cells/ml),cells/ml,Uronema (cells/ml),WQ,0.00001,5,LEVEL,CPML,F,,,,,,F,,0,,14/11/2011,1030,SPETCHEL
+8291,Order Ulvales - total count (cells/ml),cells/ml,Order Ulvales - tota,WQ,0.00001,5,LEVEL,CPML,F,,,,,,F,,0,,14/11/2011,1030,SPETCHEL
+8292,Order Ulvales - unknown genus (cells/ml),cells/ml,Order Ulvales - unkn,WQ,0.00001,5,LEVEL,CPML,F,,,,,,F,,0,,14/11/2011,1030,SPETCHEL
+8293,Enteromorpha (cells/ml),cells/ml,Enteromorpha (cells/,WQ,0.00001,5,LEVEL,CPML,F,,,,,,F,,0,,14/11/2011,1030,SPETCHEL
+8301,Order Volvocales - total count (cells/ml,cells/ml,Order Volvocales - t,WQ,0.00001,5,LEVEL,CPML,F,,,,,,F,,0,,14/11/2011,1030,SPETCHEL
+8302,Order Volvocales - unknown genus (cells/,cells/ml,Order Volvocales - u,WQ,0.00001,5,LEVEL,CPML,F,,,,,,F,,0,,14/11/2011,1030,SPETCHEL
+8303,Carteria (cells/ml),cells/ml,Carteria (cells/ml),WQ,0.00001,5,LEVEL,CPML,F,,,,,,F,,0,,14/11/2011,1030,SPETCHEL
+8304,Chlamydomonas (cells/ml),cells/ml,Chlamydomonas (cells,WQ,0.00001,5,LEVEL,CPML,F,,,,,,F,,0,,14/11/2011,1030,SPETCHEL
+8305,Chlorogonium (cells/ml),cells/ml,Chlorogonium (cells/,WQ,0.00001,5,LEVEL,CPML,F,,,,,,F,,0,,14/11/2011,1030,SPETCHEL
+8306,Collodictyon (cells/ml),cells/ml,Collodictyon (cells/,WQ,0.00001,5,LEVEL,CPML,F,,,,,,F,,0,,14/11/2011,1030,SPETCHEL
+8307,Dunaliella (cells/ml),cells/ml,Dunaliella (cells/ml,WQ,0.00001,5,LEVEL,CPML,F,,,,,,F,,0,,14/11/2011,1030,SPETCHEL
+8308,Dysmorphococcus (cells/ml),cells/ml,Dysmorphococcus (cel,WQ,0.00001,5,LEVEL,CPML,F,,,,,,F,,0,,14/11/2011,1030,SPETCHEL
+8309,Eudorina (cells/ml),cells/ml,Eudorina (cells/ml),WQ,0.00001,5,LEVEL,CPML,F,,,,,,F,,0,,14/11/2011,1030,SPETCHEL
+8310,Eudorina elegans (cells/ml),cells/ml,Eudorina elegans (ce,WQ,0.00001,5,LEVEL,CPML,F,,,,,,F,,0,,14/11/2011,1030,SPETCHEL
+8311,Gonium (cells/ml),cells/ml,Gonium (cells/ml),WQ,0.00001,5,LEVEL,CPML,F,,,,,,F,,0,,14/11/2011,1030,SPETCHEL
+8312,Haematococcus (cells/ml),cells/ml,Haematococcus (cells,WQ,0.00001,5,LEVEL,CPML,F,,,,,,F,,0,,14/11/2011,1030,SPETCHEL
+8313,Pandorina (cells/ml),cells/ml,Pandorina (cells/ml),WQ,0.00001,5,LEVEL,CPML,F,,,,,,F,,0,,14/11/2011,1030,SPETCHEL
+8314,Phacotus (cells/ml),cells/ml,Phacotus (cells/ml),WQ,0.00001,5,LEVEL,CPML,F,,,,,,F,,0,,14/11/2011,1030,SPETCHEL
+8315,Pleodorina (cells/ml),cells/ml,Pleodorina (cells/ml,WQ,0.00001,5,LEVEL,CPML,F,,,,,,F,,0,,14/11/2011,1030,SPETCHEL
+8316,Pteromonas (cells/ml),cells/ml,Pteromonas (cells/ml,WQ,0.00001,5,LEVEL,CPML,F,,,,,,F,,0,,14/11/2011,1030,SPETCHEL
+8317,Pyramimonas (cells/ml),cells/ml,Pyramimonas (cells/m,WQ,0.00001,5,LEVEL,CPML,F,,,,,,F,,0,,14/11/2011,1030,SPETCHEL
+8318,Spermatozopsis (cells/ml),cells/ml,Spermatozopsis (cell,WQ,0.00001,5,LEVEL,CPML,F,,,,,,F,,0,,14/11/2011,1030,SPETCHEL
+8319,Sphaerellopsis (cells/ml),cells/ml,Sphaerellopsis (cell,WQ,0.00001,5,LEVEL,CPML,F,,,,,,F,,0,,14/11/2011,1030,SPETCHEL
+8320,Spondylomorum (cells/ml),cells/ml,Spondylomorum (cells,WQ,0.00001,5,LEVEL,CPML,F,,,,,,F,,0,,14/11/2011,1030,SPETCHEL
+8321,Volvox (cells/ml),cells/ml,Volvox (cells/ml),WQ,0.00001,5,LEVEL,CPML,F,,,,,,F,,0,,14/11/2011,1030,SPETCHEL
+8322,Volvox aureus (cells/ml),cells/ml,Volvox aureus (cells,WQ,0.00001,5,LEVEL,CPML,F,,,,,,F,,0,,14/11/2011,1030,SPETCHEL
+8323,Volvox globerator (cells/ml),cells/ml,Volvox globerator (c,WQ,0.00001,5,LEVEL,CPML,F,,,,,,F,,0,,14/11/2011,1030,SPETCHEL
+8324,Wislouchiella (cells/ml),cells/ml,Wislouchiella (cells,WQ,0.00001,5,LEVEL,CPML,F,,,,,,F,,0,,14/11/2011,1030,SPETCHEL
+8351,Order Zygnematales - total count (cells/,cells/ml,Order Zygnematales -,WQ,0.00001,5,LEVEL,CPML,F,,,,,,F,,0,,14/11/2011,1030,SPETCHEL
+8352,Order Zygnematales - unknown genus (cell,cells/ml,Order Zygnematales -,WQ,0.00001,5,LEVEL,CPML,F,,,,,,F,,0,,14/11/2011,1030,SPETCHEL
+8353,Actinotaenium (cells/ml),cells/ml,Actinotaenium (cells,WQ,0.00001,5,LEVEL,CPML,F,,,,,,F,,0,,14/11/2011,1030,SPETCHEL
+8354,Actinotaenium minutissimum (cells/ml),cells/ml,Actinotaenium minuti,WQ,0.00001,5,LEVEL,CPML,F,,,,,,F,,0,,14/11/2011,1030,SPETCHEL
+8355,Anthrodesmus (cells/ml),cells/ml,Anthrodesmus (cells/,WQ,0.00001,5,LEVEL,CPML,F,,,,,,F,,0,,14/11/2011,1030,SPETCHEL
+8356,Bambusina (cells/ml),cells/ml,Bambusina (cells/ml),WQ,0.00001,5,LEVEL,CPML,F,,,,,,F,,0,,14/11/2011,1030,SPETCHEL
+8357,Closterium (cells/ml),cells/ml,Closterium (cells/ml,WQ,0.00001,5,LEVEL,CPML,F,,,,,,F,,0,,14/11/2011,1030,SPETCHEL
+8358,Closterium aciculare (cells/ml),cells/ml,Closterium aciculare,WQ,0.00001,5,LEVEL,CPML,F,,,,,,F,,0,,14/11/2011,1030,SPETCHEL
+8359,Closterium monoliferum (cells/ml),cells/ml,Closterium monolifer,WQ,0.00001,5,LEVEL,CPML,F,,,,,,F,,0,,14/11/2011,1030,SPETCHEL
+8360,Cosmarium (cells/ml),cells/ml,Cosmarium (cells/ml),WQ,0.00001,5,LEVEL,CPML,F,,,,,,F,,0,,14/11/2011,1030,SPETCHEL
+8361,Cylindrocystis (cells/ml),cells/ml,Cylindrocystis (cell,WQ,0.00001,5,LEVEL,CPML,F,,,,,,F,,0,,14/11/2011,1030,SPETCHEL
+8362,Desmidium (cells/ml),cells/ml,Desmidium (cells/ml),WQ,0.00001,5,LEVEL,CPML,F,,,,,,F,,0,,14/11/2011,1030,SPETCHEL
+8363,Docidium (cells/ml),cells/ml,Docidium (cells/ml),WQ,0.00001,5,LEVEL,CPML,F,,,,,,F,,0,,14/11/2011,1030,SPETCHEL
+8364,Euastrum (cells/ml),cells/ml,Euastrum (cells/ml),WQ,0.00001,5,LEVEL,CPML,F,,,,,,F,,0,,14/11/2011,1030,SPETCHEL
+8365,Gonatozygon (cells/ml),cells/ml,Gonatozygon (cells/m,WQ,0.00001,5,LEVEL,CPML,F,,,,,,F,,0,,14/11/2011,1030,SPETCHEL
+8366,Hyalotheca (cells/ml),cells/ml,Hyalotheca (cells/ml,WQ,0.00001,5,LEVEL,CPML,F,,,,,,F,,0,,14/11/2011,1030,SPETCHEL
+8367,Mesotaenium (cells/ml),cells/ml,Mesotaenium (cells/m,WQ,0.00001,5,LEVEL,CPML,F,,,,,,F,,0,,14/11/2011,1030,SPETCHEL
+8368,Micrasterias (cells/ml),cells/ml,Micrasterias (cells/,WQ,0.00001,5,LEVEL,CPML,F,,,,,,F,,0,,14/11/2011,1030,SPETCHEL
+8369,Micrasterias hardyi (cells/ml),cells/ml,Micrasterias hardyi,WQ,0.00001,5,LEVEL,CPML,F,,,,,,F,,0,,14/11/2011,1030,SPETCHEL
+8370,Mougeotia (cells/ml),cells/ml,Mougeotia (cells/ml),WQ,0.00001,5,LEVEL,CPML,F,,,,,,F,,0,,14/11/2011,1030,SPETCHEL
+8371,Netrium (cells/ml),cells/ml,Netrium (cells/ml),WQ,0.00001,5,LEVEL,CPML,F,,,,,,F,,0,,14/11/2011,1030,SPETCHEL
+8372,Penium (cells/ml),cells/ml,Penium (cells/ml),WQ,0.00001,5,LEVEL,CPML,F,,,,,,F,,0,,14/11/2011,1030,SPETCHEL
+8373,Pleurotaenium (cells/ml),cells/ml,Pleurotaenium (cells,WQ,0.00001,5,LEVEL,CPML,F,,,,,,F,,0,,14/11/2011,1030,SPETCHEL
+8374,Spinoclosterium (cells/ml),cells/ml,Spinoclosterium (cel,WQ,0.00001,5,LEVEL,CPML,F,,,,,,F,,0,,14/11/2011,1030,SPETCHEL
+8375,Spirogyra (cells/ml),cells/ml,Spirogyra (cells/ml),WQ,0.00001,5,LEVEL,CPML,F,,,,,,F,,0,,14/11/2011,1030,SPETCHEL
+8376,Spondylosium (cells/ml),cells/ml,Spondylosium (cells/,WQ,0.00001,5,LEVEL,CPML,F,,,,,,F,,0,,14/11/2011,1030,SPETCHEL
+8377,Staurastrum (cells/ml),cells/ml,Staurastrum (cells/m,WQ,0.00001,5,LEVEL,CPML,F,,,,,,F,,0,,14/11/2011,1030,SPETCHEL
+8378,Staurastrum leptocladum (cells/ml),cells/ml,Staurastrum leptocla,WQ,0.00001,5,LEVEL,CPML,F,,,,,,F,,0,,14/11/2011,1030,SPETCHEL
+8379,Staurastrum pingua (cells/ml),cells/ml,Staurastrum pingua (,WQ,0.00001,5,LEVEL,CPML,F,,,,,,F,,0,,14/11/2011,1030,SPETCHEL
+8380,Staurastrum proctectum (cells/ml),cells/ml,Staurastrum proctect,WQ,0.00001,5,LEVEL,CPML,F,,,,,,F,,0,,14/11/2011,1030,SPETCHEL
+8381,Staurodesmus (cells/ml),cells/ml,Staurodesmus (cells/,WQ,0.00001,5,LEVEL,CPML,F,,,,,,F,,0,,14/11/2011,1030,SPETCHEL
+8382,Triploceras (cells/ml),cells/ml,Triploceras (cells/m,WQ,0.00001,5,LEVEL,CPML,F,,,,,,F,,0,,14/11/2011,1030,SPETCHEL
+8383,Xanthidium (cells/ml),cells/ml,Xanthidium (cells/ml,WQ,0.00001,5,LEVEL,CPML,F,,,,,,F,,0,,14/11/2011,1030,SPETCHEL
+8384,Zygnema (cells/ml),cells/ml,Zygnema (cells/ml),WQ,0.00001,5,LEVEL,CPML,F,,,,,,F,,0,,14/11/2011,1030,SPETCHEL
+8401,Division EUGLENOPHYTA - total count (cel,cells/ml,Division EUGLENOPHYT,WQ,0.00001,5,LEVEL,CPML,F,,,,,,F,,0,,14/11/2011,1030,SPETCHEL
+8402,Division EUGLENOPHYTA - unknown genus (c,cells/ml,Division EUGLENOPHYT,WQ,0.00001,5,LEVEL,CPML,F,,,,,,F,,0,,14/11/2011,1030,SPETCHEL
+8411,Sub-phyllum EUGLENOPHYCEAE - total count,cells/ml,Sub-phyllum EUGLENOP,WQ,0.00001,5,LEVEL,CPML,F,,,,,,F,,0,,14/11/2011,1030,SPETCHEL
+8412,Sub-phyllum EUGLENOPHYCEAE - unk. genus,cells/ml,Sub-phyllum EUGLENOP,WQ,0.00001,5,LEVEL,CPML,F,,,,,,F,,0,,14/11/2011,1030,SPETCHEL
+8421,Order Euglenales - total count (cells/ml,cells/ml,Order Euglenales - t,WQ,0.00001,5,LEVEL,CPML,F,,,,,,F,,0,,14/11/2011,1030,SPETCHEL
+8422,Order Euglenales - unknown genus (cells/,cells/ml,Order Euglenales - u,WQ,0.00001,5,LEVEL,CPML,F,,,,,,F,,0,,14/11/2011,1030,SPETCHEL
+8423,Euglena (cells/ml),cells/ml,Euglena (cells/ml),WQ,0.00001,5,LEVEL,CPML,F,,,,,,F,,0,,14/11/2011,1030,SPETCHEL
+8424,Euglena acus (cells/ml),cells/ml,Euglena acus (cells/,WQ,0.00001,5,LEVEL,CPML,F,,,,,,F,,0,,14/11/2011,1030,SPETCHEL
+8425,Lepocinclis (cells/ml),cells/ml,Lepocinclis (cells/m,WQ,0.00001,5,LEVEL,CPML,F,,,,,,F,,0,,14/11/2011,1030,SPETCHEL
+8426,Phacus (cells/ml),cells/ml,Phacus (cells/ml),WQ,0.00001,5,LEVEL,CPML,F,,,,,,F,,0,,14/11/2011,1030,SPETCHEL
+8427,Strombomonas (cells/ml),cells/ml,Strombomonas (cells/,WQ,0.00001,5,LEVEL,CPML,F,,,,,,F,,0,,14/11/2011,1030,SPETCHEL
+8428,Strombomonas schaunslandii (cells/ml),cells/ml,Strombomonas schauns,WQ,0.00001,5,LEVEL,CPML,F,,,,,,F,,0,,14/11/2011,1030,SPETCHEL
+8429,Trachelomonas (cells/ml),cells/ml,Trachelomonas (cells,WQ,0.00001,5,LEVEL,CPML,F,,,,,,F,,0,,14/11/2011,1030,SPETCHEL
+8430,Trachelomonas bulla (cells/ml),cells/ml,Trachelomonas bulla,WQ,0.00001,5,LEVEL,CPML,F,,,,,,F,,0,,14/11/2011,1030,SPETCHEL
+8431,Trachelomonas hispida (cells/ml),cells/ml,Trachelomonas hispid,WQ,0.00001,5,LEVEL,CPML,F,,,,,,F,,0,,14/11/2011,1030,SPETCHEL
+8432,Trachelomonas planktonia var. (cells/ml),cells/ml,Trachelomonas plankt,WQ,0.00001,5,LEVEL,CPML,F,,,,,,F,,0,,14/11/2011,1030,SPETCHEL
+8433,Trachelomonas scabra var. (cells/ml),cells/ml,Trachelomonas scabra,WQ,0.00001,5,LEVEL,CPML,F,,,,,,F,,0,,14/11/2011,1030,SPETCHEL
+8434,Trachelomonas volvocina (cells/ml),cells/ml,Trachelomonas volvoc,WQ,0.00001,5,LEVEL,CPML,F,,,,,,F,,0,,14/11/2011,1030,SPETCHEL
+8451,Division PYRROPHYTA - total count (cells,cells/ml,Division PYRROPHYTA,WQ,0.00001,5,LEVEL,CPML,F,,,,,,F,,0,,14/11/2011,1030,SPETCHEL
+8452,Division PYRROPHYTA - unknown genus (cel,cells/ml,Division PYRROPHYTA,WQ,0.00001,5,LEVEL,CPML,F,,,,,,F,,0,,14/11/2011,1030,SPETCHEL
+8461,Sub-phyllum DINOPHYCEAE - total count (c,cells/ml,Sub-phyllum DINOPHYC,WQ,0.00001,5,LEVEL,CPML,F,,,,,,F,,0,,14/11/2011,1030,SPETCHEL
+8462,Sub-phyllum DINOPHYCEAE - unknown genus,cells/ml,Sub-phyllum DINOPHYC,WQ,0.00001,5,LEVEL,CPML,F,,,,,,F,,0,,14/11/2011,1030,SPETCHEL
+8471,Order Dinococcales - total count (cells/,cells/ml,Order Dinococcales -,WQ,0.00001,5,LEVEL,CPML,F,,,,,,F,,0,,14/11/2011,1030,SPETCHEL
+8472,Order Dinococcales - unknown genus (cell,cells/ml,Order Dinococcales -,WQ,0.00001,5,LEVEL,CPML,F,,,,,,F,,0,,14/11/2011,1030,SPETCHEL
+8473,Cystodinium (cells/ml),cells/ml,Cystodinium (cells/m,WQ,0.00001,5,LEVEL,CPML,F,,,,,,F,,0,,14/11/2011,1030,SPETCHEL
+8474,Cystodinium cornifax (cells/ml),cells/ml,Cystodinium cornifax,WQ,0.00001,5,LEVEL,CPML,F,,,,,,F,,0,,14/11/2011,1030,SPETCHEL
+8481,Order Peridinales - total count (cells/m,cells/ml,Order Peridinales -,WQ,0.00001,5,LEVEL,CPML,F,,,,,,F,,0,,14/11/2011,1030,SPETCHEL
+8482,Order Peridinales - unknown genus (cells,cells/ml,Order Peridinales -,WQ,0.00001,5,LEVEL,CPML,F,,,,,,F,,0,,14/11/2011,1030,SPETCHEL
+8483,Ceratium (cells/ml),cells/ml,Ceratium (cells/ml),WQ,0.00001,5,LEVEL,CPML,F,,,,,,F,,0,,14/11/2011,1030,SPETCHEL
+8484,Ceratium hirundinella (cells/ml),cells/ml,Ceratium hirundinell,WQ,0.00001,5,LEVEL,CPML,F,,,,,,F,,0,,14/11/2011,1030,SPETCHEL
+8485,Glenodinium (cells/ml),cells/ml,Glenodinium (cells/m,WQ,0.00001,5,LEVEL,CPML,F,,,,,,F,,0,,14/11/2011,1030,SPETCHEL
+8486,Gymnodinium (cells/ml),cells/ml,Gymnodinium (cells/m,WQ,0.00001,5,LEVEL,CPML,F,,,,,,F,,0,,14/11/2011,1030,SPETCHEL
+8487,Peridinium (cells/ml),cells/ml,Peridinium (cells/ml,WQ,0.00001,5,LEVEL,CPML,F,,,,,,F,,0,,14/11/2011,1030,SPETCHEL
+8491,Order Prorocentrales - total count (cell,cells/ml,Order Prorocentrales,WQ,0.00001,5,LEVEL,CPML,F,,,,,,F,,0,,14/11/2011,1030,SPETCHEL
+8492,Order Prorocentrales - unknown genus (ce,cells/ml,Order Prorocentrales,WQ,0.00001,5,LEVEL,CPML,F,,,,,,F,,0,,14/11/2011,1030,SPETCHEL
+8493,Prorocentrum (cells/ml),cells/ml,Prorocentrum (cells/,WQ,0.00001,5,LEVEL,CPML,F,,,,,,F,,0,,14/11/2011,1030,SPETCHEL
+8494,Prorocentrum minimum (cells/ml),cells/ml,Prorocentrum minimum,WQ,0.00001,5,LEVEL,CPML,F,,,,,,F,,0,,14/11/2011,1030,SPETCHEL
+8495,Prorocentrum triestinum (cells/ml),cells/ml,Prorocentrum triesti,WQ,0.00001,5,LEVEL,CPML,F,,,,,,F,,0,,14/11/2011,1030,SPETCHEL
+8501,Division CRYPTOPHYTA - total count (cell,cells/ml,Division CRYPTOPHYTA,WQ,0.00001,5,LEVEL,CPML,F,,,,,,F,,0,,14/11/2011,1030,SPETCHEL
+8502,Division CRYPTOPHYTA - unknown genus (ce,cells/ml,Division CRYPTOPHYTA,WQ,0.00001,5,LEVEL,CPML,F,,,,,,F,,0,,14/11/2011,1030,SPETCHEL
+8511,Sub-phyllum CRYPTOPHYCEAE - total count,cells/ml,Sub-phyllum CRYPTOPH,WQ,0.00001,5,LEVEL,CPML,F,,,,,,F,,0,,14/11/2011,1030,SPETCHEL
+8512,Sub-phyllum CRYPTOPHYCEAE - unk. genus (,cells/ml,Sub-phyllum CRYPTOPH,WQ,0.00001,5,LEVEL,CPML,F,,,,,,F,,0,,14/11/2011,1030,SPETCHEL
+8521,Order Cryptomonadeles - total count (cel,cells/ml,Order Cryptomonadele,WQ,0.00001,5,LEVEL,CPML,F,,,,,,F,,0,,14/11/2011,1030,SPETCHEL
+8522,Order Cryptomonadeles - unknown genus (c,cells/ml,Order Cryptomonadele,WQ,0.00001,5,LEVEL,CPML,F,,,,,,F,,0,,14/11/2011,1030,SPETCHEL
+8523,Chroomonas (cells/ml),cells/ml,Chroomonas (cells/ml,WQ,0.00001,5,LEVEL,CPML,F,,,,,,F,,0,,14/11/2011,1030,SPETCHEL
+8524,Cryptomonas (cells/ml),cells/ml,Cryptomonas (cells/m,WQ,0.00001,5,LEVEL,CPML,F,,,,,,F,,0,,14/11/2011,1030,SPETCHEL
+8525,Cryptomonas erosa (cells/ml),cells/ml,Cryptomonas erosa (c,WQ,0.00001,5,LEVEL,CPML,F,,,,,,F,,0,,14/11/2011,1030,SPETCHEL
+8526,Cryptomonas ovata (cells/ml),cells/ml,Cryptomonas ovata (c,WQ,0.00001,5,LEVEL,CPML,F,,,,,,F,,0,,14/11/2011,1030,SPETCHEL
+8527,Rhodomonas (cells/ml),cells/ml,Rhodomonas (cells/ml,WQ,0.00001,5,LEVEL,CPML,F,,,,,,F,,0,,14/11/2011,1030,SPETCHEL
+8528,Rhodomonas minuta (cells/ml),cells/ml,Rhodomonas minuta (c,WQ,0.00001,5,LEVEL,CPML,F,,,,,,F,,0,,14/11/2011,1030,SPETCHEL
+8541,Division RAPHIDOPHYTA - total count (cel,cells/ml,Division RAPHIDOPHYT,WQ,0.00001,5,LEVEL,CPML,F,,,,,,F,,0,,14/11/2011,1030,SPETCHEL
+8542,Division RAPHIDOPHYTA - unknown genus (c,cells/ml,Division RAPHIDOPHYT,WQ,0.00001,5,LEVEL,CPML,F,,,,,,F,,0,,14/11/2011,1030,SPETCHEL
+8543,Merotrichia (cells/ml),cells/ml,Merotrichia (cells/m,WQ,0.00001,5,LEVEL,CPML,F,,,,,,F,,0,,14/11/2011,1030,SPETCHEL
+8544,Merotrichia bacillata (cells/ml),cells/ml,Merotrichia bacillat,WQ,0.00001,5,LEVEL,CPML,F,,,,,,F,,0,,14/11/2011,1030,SPETCHEL
+8545,Merotrichia capitata (cells/ml),cells/ml,Merotrichia capitata,WQ,0.00001,5,LEVEL,CPML,F,,,,,,F,,0,,14/11/2011,1030,SPETCHEL
+8551,Division CHRYSOPHYTA - total count (cell,cells/ml,Division CHRYSOPHYTA,WQ,0.00001,5,LEVEL,CPML,F,,,,,,F,,0,,14/11/2011,1030,SPETCHEL
+8552,Division CHRYSOPHYTA - unknown genus (ce,cells/ml,Division CHRYSOPHYTA,WQ,0.00001,5,LEVEL,CPML,F,,,,,,F,,0,,14/11/2011,1030,SPETCHEL
+8561,Sub-phyllum BACILLARIOPHYCEAE tot. count,cells/ml,Sub-phyllum BACILLAR,WQ,0.00001,5,LEVEL,CPML,F,,,,,,F,,0,,14/11/2011,1030,SPETCHEL
+8562,Sub-phyllum BACILLARIOPHYCEAE unk. genus,cells/ml,Sub-phyllum BACILLAR,WQ,0.00001,5,LEVEL,CPML,F,,,,,,F,,0,,14/11/2011,1030,SPETCHEL
+8563,Benthic diamtoms live (cells/ml),cells/ml,Benthic diamtoms liv,WQ,0.00001,5,LEVEL,CPML,F,,,,,,F,,0,,14/11/2011,1030,SPETCHEL
+8564,Benthic diamtoms small (cells/ml),cells/ml,Benthic diamtoms sma,WQ,0.00001,5,LEVEL,CPML,F,,,,,,F,,0,,14/11/2011,1030,SPETCHEL
+8565,Benthic diamtoms medium (cells/ml),cells/ml,Benthic diamtoms med,WQ,0.00001,5,LEVEL,CPML,F,,,,,,F,,0,,14/11/2011,1030,SPETCHEL
+8566,Benthic diamtoms large (cells/ml),cells/ml,Benthic diamtoms lar,WQ,0.00001,5,LEVEL,CPML,F,,,,,,F,,0,,14/11/2011,1030,SPETCHEL
+8567,Non Benthic diamtoms (cells/ml),cells/ml,Non Benthic diamtoms,WQ,0.00001,5,LEVEL,CPML,F,,,,,,F,,0,,14/11/2011,1030,SPETCHEL
+8571,Order Centrales - total count (cells/ml),cells/ml,Order Centrales - to,WQ,0.00001,5,LEVEL,CPML,F,,,,,,F,,0,,14/11/2011,1030,SPETCHEL
+8572,Order Centrales - unknown genus (cells/m,cells/ml,Order Centrales - un,WQ,0.00001,5,LEVEL,CPML,F,,,,,,F,,0,,14/11/2011,1030,SPETCHEL
+8573,Centric diatoms small <=5 um (cells/ml,cells/ml,Centric diatoms smal,WQ,0.00001,5,LEVEL,CPML,F,,,,,,F,,0,,14/11/2011,1030,SPETCHEL
+8574,Centric diatoms medium 6-12 um (cells/ml,cells/ml,Centric diatoms medi,WQ,0.00001,5,LEVEL,CPML,F,,,,,,F,,0,,14/11/2011,1030,SPETCHEL
+8575,Centric diatoms large >=12 um (cells/ml,cells/ml,Centric diatoms larg,WQ,0.00001,5,LEVEL,CPML,F,,,,,,F,,0,,14/11/2011,1030,SPETCHEL
+8576,Centric diatoms no size specified (cells,cells/ml,Centric diatoms no s,WQ,0.00001,5,LEVEL,CPML,F,,,,,,F,,0,,14/11/2011,1030,SPETCHEL
+8577,Attheya (cells/ml),cells/ml,Attheya (cells/ml),WQ,0.00001,5,LEVEL,CPML,F,,,,,,F,,0,,14/11/2011,1030,SPETCHEL
+8578,Attheya rhizosoleniz (cells/ml),cells/ml,Attheya rhizosoleniz,WQ,0.00001,5,LEVEL,CPML,F,,,,,,F,,0,,14/11/2011,1030,SPETCHEL
+8579,Attheya spores (cells/ml),cells/ml,Attheya spores (cell,WQ,0.00001,5,LEVEL,CPML,F,,,,,,F,,0,,14/11/2011,1030,SPETCHEL
+8580,Attheya zachariasi (cells/ml),cells/ml,Attheya zachariasi (,WQ,0.00001,5,LEVEL,CPML,F,,,,,,F,,0,,14/11/2011,1030,SPETCHEL
+8581,Cerataulus (cells/ml),cells/ml,Cerataulus (cells/ml,WQ,0.00001,5,LEVEL,CPML,F,,,,,,F,,0,,14/11/2011,1030,SPETCHEL
+8582,Chaetoceros (cells/ml),cells/ml,Chaetoceros (cells/m,WQ,0.00001,5,LEVEL,CPML,F,,,,,,F,,0,,14/11/2011,1030,SPETCHEL
+8583,Coscinodiscus (cells/ml),cells/ml,Coscinodiscus (cells,WQ,0.00001,5,LEVEL,CPML,F,,,,,,F,,0,,14/11/2011,1030,SPETCHEL
+8584,Cyclotella (cells/ml),cells/ml,Cyclotella (cells/ml,WQ,0.00001,5,LEVEL,CPML,F,,,,,,F,,0,,14/11/2011,1030,SPETCHEL
+8585,Cyclotella < 15 um (cells/ml),cells/ml,Cyclotella < 15 um (,WQ,0.00001,5,LEVEL,CPML,F,,,,,,F,,0,,14/11/2011,1030,SPETCHEL
+8586,Cyclotella > 15 um (cells/ml),cells/ml,Cyclotella > 15 um (,WQ,0.00001,5,LEVEL,CPML,F,,,,,,F,,0,,14/11/2011,1030,SPETCHEL
+8587,Cyclotella glomerata (cells/ml),cells/ml,Cyclotella glomerata,WQ,0.00001,5,LEVEL,CPML,F,,,,,,F,,0,,14/11/2011,1030,SPETCHEL
+8588,Cyclotella meneghiniana (cells/ml),cells/ml,Cyclotella meneghini,WQ,0.00001,5,LEVEL,CPML,F,,,,,,F,,0,,14/11/2011,1030,SPETCHEL
+8589,Cyclotella socialis (cells/ml),cells/ml,Cyclotella socialis,WQ,0.00001,5,LEVEL,CPML,F,,,,,,F,,0,,14/11/2011,1030,SPETCHEL
+8590,Cyclotella stelligera (cells/ml),cells/ml,Cyclotella stelliger,WQ,0.00001,5,LEVEL,CPML,F,,,,,,F,,0,,14/11/2011,1030,SPETCHEL
+8591,Cyclotella stylorum (cells/ml),cells/ml,Cyclotella stylorum,WQ,0.00001,5,LEVEL,CPML,F,,,,,,F,,0,,14/11/2011,1030,SPETCHEL
+8592,Cyclotella wolterecki (cells/ml),cells/ml,Cyclotella woltereck,WQ,0.00001,5,LEVEL,CPML,F,,,,,,F,,0,,14/11/2011,1030,SPETCHEL
+8593,Ditylum (cells/ml),cells/ml,Ditylum (cells/ml),WQ,0.00001,5,LEVEL,CPML,F,,,,,,F,,0,,14/11/2011,1030,SPETCHEL
+8594,Ditylum brightwellii (cells/ml),cells/ml,Ditylum brightwellii,WQ,0.00001,5,LEVEL,CPML,F,,,,,,F,,0,,14/11/2011,1030,SPETCHEL
+8595,Hydrosera (cells/ml),cells/ml,Hydrosera (cells/ml),WQ,0.00001,5,LEVEL,CPML,F,,,,,,F,,0,,14/11/2011,1030,SPETCHEL
+8596,Melosira (cells/ml),cells/ml,Melosira (cells/ml),WQ,0.00001,5,LEVEL,CPML,F,,,,,,F,,0,,14/11/2011,1030,SPETCHEL
+8597,Melosira distans (cells/ml),cells/ml,Melosira distans (ce,WQ,0.00001,5,LEVEL,CPML,F,,,,,,F,,0,,14/11/2011,1030,SPETCHEL
+8598,Melosira granulata (cells/ml),cells/ml,Melosira granulata (,WQ,0.00001,5,LEVEL,CPML,F,,,,,,F,,0,,14/11/2011,1030,SPETCHEL
+8599,Melosira granulata large (cells/ml),cells/ml,Melosira granulata l,WQ,0.00001,5,LEVEL,CPML,F,,,,,,F,,0,,14/11/2011,1030,SPETCHEL
+8600,Melosira granulata medium (cells/ml),cells/ml,Melosira granulata m,WQ,0.00001,5,LEVEL,CPML,F,,,,,,F,,0,,14/11/2011,1030,SPETCHEL
+8601,Melosira granulata small (cells/ml),cells/ml,Melosira granulata s,WQ,0.00001,5,LEVEL,CPML,F,,,,,,F,,0,,14/11/2011,1030,SPETCHEL
+8602,Melosira granulata spores (cells/ml),cells/ml,Melosira granulata s,WQ,0.00001,5,LEVEL,CPML,F,,,,,,F,,0,,14/11/2011,1030,SPETCHEL
+8603,Melosira hustedtil (cells/ml),cells/ml,Melosira hustedtil (,WQ,0.00001,5,LEVEL,CPML,F,,,,,,F,,0,,14/11/2011,1030,SPETCHEL
+8604,Melosira italica (cells/ml),cells/ml,Melosira italica (ce,WQ,0.00001,5,LEVEL,CPML,F,,,,,,F,,0,,14/11/2011,1030,SPETCHEL
+8605,Melosira marine (cells/ml),cells/ml,Melosira marine (cel,WQ,0.00001,5,LEVEL,CPML,F,,,,,,F,,0,,14/11/2011,1030,SPETCHEL
+8606,Melosira moniliformis (cells/ml),cells/ml,Melosira moniliformi,WQ,0.00001,5,LEVEL,CPML,F,,,,,,F,,0,,14/11/2011,1030,SPETCHEL
+8607,Melosira nummuloides (cells/ml),cells/ml,Melosira nummuloides,WQ,0.00001,5,LEVEL,CPML,F,,,,,,F,,0,,14/11/2011,1030,SPETCHEL
+8608,Melosira undulata (cells/ml),cells/ml,Melosira undulata (c,WQ,0.00001,5,LEVEL,CPML,F,,,,,,F,,0,,14/11/2011,1030,SPETCHEL
+8609,Melosira varians (cells/ml),cells/ml,Melosira varians (ce,WQ,0.00001,5,LEVEL,CPML,F,,,,,,F,,0,,14/11/2011,1030,SPETCHEL
+8610,Rhizosolenia (cells/ml),cells/ml,Rhizosolenia (cells/,WQ,0.00001,5,LEVEL,CPML,F,,,,,,F,,0,,14/11/2011,1030,SPETCHEL
+8611,Rhizosolenia eriensis (cells/ml),cells/ml,Rhizosolenia eriensi,WQ,0.00001,5,LEVEL,CPML,F,,,,,,F,,0,,14/11/2011,1030,SPETCHEL
+8612,Skeletonema (cells/ml),cells/ml,Skeletonema (cells/m,WQ,0.00001,5,LEVEL,CPML,F,,,,,,F,,0,,14/11/2011,1030,SPETCHEL
+8613,Skeletonema costatum (cells/ml),cells/ml,Skeletonema costatum,WQ,0.00001,5,LEVEL,CPML,F,,,,,,F,,0,,14/11/2011,1030,SPETCHEL
+8614,Skeletonema potamus (cells/ml),cells/ml,Skeletonema potamus,WQ,0.00001,5,LEVEL,CPML,F,,,,,,F,,0,,14/11/2011,1030,SPETCHEL
+8615,Stephanodiscus (cells/ml),cells/ml,Stephanodiscus (cell,WQ,0.00001,5,LEVEL,CPML,F,,,,,,F,,0,,14/11/2011,1030,SPETCHEL
+8616,Stephanodiscus hantzchii (cells/ml),cells/ml,Stephanodiscus hantz,WQ,0.00001,5,LEVEL,CPML,F,,,,,,F,,0,,14/11/2011,1030,SPETCHEL
+8617,Thalassiosira (cells/ml),cells/ml,Thalassiosira (cells,WQ,0.00001,5,LEVEL,CPML,F,,,,,,F,,0,,14/11/2011,1030,SPETCHEL
+8618,Thalassiosira fluviatilis (cells/ml),cells/ml,Thalassiosira fluvia,WQ,0.00001,5,LEVEL,CPML,F,,,,,,F,,0,,14/11/2011,1030,SPETCHEL
+8641,Order Pennales - total count (cells/ml),cells/ml,Order Pennales - tot,WQ,0.00001,5,LEVEL,CPML,F,,,,,,F,,0,,14/11/2011,1030,SPETCHEL
+8642,Order Pennales - unknown genus (cells/ml,cells/ml,Order Pennales - unk,WQ,0.00001,5,LEVEL,CPML,F,,,,,,F,,0,,14/11/2011,1030,SPETCHEL
+8643,Order Pennales - unknown genus < 15 um (,cells/ml,Order Pennales - unk,WQ,0.00001,5,LEVEL,CPML,F,,,,,,F,,0,,14/11/2011,1030,SPETCHEL
+8644,Order Pennales - unknown genus > 15 um (,cells/ml,Order Pennales - unk,WQ,0.00001,5,LEVEL,CPML,F,,,,,,F,,0,,14/11/2011,1030,SPETCHEL
+8645,Achnanthes (cells/ml),cells/ml,Achnanthes (cells/ml,WQ,0.00001,5,LEVEL,CPML,F,,,,,,F,,0,,14/11/2011,1030,SPETCHEL
+8646,Achnanthes longipes (cells/ml),cells/ml,Achnanthes longipes,WQ,0.00001,5,LEVEL,CPML,F,,,,,,F,,0,,14/11/2011,1030,SPETCHEL
+8647,Actinella (cells/ml),cells/ml,Actinella (cells/ml),WQ,0.00001,5,LEVEL,CPML,F,,,,,,F,,0,,14/11/2011,1030,SPETCHEL
+8648,Amphipleura (cells/ml),cells/ml,Amphipleura (cells/m,WQ,0.00001,5,LEVEL,CPML,F,,,,,,F,,0,,14/11/2011,1030,SPETCHEL
+8649,Amphiprora (cells/ml),cells/ml,Amphiprora (cells/ml,WQ,0.00001,5,LEVEL,CPML,F,,,,,,F,,0,,14/11/2011,1030,SPETCHEL
+8650,Amphora (cells/ml),cells/ml,Amphora (cells/ml),WQ,0.00001,5,LEVEL,CPML,F,,,,,,F,,0,,14/11/2011,1030,SPETCHEL
+8651,Anomoeoneis (cells/ml),cells/ml,Anomoeoneis (cells/m,WQ,0.00001,5,LEVEL,CPML,F,,,,,,F,,0,,14/11/2011,1030,SPETCHEL
+8652,Asterionella (cells/ml),cells/ml,Asterionella (cells/,WQ,0.00001,5,LEVEL,CPML,F,,,,,,F,,0,,14/11/2011,1030,SPETCHEL
+8653,Asterionella formosa (cells/ml),cells/ml,Asterionella formosa,WQ,0.00001,5,LEVEL,CPML,F,,,,,,F,,0,,14/11/2011,1030,SPETCHEL
+8654,Asterionella gracillima (cells/ml),cells/ml,Asterionella gracill,WQ,0.00001,5,LEVEL,CPML,F,,,,,,F,,0,,14/11/2011,1030,SPETCHEL
+8655,Bacillaria (cells/ml),cells/ml,Bacillaria (cells/ml,WQ,0.00001,5,LEVEL,CPML,F,,,,,,F,,0,,14/11/2011,1030,SPETCHEL
+8656,Bacillaria paradoxa (cells/ml),cells/ml,Bacillaria paradoxa,WQ,0.00001,5,LEVEL,CPML,F,,,,,,F,,0,,14/11/2011,1030,SPETCHEL
+8657,Bacillaria paxillifer (cells/ml),cells/ml,Bacillaria paxillife,WQ,0.00001,5,LEVEL,CPML,F,,,,,,F,,0,,14/11/2011,1030,SPETCHEL
+8658,Caloneis (cells/ml),cells/ml,Caloneis (cells/ml),WQ,0.00001,5,LEVEL,CPML,F,,,,,,F,,0,,14/11/2011,1030,SPETCHEL
+8659,Campylodiscus (cells/ml),cells/ml,Campylodiscus (cells,WQ,0.00001,5,LEVEL,CPML,F,,,,,,F,,0,,14/11/2011,1030,SPETCHEL
+8660,Cocconeis (cells/ml),cells/ml,Cocconeis (cells/ml),WQ,0.00001,5,LEVEL,CPML,F,,,,,,F,,0,,14/11/2011,1030,SPETCHEL
+8661,Cylindrotheca (cells/ml),cells/ml,Cylindrotheca (cells,WQ,0.00001,5,LEVEL,CPML,F,,,,,,F,,0,,14/11/2011,1030,SPETCHEL
+8662,Cymatopleura (cells/ml),cells/ml,Cymatopleura (cells/,WQ,0.00001,5,LEVEL,CPML,F,,,,,,F,,0,,14/11/2011,1030,SPETCHEL
+8663,Cymbella (cells/ml),cells/ml,Cymbella (cells/ml),WQ,0.00001,5,LEVEL,CPML,F,,,,,,F,,0,,14/11/2011,1030,SPETCHEL
+8664,Cymbella ventricosa (cells/ml),cells/ml,Cymbella ventricosa,WQ,0.00001,5,LEVEL,CPML,F,,,,,,F,,0,,14/11/2011,1030,SPETCHEL
+8665,Denticula (cells/ml),cells/ml,Denticula (cells/ml),WQ,0.00001,5,LEVEL,CPML,F,,,,,,F,,0,,14/11/2011,1030,SPETCHEL
+8666,Diatoma (cells/ml),cells/ml,Diatoma (cells/ml),WQ,0.00001,5,LEVEL,CPML,F,,,,,,F,,0,,14/11/2011,1030,SPETCHEL
+8667,Diatoma elongatum (cells/ml),cells/ml,Diatoma elongatum (c,WQ,0.00001,5,LEVEL,CPML,F,,,,,,F,,0,,14/11/2011,1030,SPETCHEL
+8668,Diploneis (cells/ml),cells/ml,Diploneis (cells/ml),WQ,0.00001,5,LEVEL,CPML,F,,,,,,F,,0,,14/11/2011,1030,SPETCHEL
+8669,Epithemia (cells/ml),cells/ml,Epithemia (cells/ml),WQ,0.00001,5,LEVEL,CPML,F,,,,,,F,,0,,14/11/2011,1030,SPETCHEL
+8670,Eucampia (cells/ml),cells/ml,Eucampia (cells/ml),WQ,0.00001,5,LEVEL,CPML,F,,,,,,F,,0,,14/11/2011,1030,SPETCHEL
+8671,Eunotia (cells/ml),cells/ml,Eunotia (cells/ml),WQ,0.00001,5,LEVEL,CPML,F,,,,,,F,,0,,14/11/2011,1030,SPETCHEL
+8672,Fragilaria (cells/ml),cells/ml,Fragilaria (cells/ml,WQ,0.00001,5,LEVEL,CPML,F,,,,,,F,,0,,14/11/2011,1030,SPETCHEL
+8673,Fragilaria capucina (cells/ml),cells/ml,Fragilaria capucina,WQ,0.00001,5,LEVEL,CPML,F,,,,,,F,,0,,14/11/2011,1030,SPETCHEL
+8674,Fragilaria crotonensis (cells/ml),cells/ml,Fragilaria crotonens,WQ,0.00001,5,LEVEL,CPML,F,,,,,,F,,0,,14/11/2011,1030,SPETCHEL
+8675,Frustulia (cells/ml),cells/ml,Frustulia (cells/ml),WQ,0.00001,5,LEVEL,CPML,F,,,,,,F,,0,,14/11/2011,1030,SPETCHEL
+8676,Frustulia rhomboides (cells/ml),cells/ml,Frustulia rhomboides,WQ,0.00001,5,LEVEL,CPML,F,,,,,,F,,0,,14/11/2011,1030,SPETCHEL
+8677,Gomphoneis (cells/ml),cells/ml,Gomphoneis (cells/ml,WQ,0.00001,5,LEVEL,CPML,F,,,,,,F,,0,,14/11/2011,1030,SPETCHEL
+8678,Gomphonema (cells/ml),cells/ml,Gomphonema (cells/ml,WQ,0.00001,5,LEVEL,CPML,F,,,,,,F,,0,,14/11/2011,1030,SPETCHEL
+8679,Gomphonema parvulum (cells/ml),cells/ml,Gomphonema parvulum,WQ,0.00001,5,LEVEL,CPML,F,,,,,,F,,0,,14/11/2011,1030,SPETCHEL
+8680,Gyrosigma (cells/ml),cells/ml,Gyrosigma (cells/ml),WQ,0.00001,5,LEVEL,CPML,F,,,,,,F,,0,,14/11/2011,1030,SPETCHEL
+8681,Gyrosigma wansbecki (cells/ml),cells/ml,Gyrosigma wansbecki,WQ,0.00001,5,LEVEL,CPML,F,,,,,,F,,0,,14/11/2011,1030,SPETCHEL
+8682,Hantzschia (cells/ml),cells/ml,Hantzschia (cells/ml,WQ,0.00001,5,LEVEL,CPML,F,,,,,,F,,0,,14/11/2011,1030,SPETCHEL
+8683,Licmophora (cells/ml),cells/ml,Licmophora (cells/ml,WQ,0.00001,5,LEVEL,CPML,F,,,,,,F,,0,,14/11/2011,1030,SPETCHEL
+8684,Mastogloia (cells/ml),cells/ml,Mastogloia (cells/ml,WQ,0.00001,5,LEVEL,CPML,F,,,,,,F,,0,,14/11/2011,1030,SPETCHEL
+8685,Meridion (cells/ml),cells/ml,Meridion (cells/ml),WQ,0.00001,5,LEVEL,CPML,F,,,,,,F,,0,,14/11/2011,1030,SPETCHEL
+8686,Navicula (cells/ml),cells/ml,Navicula (cells/ml),WQ,0.00001,5,LEVEL,CPML,F,,,,,,F,,0,,14/11/2011,1030,SPETCHEL
+8687,Navicula acicularis (cells/ml),cells/ml,Navicula acicularis,WQ,0.00001,5,LEVEL,CPML,F,,,,,,F,,0,,14/11/2011,1030,SPETCHEL
+8688,Navicula closterium (cells/ml),cells/ml,Navicula closterium,WQ,0.00001,5,LEVEL,CPML,F,,,,,,F,,0,,14/11/2011,1030,SPETCHEL
+8689,Navicula exigua (cells/ml),cells/ml,Navicula exigua (cel,WQ,0.00001,5,LEVEL,CPML,F,,,,,,F,,0,,14/11/2011,1030,SPETCHEL
+8690,Navicula longissima (cells/ml),cells/ml,Navicula longissima,WQ,0.00001,5,LEVEL,CPML,F,,,,,,F,,0,,14/11/2011,1030,SPETCHEL
+8691,Navicula menisculus (cells/ml),cells/ml,Navicula menisculus,WQ,0.00001,5,LEVEL,CPML,F,,,,,,F,,0,,14/11/2011,1030,SPETCHEL
+8692,Navicula palea (cells/ml),cells/ml,Navicula palea (cell,WQ,0.00001,5,LEVEL,CPML,F,,,,,,F,,0,,14/11/2011,1030,SPETCHEL
+8693,Navicula panderiformus (cells/ml),cells/ml,Navicula panderiform,WQ,0.00001,5,LEVEL,CPML,F,,,,,,F,,0,,14/11/2011,1030,SPETCHEL
+8694,Navicula pungens (cells/ml),cells/ml,Navicula pungens (ce,WQ,0.00001,5,LEVEL,CPML,F,,,,,,F,,0,,14/11/2011,1030,SPETCHEL
+8695,Navicula rynchocephala (cells/ml),cells/ml,Navicula rynchocepha,WQ,0.00001,5,LEVEL,CPML,F,,,,,,F,,0,,14/11/2011,1030,SPETCHEL
+8696,Navicula spicula (cells/ml),cells/ml,Navicula spicula (ce,WQ,0.00001,5,LEVEL,CPML,F,,,,,,F,,0,,14/11/2011,1030,SPETCHEL
+8697,Navicula varians (cells/ml),cells/ml,Navicula varians (ce,WQ,0.00001,5,LEVEL,CPML,F,,,,,,F,,0,,14/11/2011,1030,SPETCHEL
+8698,Neidium (cells/ml),cells/ml,Neidium (cells/ml),WQ,0.00001,5,LEVEL,CPML,F,,,,,,F,,0,,14/11/2011,1030,SPETCHEL
+8699,Nitzschia (cells/ml),cells/ml,Nitzschia (cells/ml),WQ,0.00001,5,LEVEL,CPML,F,,,,,,F,,0,,14/11/2011,1030,SPETCHEL
+8700,Nitzschia acicularis (cells/ml),cells/ml,Nitzschia acicularis,WQ,0.00001,5,LEVEL,CPML,F,,,,,,F,,0,,14/11/2011,1030,SPETCHEL
+8701,Nitzschia acicularis large (cells/ml),cells/ml,Nitzschia acicularis,WQ,0.00001,5,LEVEL,CPML,F,,,,,,F,,0,,14/11/2011,1030,SPETCHEL
+8702,Nitzschia acicularis medium (cells/ml),cells/ml,Nitzschia acicularis,WQ,0.00001,5,LEVEL,CPML,F,,,,,,F,,0,,14/11/2011,1030,SPETCHEL
+8703,Nitzschia acicularis small (cells/ml),cells/ml,Nitzschia acicularis,WQ,0.00001,5,LEVEL,CPML,F,,,,,,F,,0,,14/11/2011,1030,SPETCHEL
+8704,Nitzschia acicularis var closteroide (ce,cells/ml,Nitzschia acicularis,WQ,0.00001,5,LEVEL,CPML,F,,,,,,F,,0,,14/11/2011,1030,SPETCHEL
+8705,Nitzschia actinastroides (cells/ml),cells/ml,Nitzschia actinastro,WQ,0.00001,5,LEVEL,CPML,F,,,,,,F,,0,,14/11/2011,1030,SPETCHEL
+8706,Nitzschia capitellata (cells/ml),cells/ml,Nitzschia capitellat,WQ,0.00001,5,LEVEL,CPML,F,,,,,,F,,0,,14/11/2011,1030,SPETCHEL
+8707,Nitzschia closterium (cells/ml),cells/ml,Nitzschia closterium,WQ,0.00001,5,LEVEL,CPML,F,,,,,,F,,0,,14/11/2011,1030,SPETCHEL
+8708,Nitzschia palea (cells/ml),cells/ml,Nitzschia palea (cel,WQ,0.00001,5,LEVEL,CPML,F,,,,,,F,,0,,14/11/2011,1030,SPETCHEL
+8709,Nitzschia sigmoidea (cells/ml),cells/ml,Nitzschia sigmoidea,WQ,0.00001,5,LEVEL,CPML,F,,,,,,F,,0,,14/11/2011,1030,SPETCHEL
+8710,Opephora (cells/ml),cells/ml,Opephora (cells/ml),WQ,0.00001,5,LEVEL,CPML,F,,,,,,F,,0,,14/11/2011,1030,SPETCHEL
+8711,Phaeodactylum (cells/ml),cells/ml,Phaeodactylum (cells,WQ,0.00001,5,LEVEL,CPML,F,,,,,,F,,0,,14/11/2011,1030,SPETCHEL
+8712,Pinnularia (cells/ml),cells/ml,Pinnularia (cells/ml,WQ,0.00001,5,LEVEL,CPML,F,,,,,,F,,0,,14/11/2011,1030,SPETCHEL
+8713,Pleurosigma (cells/ml),cells/ml,Pleurosigma (cells/m,WQ,0.00001,5,LEVEL,CPML,F,,,,,,F,,0,,14/11/2011,1030,SPETCHEL
+8714,Rhoicosphenia (cells/ml),cells/ml,Rhoicosphenia (cells,WQ,0.00001,5,LEVEL,CPML,F,,,,,,F,,0,,14/11/2011,1030,SPETCHEL
+8715,Rhopalodia (cells/ml),cells/ml,Rhopalodia (cells/ml,WQ,0.00001,5,LEVEL,CPML,F,,,,,,F,,0,,14/11/2011,1030,SPETCHEL
+8716,Stauroneis (cells/ml),cells/ml,Stauroneis (cells/ml,WQ,0.00001,5,LEVEL,CPML,F,,,,,,F,,0,,14/11/2011,1030,SPETCHEL
+8717,Stenopterobia (cells/ml),cells/ml,Stenopterobia (cells,WQ,0.00001,5,LEVEL,CPML,F,,,,,,F,,0,,14/11/2011,1030,SPETCHEL
+8718,Stenopterobia intermedia (cells/ml),cells/ml,Stenopterobia interm,WQ,0.00001,5,LEVEL,CPML,F,,,,,,F,,0,,14/11/2011,1030,SPETCHEL
+8719,Surirella (cells/ml),cells/ml,Surirella (cells/ml),WQ,0.00001,5,LEVEL,CPML,F,,,,,,F,,0,,14/11/2011,1030,SPETCHEL
+8720,Surirella ovata (cells/ml),cells/ml,Surirella ovata (cel,WQ,0.00001,5,LEVEL,CPML,F,,,,,,F,,0,,14/11/2011,1030,SPETCHEL
+8721,Surirella robusta (cells/ml),cells/ml,Surirella robusta (c,WQ,0.00001,5,LEVEL,CPML,F,,,,,,F,,0,,14/11/2011,1030,SPETCHEL
+8722,Surirella tenera (cells/ml),cells/ml,Surirella tenera (ce,WQ,0.00001,5,LEVEL,CPML,F,,,,,,F,,0,,14/11/2011,1030,SPETCHEL
+8723,Synedra (cells/ml),cells/ml,Synedra (cells/ml),WQ,0.00001,5,LEVEL,CPML,F,,,,,,F,,0,,14/11/2011,1030,SPETCHEL
+8724,Synedra acus (cells/ml),cells/ml,Synedra acus (cells/,WQ,0.00001,5,LEVEL,CPML,F,,,,,,F,,0,,14/11/2011,1030,SPETCHEL
+8725,Synedra nana (cells/ml),cells/ml,Synedra nana (cells/,WQ,0.00001,5,LEVEL,CPML,F,,,,,,F,,0,,14/11/2011,1030,SPETCHEL
+8726,Synedra pulchelium (cells/ml),cells/ml,Synedra pulchelium (,WQ,0.00001,5,LEVEL,CPML,F,,,,,,F,,0,,14/11/2011,1030,SPETCHEL
+8727,Synedra rumpens (cells/ml),cells/ml,Synedra rumpens (cel,WQ,0.00001,5,LEVEL,CPML,F,,,,,,F,,0,,14/11/2011,1030,SPETCHEL
+8728,Synedra ulna (cells/ml),cells/ml,Synedra ulna (cells/,WQ,0.00001,5,LEVEL,CPML,F,,,,,,F,,0,,14/11/2011,1030,SPETCHEL
+8729,Synedra ulna medium (cells/ml),cells/ml,Synedra ulna medium,WQ,0.00001,5,LEVEL,CPML,F,,,,,,F,,0,,14/11/2011,1030,SPETCHEL
+8730,Synedra ulna small (cells/ml),cells/ml,Synedra ulna small (,WQ,0.00001,5,LEVEL,CPML,F,,,,,,F,,0,,14/11/2011,1030,SPETCHEL
+8731,Tabellaria (cells/ml),cells/ml,Tabellaria (cells/ml,WQ,0.00001,5,LEVEL,CPML,F,,,,,,F,,0,,14/11/2011,1030,SPETCHEL
+8732,Tabellaria flocculosa (cells/ml),cells/ml,Tabellaria flocculos,WQ,0.00001,5,LEVEL,CPML,F,,,,,,F,,0,,14/11/2011,1030,SPETCHEL
+8751,Sub-phyllum CHRYSOPHYCEAE - total count,cells/ml,Sub-phyllum CHRYSOPH,WQ,0.00001,5,LEVEL,CPML,F,,,,,,F,,0,,14/11/2011,1030,SPETCHEL
+8752,Sub-phyllum CHRYSOPHYCEAE - unk. genus (,cells/ml,Sub-phyllum CHRYSOPH,WQ,0.00001,5,LEVEL,CPML,F,,,,,,F,,0,,14/11/2011,1030,SPETCHEL
+8761,Order Chromulinales - total count (cells,cells/ml,Order Chromulinales,WQ,0.00001,5,LEVEL,CPML,F,,,,,,F,,0,,14/11/2011,1030,SPETCHEL
+8762,Order Chromulinales - unknown genus (cel,cells/ml,Order Chromulinales,WQ,0.00001,5,LEVEL,CPML,F,,,,,,F,,0,,14/11/2011,1030,SPETCHEL
+8763,Chromulina (cells/ml),cells/ml,Chromulina (cells/ml,WQ,0.00001,5,LEVEL,CPML,F,,,,,,F,,0,,14/11/2011,1030,SPETCHEL
+8764,Chrysapsis (cells/ml),cells/ml,Chrysapsis (cells/ml,WQ,0.00001,5,LEVEL,CPML,F,,,,,,F,,0,,14/11/2011,1030,SPETCHEL
+8765,Oicomonas (cells/ml),cells/ml,Oicomonas (cells/ml),WQ,0.00001,5,LEVEL,CPML,F,,,,,,F,,0,,14/11/2011,1030,SPETCHEL
+8771,Order Monosigales - total count (cells/m,cells/ml,Order Monosigales -,WQ,0.00001,5,LEVEL,CPML,F,,,,,,F,,0,,14/11/2011,1030,SPETCHEL
+8772,Order Monosigales - unknown genus (cells,cells/ml,Order Monosigales -,WQ,0.00001,5,LEVEL,CPML,F,,,,,,F,,0,,14/11/2011,1030,SPETCHEL
+8773,Aulomonas (cells/ml),cells/ml,Aulomonas (cells/ml),WQ,0.00001,5,LEVEL,CPML,F,,,,,,F,,0,,14/11/2011,1030,SPETCHEL
+8774,Desmarella (cells/ml),cells/ml,Desmarella (cells/ml,WQ,0.00001,5,LEVEL,CPML,F,,,,,,F,,0,,14/11/2011,1030,SPETCHEL
+8781,Order Ochromonadales - total count (cell,cells/ml,Order Ochromonadales,WQ,0.00001,5,LEVEL,CPML,F,,,,,,F,,0,,14/11/2011,1030,SPETCHEL
+8782,Order Ochromonadales - unknown genus (ce,cells/ml,Order Ochromonadales,WQ,0.00001,5,LEVEL,CPML,F,,,,,,F,,0,,14/11/2011,1030,SPETCHEL
+8783,Dinobryon (cells/ml),cells/ml,Dinobryon (cells/ml),WQ,0.00001,5,LEVEL,CPML,F,,,,,,F,,0,,14/11/2011,1030,SPETCHEL
+8784,Dinobryon bavaricum (cells/ml),cells/ml,Dinobryon bavaricum,WQ,0.00001,5,LEVEL,CPML,F,,,,,,F,,0,,14/11/2011,1030,SPETCHEL
+8785,Dinobryon cylindricum (cells/ml),cells/ml,Dinobryon cylindricu,WQ,0.00001,5,LEVEL,CPML,F,,,,,,F,,0,,14/11/2011,1030,SPETCHEL
+8786,Dinobryon divergens (cells/ml),cells/ml,Dinobryon divergens,WQ,0.00001,5,LEVEL,CPML,F,,,,,,F,,0,,14/11/2011,1030,SPETCHEL
+8787,Dinobryon sertularia (cells/ml),cells/ml,Dinobryon sertularia,WQ,0.00001,5,LEVEL,CPML,F,,,,,,F,,0,,14/11/2011,1030,SPETCHEL
+8788,Mallomonas (cells/ml),cells/ml,Mallomonas (cells/ml,WQ,0.00001,5,LEVEL,CPML,F,,,,,,F,,0,,14/11/2011,1030,SPETCHEL
+8789,Mallomonas splendens (cells/ml),cells/ml,Mallomonas splendens,WQ,0.00001,5,LEVEL,CPML,F,,,,,,F,,0,,14/11/2011,1030,SPETCHEL
+8790,Ochromonas (cells/ml),cells/ml,Ochromonas (cells/ml,WQ,0.00001,5,LEVEL,CPML,F,,,,,,F,,0,,14/11/2011,1030,SPETCHEL
+8791,Pseudokephyrion (cells/ml),cells/ml,Pseudokephyrion (cel,WQ,0.00001,5,LEVEL,CPML,F,,,,,,F,,0,,14/11/2011,1030,SPETCHEL
+8792,Pseudokephyrion acutum (cells/ml),cells/ml,Pseudokephyrion acut,WQ,0.00001,5,LEVEL,CPML,F,,,,,,F,,0,,14/11/2011,1030,SPETCHEL
+8793,Pseudokephyrion pulcherriumum (cells/ml),cells/ml,Pseudokephyrion pulc,WQ,0.00001,5,LEVEL,CPML,F,,,,,,F,,0,,14/11/2011,1030,SPETCHEL
+8794,Synura (cells/ml),cells/ml,Synura (cells/ml),WQ,0.00001,5,LEVEL,CPML,F,,,,,,F,,0,,14/11/2011,1030,SPETCHEL
+8795,Synura australiensis (cells/ml),cells/ml,Synura australiensis,WQ,0.00001,5,LEVEL,CPML,F,,,,,,F,,0,,14/11/2011,1030,SPETCHEL
+8796,Synura uvella (cells/ml),cells/ml,Synura uvella (cells,WQ,0.00001,5,LEVEL,CPML,F,,,,,,F,,0,,14/11/2011,1030,SPETCHEL
+8797,Uroglena (cells/ml),cells/ml,Uroglena (cells/ml),WQ,0.00001,5,LEVEL,CPML,F,,,,,,F,,0,,14/11/2011,1030,SPETCHEL
+8798,Uroglenopsis (cells/ml),cells/ml,Uroglenopsis (cells/,WQ,0.00001,5,LEVEL,CPML,F,,,,,,F,,0,,14/11/2011,1030,SPETCHEL
+8811,Order Rhizochrysidales - total count (ce,cells/ml,Order Rhizochrysidal,WQ,0.00001,5,LEVEL,CPML,F,,,,,,F,,0,,14/11/2011,1030,SPETCHEL
+8812,Order Rhizochrysidales - unknown genus (,cells/ml,Order Rhizochrysidal,WQ,0.00001,5,LEVEL,CPML,F,,,,,,F,,0,,14/11/2011,1030,SPETCHEL
+8813,Chrysidiastrum (cells/ml),cells/ml,Chrysidiastrum (cell,WQ,0.00001,5,LEVEL,CPML,F,,,,,,F,,0,,14/11/2011,1030,SPETCHEL
+8814,Chrysidiastrum catenatum (cells/ml),cells/ml,Chrysidiastrum caten,WQ,0.00001,5,LEVEL,CPML,F,,,,,,F,,0,,14/11/2011,1030,SPETCHEL
+8815,Diceras (cells/ml),cells/ml,Diceras (cells/ml),WQ,0.00001,5,LEVEL,CPML,F,,,,,,F,,0,,14/11/2011,1030,SPETCHEL
+8816,Diceras chodati (cells/ml),cells/ml,Diceras chodati (cel,WQ,0.00001,5,LEVEL,CPML,F,,,,,,F,,0,,14/11/2011,1030,SPETCHEL
+8821,Sub-phyllum CYANOPHYCEAE - total count (,cells/ml,Sub-phyllum CYANOPHY,WQ,0.00001,5,LEVEL,CPML,F,,,,,,F,,0,,14/11/2011,1030,SPETCHEL
+8822,Sub-phyllum CYANOPHYCEAE - unknown genus,cells/ml,Sub-phyllum CYANOPHY,WQ,0.00001,5,LEVEL,CPML,F,,,,,,F,,0,,14/11/2011,1030,SPETCHEL
+8823,Filamentous blue-green algae (cells/ml),cells/ml,Filamentous blue-gre,WQ,0.00001,5,LEVEL,CPML,F,,,,,,F,,0,,14/11/2011,1030,SPETCHEL
+8831,Order Chroococcales - total count (cells,cells/ml,Order Chroococcales,WQ,0.00001,5,LEVEL,CPML,F,,,,,,F,,0,,14/11/2011,1030,SPETCHEL
+8832,Order Chroococcales - unknown genus (cel,cells/ml,Order Chroococcales,WQ,0.00001,5,LEVEL,CPML,F,,,,,,F,,0,,14/11/2011,1030,SPETCHEL
+8833,Aphanocapsa (cells/ml),cells/ml,Aphanocapsa (cells/m,WQ,0.00001,5,LEVEL,CPML,F,,,,,,F,,0,,14/11/2011,1030,SPETCHEL
+8834,Aphanothece (cells/ml),cells/ml,Aphanothece (cells/m,WQ,0.00001,5,LEVEL,CPML,F,,,,,,F,,0,,14/11/2011,1030,SPETCHEL
+8835,Aphanothece (colonies) (cells/ml),cells/ml,Aphanothece (colonie,WQ,0.00001,5,LEVEL,CPML,F,,,,,,F,,0,,14/11/2011,1030,SPETCHEL
+8836,Aphanothece clanthrata (cells/ml),cells/ml,Aphanothece clanthra,WQ,0.00001,5,LEVEL,CPML,F,,,,,,F,,0,,14/11/2011,1030,SPETCHEL
+8837,Chroococcus (cells/ml),cells/ml,Chroococcus (cells/m,WQ,0.00001,5,LEVEL,CPML,F,,,,,,F,,0,,14/11/2011,1030,SPETCHEL
+8838,Coelosphaerium (cells/ml),cells/ml,Coelosphaerium (cell,WQ,0.00001,5,LEVEL,CPML,F,,,,,,F,,0,,14/11/2011,1030,SPETCHEL
+8839,Dactylococcopsis (cells/ml),cells/ml,Dactylococcopsis (ce,WQ,0.00001,5,LEVEL,CPML,F,,,,,,F,,0,,14/11/2011,1030,SPETCHEL
+8840,Gloeocapsa (cells/ml),cells/ml,Gloeocapsa (cells/ml,WQ,0.00001,5,LEVEL,CPML,F,,,,,,F,,0,,14/11/2011,1030,SPETCHEL
+8841,Gloeothece (cells/ml),cells/ml,Gloeothece (cells/ml,WQ,0.00001,5,LEVEL,CPML,F,,,,,,F,,0,,14/11/2011,1030,SPETCHEL
+8842,Gomphosphaeria (cells/ml),cells/ml,Gomphosphaeria (cell,WQ,0.00001,5,LEVEL,CPML,F,,,,,,F,,0,,14/11/2011,1030,SPETCHEL
+8843,Merismopedia (cells/ml),cells/ml,Merismopedia (cells/,WQ,0.00001,5,LEVEL,CPML,F,,,,,,F,,0,,14/11/2011,1030,SPETCHEL
+8844,Merismopedia minima (cells/ml),cells/ml,Merismopedia minima,WQ,0.00001,5,LEVEL,CPML,F,,,,,,F,,0,,14/11/2011,1030,SPETCHEL
+8845,Microcystis (colony) (cells/ml),cells/ml,Microcystis (colony),WQ,0.00001,5,LEVEL,CPML,F,,,,,,F,,0,,14/11/2011,1030,SPETCHEL
+8846,Microcystis (cells/ml),cells/ml,Microcystis (cells/m,WQ,0.00001,5,LEVEL,CPML,F,,,,,,F,,0,,14/11/2011,1030,SPETCHEL
+8847,Microcystis aeruginosa (cells/ml),cells/ml,Microcystis aerugino,WQ,0.00001,5,LEVEL,CPML,F,,,,,,F,,0,,14/11/2011,1030,SPETCHEL
+8871,Order Nostocales - total count (cells/ml,cells/ml,Order Nostocales - t,WQ,0.00001,5,LEVEL,CPML,F,,,,,,F,,0,,14/11/2011,1030,SPETCHEL
+8872,Order Nostocales - unknown genus (cells/,cells/ml,Order Nostocales - u,WQ,0.00001,5,LEVEL,CPML,F,,,,,,F,,0,,14/11/2011,1030,SPETCHEL
+8873,Anabaena (cells/ml),cells/ml,Anabaena (cells/ml),WQ,0.00001,5,LEVEL,CPML,F,,,,,,F,,0,,14/11/2011,1030,SPETCHEL
+8874,Anabaena affinis (cells/ml),cells/ml,Anabaena affinis (ce,WQ,0.00001,5,LEVEL,CPML,F,,,,,,F,,0,,14/11/2011,1030,SPETCHEL
+8875,Anabaena aphanizomenoides (cells/ml),cells/ml,Anabaena aphanizomen,WQ,0.00001,5,LEVEL,CPML,F,,,,,,F,,0,,14/11/2011,1030,SPETCHEL
+8876,Anabaena bergii (cells/ml),cells/ml,Anabaena bergii (cel,WQ,0.00001,5,LEVEL,CPML,F,,,,,,F,,0,,14/11/2011,1030,SPETCHEL
+8877,Anabaena circinalis (cells/ml),cells/ml,Anabaena circinalis,WQ,0.00001,5,LEVEL,CPML,F,,,,,,F,,0,,14/11/2011,1030,SPETCHEL
+8878,Anabaena cylindrica (cells/ml),cells/ml,Anabaena cylindrica,WQ,0.00001,5,LEVEL,CPML,F,,,,,,F,,0,,14/11/2011,1030,SPETCHEL
+8879,Anabaena flos-aquae var. 1 (cells/ml),cells/ml,Anabaena flos-aquae,WQ,0.00001,5,LEVEL,CPML,F,,,,,,F,,0,,14/11/2011,1030,SPETCHEL
+8880,Anabaena flos-aquae var. 2 (cells/ml),cells/ml,Anabaena flos-aquae,WQ,0.00001,5,LEVEL,CPML,F,,,,,,F,,0,,14/11/2011,1030,SPETCHEL
+8881,Anabaena inaequalis (cells/ml),cells/ml,Anabaena inaequalis,WQ,0.00001,5,LEVEL,CPML,F,,,,,,F,,0,,14/11/2011,1030,SPETCHEL
+8882,Anabaena laxa (cells/ml),cells/ml,Anabaena laxa (cells,WQ,0.00001,5,LEVEL,CPML,F,,,,,,F,,0,,14/11/2011,1030,SPETCHEL
+8883,Anabaena limnetica (cells/ml),cells/ml,Anabaena limnetica (,WQ,0.00001,5,LEVEL,CPML,F,,,,,,F,,0,,14/11/2011,1030,SPETCHEL
+8884,Anabaena macrospora (cells/ml),cells/ml,Anabaena macrospora,WQ,0.00001,5,LEVEL,CPML,F,,,,,,F,,0,,14/11/2011,1030,SPETCHEL
+8885,Anabaena oscillarioides (cells/ml),cells/ml,Anabaena oscillarioi,WQ,0.00001,5,LEVEL,CPML,F,,,,,,F,,0,,14/11/2011,1030,SPETCHEL
+8886,Anabaena plantonica (cells/ml),cells/ml,Anabaena plantonica,WQ,0.00001,5,LEVEL,CPML,F,,,,,,F,,0,,14/11/2011,1030,SPETCHEL
+8887,Anabaena solitaria (cells/ml),cells/ml,Anabaena solitaria (,WQ,0.00001,5,LEVEL,CPML,F,,,,,,F,,0,,14/11/2011,1030,SPETCHEL
+8888,Anabaena spiroides (cells/ml),cells/ml,Anabaena spiroides (,WQ,0.00001,5,LEVEL,CPML,F,,,,,,F,,0,,14/11/2011,1030,SPETCHEL
+8889,Anabaena spiroides var. 1 (cells/ml),cells/ml,Anabaena spiroides v,WQ,0.00001,5,LEVEL,CPML,F,,,,,,F,,0,,14/11/2011,1030,SPETCHEL
+8890,Anabaena spiroides var. 2 (cells/ml),cells/ml,Anabaena spiroides v,WQ,0.00001,5,LEVEL,CPML,F,,,,,,F,,0,,14/11/2011,1030,SPETCHEL
+8891,Anabaena spiroides var. 3 (cells/ml),cells/ml,Anabaena spiroides v,WQ,0.00001,5,LEVEL,CPML,F,,,,,,F,,0,,14/11/2011,1030,SPETCHEL
+8892,Anabaena spiroides var. 4 (cells/ml),cells/ml,Anabaena spiroides v,WQ,0.00001,5,LEVEL,CPML,F,,,,,,F,,0,,14/11/2011,1030,SPETCHEL
+8893,Anabaena torulosa (cells/ml),cells/ml,Anabaena torulosa (c,WQ,0.00001,5,LEVEL,CPML,F,,,,,,F,,0,,14/11/2011,1030,SPETCHEL
+8894,Anabaena torulosa var. 1 (cells/ml),cells/ml,Anabaena torulosa va,WQ,0.00001,5,LEVEL,CPML,F,,,,,,F,,0,,14/11/2011,1030,SPETCHEL
+8895,Anabaena torulosa var. 2 (cells/ml),cells/ml,Anabaena torulosa va,WQ,0.00001,5,LEVEL,CPML,F,,,,,,F,,0,,14/11/2011,1030,SPETCHEL
+8896,Anabaena utermohli (cells/ml),cells/ml,Anabaena utermohli (,WQ,0.00001,5,LEVEL,CPML,F,,,,,,F,,0,,14/11/2011,1030,SPETCHEL
+8897,Anabaenopsis (cells/ml),cells/ml,Anabaenopsis (cells/,WQ,0.00001,5,LEVEL,CPML,F,,,,,,F,,0,,14/11/2011,1030,SPETCHEL
+8898,Anabaenopsis arnoldii (cells/ml),cells/ml,Anabaenopsis arnoldi,WQ,0.00001,5,LEVEL,CPML,F,,,,,,F,,0,,14/11/2011,1030,SPETCHEL
+8899,Anabaenopsis elenkinii (cells/ml),cells/ml,Anabaenopsis elenkin,WQ,0.00001,5,LEVEL,CPML,F,,,,,,F,,0,,14/11/2011,1030,SPETCHEL
+8900,Anabaenopsis raciborskii (cells/ml),cells/ml,Anabaenopsis racibor,WQ,0.00001,5,LEVEL,CPML,F,,,,,,F,,0,,14/11/2011,1030,SPETCHEL
+8901,Anabaenopsis tanganyikae (cells/ml),cells/ml,Anabaenopsis tangany,WQ,0.00001,5,LEVEL,CPML,F,,,,,,F,,0,,14/11/2011,1030,SPETCHEL
+8902,Aphanizomenon (cells/ml),cells/ml,Aphanizomenon (cells,WQ,0.00001,5,LEVEL,CPML,F,,,,,,F,,0,,14/11/2011,1030,SPETCHEL
+8903,Aphanizomenon gracile (cells/ml),cells/ml,Aphanizomenon gracil,WQ,0.00001,5,LEVEL,CPML,F,,,,,,F,,0,,14/11/2011,1030,SPETCHEL
+8904,Aphanizomenon issatschenkoi (cells/ml),cells/ml,Aphanizomenon issats,WQ,0.00001,5,LEVEL,CPML,F,,,,,,F,,0,,14/11/2011,1030,SPETCHEL
+8905,Calothrix (cells/ml),cells/ml,Calothrix (cells/ml),WQ,0.00001,5,LEVEL,CPML,F,,,,,,F,,0,,14/11/2011,1030,SPETCHEL
+8906,Cyanarcus (cells/ml),cells/ml,Cyanarcus (cells/ml),WQ,0.00001,5,LEVEL,CPML,F,,,,,,F,,0,,14/11/2011,1030,SPETCHEL
+8907,Cyanarcus hamiformis (cells/ml),cells/ml,Cyanarcus hamiformis,WQ,0.00001,5,LEVEL,CPML,F,,,,,,F,,0,,14/11/2011,1030,SPETCHEL
+8908,Cylindrospermum (cells/ml),cells/ml,Cylindrospermum (cel,WQ,0.00001,5,LEVEL,CPML,F,,,,,,F,,0,,14/11/2011,1030,SPETCHEL
+8909,Cylindrospermopsis (cells/ml),cells/ml,Cylindrospermopsis (,WQ,0.00001,5,LEVEL,CPML,F,,,,,,F,,0,,14/11/2011,1030,SPETCHEL
+8910,Cylindrospermopsis raciborskii (cells/ml,cells/ml,Cylindrospermopsis r,WQ,0.00001,5,LEVEL,CPML,F,,,,,,F,,0,,14/11/2011,1030,SPETCHEL
+8911,Gloeotrichia (cells/ml),cells/ml,Gloeotrichia (cells/,WQ,0.00001,5,LEVEL,CPML,F,,,,,,F,,0,,14/11/2011,1030,SPETCHEL
+8912,Nodularia (cells/ml),cells/ml,Nodularia (cells/ml),WQ,0.00001,5,LEVEL,CPML,F,,,,,,F,,0,,14/11/2011,1030,SPETCHEL
+8913,Nodularia spumigena (cells/ml),cells/ml,Nodularia spumigena,WQ,0.00001,5,LEVEL,CPML,F,,,,,,F,,0,,14/11/2011,1030,SPETCHEL
+8914,Nostoc (cells/ml),cells/ml,Nostoc (cells/ml),WQ,0.00001,5,LEVEL,CPML,F,,,,,,F,,0,,14/11/2011,1030,SPETCHEL
+8915,Raphidiopsis (cells/ml),cells/ml,Raphidiopsis (cells/,WQ,0.00001,5,LEVEL,CPML,F,,,,,,F,,0,,14/11/2011,1030,SPETCHEL
+8916,Rivularia (cells/ml),cells/ml,Rivularia (cells/ml),WQ,0.00001,5,LEVEL,CPML,F,,,,,,F,,0,,14/11/2011,1030,SPETCHEL
+8931,Order Oscillatoriales - total count (cel,cells/ml,Order Oscillatoriale,WQ,0.00001,5,LEVEL,CPML,F,,,,,,F,,0,,14/11/2011,1030,SPETCHEL
+8932,Order Oscillatoriales - unknown genus (c,cells/ml,Order Oscillatoriale,WQ,0.00001,5,LEVEL,CPML,F,,,,,,F,,0,,14/11/2011,1030,SPETCHEL
+8933,Arthrospira (cells/ml),cells/ml,Arthrospira (cells/m,WQ,0.00001,5,LEVEL,CPML,F,,,,,,F,,0,,14/11/2011,1030,SPETCHEL
+8934,Lyngbya (cells/ml),cells/ml,Lyngbya (cells/ml),WQ,0.00001,5,LEVEL,CPML,F,,,,,,F,,0,,14/11/2011,1030,SPETCHEL
+8935,Lyngbya (trichomes) (cells/ml),cells/ml,Lyngbya (trichomes),WQ,0.00001,5,LEVEL,CPML,F,,,,,,F,,0,,14/11/2011,1030,SPETCHEL
+8936,Lyngbya perelegens (cells/ml),cells/ml,Lyngbya perelegens (,WQ,0.00001,5,LEVEL,CPML,F,,,,,,F,,0,,14/11/2011,1030,SPETCHEL
+8937,Oscillatoria (cells/ml),cells/ml,Oscillatoria (cells/,WQ,0.00001,5,LEVEL,CPML,F,,,,,,F,,0,,14/11/2011,1030,SPETCHEL
+8938,Oscillatoria acuminata (cells/ml),cells/ml,Oscillatoria acumina,WQ,0.00001,5,LEVEL,CPML,F,,,,,,F,,0,,14/11/2011,1030,SPETCHEL
+8939,Oscillatoria limnetica (cells/ml),cells/ml,Oscillatoria limneti,WQ,0.00001,5,LEVEL,CPML,F,,,,,,F,,0,,14/11/2011,1030,SPETCHEL
+8940,Oscillatoria tenuis (cells/ml),cells/ml,Oscillatoria tenuis,WQ,0.00001,5,LEVEL,CPML,F,,,,,,F,,0,,14/11/2011,1030,SPETCHEL
+8941,Phormidium (cells/ml),cells/ml,Phormidium (cells/ml,WQ,0.00001,5,LEVEL,CPML,F,,,,,,F,,0,,14/11/2011,1030,SPETCHEL
+8942,Planktolyngbya (cells/ml),cells/ml,Planktolyngbya (cell,WQ,0.00001,5,LEVEL,CPML,F,,,,,,F,,0,,14/11/2011,1030,SPETCHEL
+8943,Planktolyngbya subtilis (cells/ml),cells/ml,Planktolyngbya subti,WQ,0.00001,5,LEVEL,CPML,F,,,,,,F,,0,,14/11/2011,1030,SPETCHEL
+8944,Planktothrix (cells/ml),cells/ml,Planktothrix (cells/,WQ,0.00001,5,LEVEL,CPML,F,,,,,,F,,0,,14/11/2011,1030,SPETCHEL
+8945,Pseudanabaena (cells/ml),cells/ml,Pseudanabaena (cells,WQ,0.00001,5,LEVEL,CPML,F,,,,,,F,,0,,14/11/2011,1030,SPETCHEL
+8946,Pseudanabaena limnetica (cells/ml),cells/ml,Pseudanabaena limnet,WQ,0.00001,5,LEVEL,CPML,F,,,,,,F,,0,,14/11/2011,1030,SPETCHEL
+8947,Pseudanabaena mucicola (cells/ml),cells/ml,Pseudanabaena mucico,WQ,0.00001,5,LEVEL,CPML,F,,,,,,F,,0,,14/11/2011,1030,SPETCHEL
+8948,Schizothrix (cells/ml),cells/ml,Schizothrix (cells/m,WQ,0.00001,5,LEVEL,CPML,F,,,,,,F,,0,,14/11/2011,1030,SPETCHEL
+8949,Spirulina (cells/ml),cells/ml,Spirulina (cells/ml),WQ,0.00001,5,LEVEL,CPML,F,,,,,,F,,0,,14/11/2011,1030,SPETCHEL
+8950,Trichodesmium (cells/ml),cells/ml,Trichodesmium (cells,WQ,0.00001,5,LEVEL,CPML,F,,,,,,F,,0,,14/11/2011,1030,SPETCHEL
+8961,Order Stigonematales - total count (cell,cells/ml,Order Stigonematales,WQ,0.00001,5,LEVEL,CPML,F,,,,,,F,,0,,14/11/2011,1030,SPETCHEL
+8962,Order Stigonematales - unknown genus (ce,cells/ml,Order Stigonematales,WQ,0.00001,5,LEVEL,CPML,F,,,,,,F,,0,,14/11/2011,1030,SPETCHEL
+8963,Diplonema (cells/ml),cells/ml,Diplonema (cells/ml),WQ,0.00001,5,LEVEL,CPML,F,,,,,,F,,0,,14/11/2011,1030,SPETCHEL
+8971,Sub-phyllum Prymnesiophyceae - tot count,cells/ml,Sub-phyllum Prymnesi,WQ,0.00001,5,LEVEL,CPML,F,,,,,,F,,0,,14/11/2011,1030,SPETCHEL
+8972,Sub-phyllum Prymnesiophyceae - unk.genus,cells/ml,Sub-phyllum Prymnesi,WQ,0.00001,5,LEVEL,CPML,F,,,,,,F,,0,,14/11/2011,1030,SPETCHEL
+8981,Order Prymnesiales - total count (cells/,cells/ml,Order Prymnesiales -,WQ,0.00001,5,LEVEL,CPML,F,,,,,,F,,0,,14/11/2011,1030,SPETCHEL
+8982,Order Prymnesiales - unknown genus (cell,cells/ml,Order Prymnesiales -,WQ,0.00001,5,LEVEL,CPML,F,,,,,,F,,0,,14/11/2011,1030,SPETCHEL
+8983,Actinosphaera (cells/ml),cells/ml,Actinosphaera (cells,WQ,0.00001,5,LEVEL,CPML,F,,,,,,F,,0,,14/11/2011,1030,SPETCHEL
+9001,Sub-phyllum XANTHOPHYCEAE - total count,cells/ml,Sub-phyllum XANTHOPH,WQ,0.00001,5,LEVEL,CPML,F,,,,,,F,,0,,14/11/2011,1030,SPETCHEL
+9002,Sub-phyllum XANTHOPHYCEAE - unknown genu,cells/ml,Sub-phyllum XANTHOPH,WQ,0.00001,5,LEVEL,CPML,F,,,,,,F,,0,,14/11/2011,1030,SPETCHEL
+9003,Sub-phyllum XANTHOPHYCEAE - flagellates,cells/ml,Sub-phyllum XANTHOPH,WQ,0.00001,5,LEVEL,CPML,F,,,,,,F,,0,,14/11/2011,1030,SPETCHEL
+9011,Order Mischococcales - total count (cell,cells/ml,Order Mischococcales,WQ,0.00001,5,LEVEL,CPML,F,,,,,,F,,0,,14/11/2011,1030,SPETCHEL
+9012,Order Mischococcales - unknown genus (ce,cells/ml,Order Mischococcales,WQ,0.00001,5,LEVEL,CPML,F,,,,,,F,,0,,14/11/2011,1030,SPETCHEL
+9013,Centritractus (cells/ml),cells/ml,Centritractus (cells,WQ,0.00001,5,LEVEL,CPML,F,,,,,,F,,0,,14/11/2011,1030,SPETCHEL
+9014,Chlorobotrys (cells/ml),cells/ml,Chlorobotrys (cells/,WQ,0.00001,5,LEVEL,CPML,F,,,,,,F,,0,,14/11/2011,1030,SPETCHEL
+9015,Ellipsoidon (cells/ml),cells/ml,Ellipsoidon (cells/m,WQ,0.00001,5,LEVEL,CPML,F,,,,,,F,,0,,14/11/2011,1030,SPETCHEL
+9016,Ophiocytium (cells/ml),cells/ml,Ophiocytium (cells/m,WQ,0.00001,5,LEVEL,CPML,F,,,,,,F,,0,,14/11/2011,1030,SPETCHEL
+9021,Order Tribonematules - total count (cell,cells/ml,Order Tribonematules,WQ,0.00001,5,LEVEL,CPML,F,,,,,,F,,0,,14/11/2011,1030,SPETCHEL
+9022,Order Tribonematules - unknown genus (ce,cells/ml,Order Tribonematules,WQ,0.00001,5,LEVEL,CPML,F,,,,,,F,,0,,14/11/2011,1030,SPETCHEL
+9023,Bumilleria (cells/ml),cells/ml,Bumilleria (cells/ml,WQ,0.00001,5,LEVEL,CPML,F,,,,,,F,,0,,14/11/2011,1030,SPETCHEL
+9024,Tribonema (cells/ml),cells/ml,Tribonema (cells/ml),WQ,0.00001,5,LEVEL,CPML,F,,,,,,F,,0,,14/11/2011,1030,SPETCHEL
+9031,Order Vaucheriales - total count (cells/,cells/ml,Order Vaucheriales -,WQ,0.00001,5,LEVEL,CPML,F,,,,,,F,,0,,14/11/2011,1030,SPETCHEL
+9032,Order Vaucheriales - unknown genus (cell,cells/ml,Order Vaucheriales -,WQ,0.00001,5,LEVEL,CPML,F,,,,,,F,,0,,14/11/2011,1030,SPETCHEL
+9033,Vaucheria (cells/ml),cells/ml,Vaucheria (cells/ml),WQ,0.00001,5,LEVEL,CPML,F,,,,,,F,,0,,14/11/2011,1030,SPETCHEL
+9041,Sub-phyllum CYANOPHYCEAE - total count (,Trichomes/mL,Sub-phyllum CYANOPHY,WQ,0.00001,5,LEVEL,CPML,F,,,,,,F,,0,,14/11/2011,1030,SPETCHEL
+9042,Chroococcus (Colonies/ml),Colonies/mL,Chroococcus (Colonie,WQ,0.00001,5,LEVEL,CPML,F,,,,,,F,,0,,14/11/2011,1030,SPETCHEL
+9043,Chroococcus (Ave cells/colony),Ave cells/colony,Chroococcus (Ave cel,WQ,0.00001,5,LEVEL,SCAL,F,,,,,,F,,0,,14/11/2011,1030,SPETCHEL
+9045,Microcystis (Colonies/ml),Colonies/mL,Microcystis (Colonie,WQ,0.00001,5,LEVEL,CPML,F,,,,,,F,,0,,14/11/2011,1030,SPETCHEL
+9046,Microcystis (Ave cells/colony),Ave cells/colony,Microcystis (Ave cel,WQ,0.00001,5,LEVEL,SCAL,F,,,,,,F,,0,,14/11/2011,1030,SPETCHEL
+9047,Microcystis aeruginosa (Colonies/ml),Colonies/mL,Microcystis aerugino,WQ,0.00001,5,LEVEL,CPML,F,,,,,,F,,0,,14/11/2011,1030,SPETCHEL
+9048,Microcystis aeruginosa (Ave cells/colony,Ave cells/colony,Microcystis aerugino,WQ,0.00001,5,LEVEL,SCAL,F,,,,,,F,,0,,14/11/2011,1030,SPETCHEL
+9049,Microcystis incerta (cells/ml),cells/ml,Microcystis incerta,WQ,0.00001,5,LEVEL,CPML,F,,,,,,F,,0,,14/11/2011,1030,SPETCHEL
+9050,Microcystis incerta (Colonies/ml),Colonies/mL,Microcystis incerta,WQ,0.00001,5,LEVEL,CPML,F,,,,,,F,,0,,14/11/2011,1030,SPETCHEL
+9051,Microcystis incerta (Ave cells/colony),Ave cells/colony,Microcystis incerta,WQ,0.00001,5,LEVEL,SCAL,F,,,,,,F,,0,,14/11/2011,1030,SPETCHEL
+9052,Microcystis wesenbergii (cells/ml),cells/ml,Microcystis wesenber,WQ,0.00001,5,LEVEL,CPML,F,,,,,,F,,0,,14/11/2011,1030,SPETCHEL
+9053,Microcystis wesenbergii (Colonies/ml),Colonies/mL,Microcystis wesenber,WQ,0.00001,5,LEVEL,CPML,F,,,,,,F,,0,,14/11/2011,1030,SPETCHEL
+9054,Microcystis wesenbergii (Ave cells/colon,Ave cells/colony,Microcystis wesenber,WQ,0.00001,5,LEVEL,SCAL,F,,,,,,F,,0,,14/11/2011,1030,SPETCHEL
+9055,Anabaena (Trichomes/ml),Trichomes/mL,Anabaena (Trichomes/,WQ,0.00001,5,LEVEL,CPML,F,,,,,,F,,0,,14/11/2011,1030,SPETCHEL
+9056,Anabaena (Ave cells/trichom),Ave cells/trichom,Anabaena (Ave cells/,WQ,0.00001,5,LEVEL,SCAL,F,,,,,,F,,0,,14/11/2011,1030,SPETCHEL
+9057,Anabaena circinalis (Trichomes/ml),Trichomes/mL,Anabaena circinalis,WQ,0.00001,5,LEVEL,CPML,F,,,,,,F,,0,,14/11/2011,1030,SPETCHEL
+9058,Anabaena circinalis (Ave cells/trichom),Ave cells/trichom,Anabaena circinalis,WQ,0.00001,5,LEVEL,SCAL,F,,,,,,F,,0,,14/11/2011,1030,SPETCHEL
+9059,Anabaenopsis (Trichomes/ml),Trichomes/mL,Anabaenopsis (Tricho,WQ,0.00001,5,LEVEL,CPML,F,,,,,,F,,0,,14/11/2011,1030,SPETCHEL
+9060,Anabaenopsis (Ave cells/trichom),Ave cells/trichom,Anabaenopsis (Ave ce,WQ,0.00001,5,LEVEL,SCAL,F,,,,,,F,,0,,14/11/2011,1030,SPETCHEL
+9061,Aphanizomenon (Trichomes/ml),Trichomes/mL,Aphanizomenon (Trich,WQ,0.00001,5,LEVEL,CPML,F,,,,,,F,,0,,14/11/2011,1030,SPETCHEL
+9062,Aphanizomenon (Ave cells/trichom),Ave cells/trichom,Aphanizomenon (Ave c,WQ,0.00001,5,LEVEL,SCAL,F,,,,,,F,,0,,14/11/2011,1030,SPETCHEL
+9063,Cylindrospermopsis (Trichomes/ml),Trichomes/mL,Cylindrospermopsis (,WQ,0.00001,5,LEVEL,CPML,F,,,,,,F,,0,,14/11/2011,1030,SPETCHEL
+9064,Arthrospira (Trichomes/ml),Trichomes/mL,Arthrospira (Trichom,WQ,0.00001,5,LEVEL,CPML,F,,,,,,F,,0,,14/11/2011,1030,SPETCHEL
+9065,Lyngbya (Trichomes/ml),Trichomes/mL,Lyngbya (Trichomes/m,WQ,0.00001,5,LEVEL,CPML,F,,,,,,F,,0,,14/11/2011,1030,SPETCHEL
+9066,Lyngbya (Ave cells/trichom),Ave cells/trichom,Lyngbya (Ave cells/t,WQ,0.00001,5,LEVEL,SCAL,F,,,,,,F,,0,,14/11/2011,1030,SPETCHEL
+9067,Oscillatoria (Trichomes/ml),Trichomes/mL,Oscillatoria (Tricho,WQ,0.00001,5,LEVEL,CPML,F,,,,,,F,,0,,14/11/2011,1030,SPETCHEL
+9068,Phormidium (Trichomes/ml),Trichomes/mL,Phormidium (Trichome,WQ,0.00001,5,LEVEL,CPML,F,,,,,,F,,0,,14/11/2011,1030,SPETCHEL
+9069,Planktolyngbya (Trichomes/ml),Trichomes/mL,Planktolyngbya (Tric,WQ,0.00001,5,LEVEL,CPML,F,,,,,,F,,0,,14/11/2011,1030,SPETCHEL
+9070,Pseudanabaena (Ave cells/trichom),Ave cells/trichom,Pseudanabaena (Ave c,WQ,0.00001,5,LEVEL,SCAL,F,,,,,,F,,0,,14/11/2011,1030,SPETCHEL
+9071,Spirulina (Trichomes/ml),Trichomes/mL,Spirulina (Trichomes,WQ,0.00001,5,LEVEL,CPML,F,,,,,,F,,0,,14/11/2011,1030,SPETCHEL
+9901,Alpha (mBq/l),Millibecquerels/l,Alpha (mBq/l),WQ,0.00001,5,LEVEL,MBPL,F,,,,,,F,,0,,14/11/2011,1030,SPETCHEL
+9902,Beta (mBq/l),Millibecquerels/l,Beta (mBq/l),WQ,0.00001,5,LEVEL,MBPL,F,,,,,,F,,0,,14/11/2011,1030,SPETCHEL
+9903,Gamma (mBq/l),Millibecquerels/l,Gamma (mBq/l),WQ,0.00001,5,LEVEL,MBPL,F,,,,,,F,,0,,14/11/2011,1030,SPETCHEL
+9904,Tritium (mBq/l),Millibecquerels/l,Tritium (mBq/l),WQ,0.00001,5,LEVEL,MBPL,F,,,,,,F,,0,,14/11/2011,1030,SPETCHEL
