@@ -52,7 +52,7 @@ WQ parameter mapping service
 ``` javascript
 	var variable = new Schema({
 	    _id : <ObjectId1>,
-	    company: {type:String, es_indexed:true}, 
+	    company: <ObjectId3>, 
 	    formercompany: String, 
 	    varnum: Number,
 	    varnam: {type:String, es_indexed:true},
@@ -65,11 +65,14 @@ WQ parameter mapping service
 	    unitcode: String,
 	    active: Boolean,
 	    alphavar: String,
-	    datemod: Date
+	    datemod: Date,
+	    datecreate: Date,
+	    usermod: String
 	});
 
     var wqvar = new Schema({
 		_id: <ObjectId2>,
+		company: <ObjectId3>,
 		variable_id: <ObjectId1>,
 		variable: Number,
 		subvar: Number,
@@ -85,6 +88,30 @@ WQ parameter mapping service
 		measmeth: String,
 		mapvar: Number,
 		vartrace: String,
+		datemod: Date,
+	    datecreate: Date,
+	    usermod: String
+	});
+
+	var company = new Schema({
+		_id: <ObjectId3>,
+		companyName: String ,
+		staff: {
+			firstname:String,
+			surname:String,
+			email:String,
+			password: String
+		}
+	});	
+
+	var samples = new Schema({
+		_id: <ObjectId4>,
+		companyName: String ,
+		project: String ,
+		program: String ,
+		sampnum: String ,
+		...
+		
 	});
 
 ```
