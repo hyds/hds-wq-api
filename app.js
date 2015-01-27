@@ -2,6 +2,9 @@ var Busboy = require('busboy'); // to handle the form
 var csv = require('fast-csv');
 var http = require('http'),
     inspect = require('util').inspect;
+var mongoose = require('mongoose');
+
+mongoose.connect('mongodb://localhost/wq');
 
 http.createServer(function(req, res) {
   if (req.method === 'POST') {
@@ -10,13 +13,14 @@ http.createServer(function(req, res) {
   busboy.on('file', function(fieldname, file, filename, encoding, mimetype) {
     file.pipe(csv())
       .on('data', function (data) {
+
         console.log('YAY, just the data I wanted!', data);
       });
   });
   busboy.on('finish', function() {
     console.log('Done parsing form!');
-    	res.writeHead(200);
-	res.end('<html><head></head><body><h1>Done!</h1></body></html>');
+    res.writeHead(200);
+    res.end('<html><head></head><body><h1>Done!</h1></body></html>');
   });
   req.pipe(busboy);
 } else if (req.method === 'GET') {

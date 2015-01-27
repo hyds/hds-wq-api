@@ -22,6 +22,7 @@
     "sprintf-js":"^1.X.X",
     "colors":"^0.X.X",
     "mongoose":"^3.8.x",
+    "mongoose-auto-increment":"^3.2.x",
     "mongoosastic":"^2.X.X",
     "fast-csv":"^0.X.X",
     "busboy":"^0.2.9"
