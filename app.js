@@ -2,9 +2,7 @@ var Busboy = require('busboy'); // to handle the form
 var csv = require('fast-csv');
 var http = require('http'),
     inspect = require('util').inspect;
-var mongoose = require('mongoose');
 
-mongoose.connect('mongodb://localhost/wq');
 
 http.createServer(function(req, res) {
   if (req.method === 'POST') {
@@ -13,7 +11,9 @@ http.createServer(function(req, res) {
   busboy.on('file', function(fieldname, file, filename, encoding, mimetype) {
     file.pipe(csv())
       .on('data', function (data) {
-
+        //this is where fieldsheet will send data to Maurices mongodb
+        //so we really want a simple app front end, and hte Maruice backend running in  a separate box
+        
         console.log('YAY, just the data I wanted!', data);
       });
   });

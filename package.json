@@ -1,5 +1,5 @@
 {
-  "name": "hds-wq-service",
+  "name": "hds-wq-api",
   "version": "0.0.1",
   "description": "",
   "author": "sholto.maud@gmail.com",
@@ -23,6 +23,8 @@
     "colors":"^0.X.X",
     "mongoose":"^3.8.x",
     "mongoose-auto-increment":"^3.2.x",
+    "beeline": "^0.2.2",
+    "bunyan": "^1.0.0",
     "mongoosastic":"^2.X.X",
     "fast-csv":"^0.X.X",
     "busboy":"^0.2.9"
