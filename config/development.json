@@ -1,5 +1,0 @@
-{
-    "port": 8080,
-    "serverName": "wq-service",
-    "mongooseConnection": "mongodb://localhost/wq"
-}
