@@ -9,12 +9,20 @@ http.createServer(function(req, res) {
 
   var busboy = new Busboy({ headers: req.headers });
   busboy.on('file', function(fieldname, file, filename, encoding, mimetype) {
-    file.pipe(csv())
+    file.pipe(csv({headers:true,quoteColumns:false}))
+      .transform(function(data){
+        for(var key in data) {
+          var re = new RegExp("\\\\*044","g"); 
+          var re2 = new RegExp("\"","g"); 
+          var val = JSON.stringify(data[key]);
+          data[key] = val.replace(re,",").replace(re2,"");
+        }
+        return data;
+      })
       .on('data', function (data) {
         //this is where fieldsheet will send data to Maurices mongodb
         //so we really want a simple app front end, and hte Maruice backend running in  a separate box
-        
-        console.log('YAY, just the data I wanted!', data);
+        console.log(data);
       });
   });
   busboy.on('finish', function() {
